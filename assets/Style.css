@@ -1,6 +1,10 @@
+a{
+    text-decoration: none !important;
+}
 .freeShip{
     font-size: 16px;
 }
+/*nav*/
 .navbar{
     padding: 0 150px;
 }
@@ -46,4 +50,77 @@
     background-color: #08cd00;
     padding: 5px 24px;
     border-radius: 30px;
+}
+/*main menu + slider*/
+.mainMenu{
+    background-color: #eaeaea;
+}
+.mainMenu ul{
+    margin: 0 !important;
+    padding: 5px 0 !important;
+}
+.mainMenu li{
+    list-style-type: none;
+    padding: 15px;
+}
+.mainMenu a{
+    color: #353535;
+}
+.slider{
+    margin-right: 5px;
+}
+.cont {
+    margin: 0 ;
+}
+.cont {
+    overflow: hidden;
+    position: relative;
+    max-width: 62.5rem;
+    line-height: 0;
+    height: 450px;
+}
+.slideDiv,
+.controls {
+    position: absolute;
+}
+.slideDiv,
+.slide {
+    width: 100%;
+    height: 100%;
+}
+.slide {
+    background-size: cover;
+}
+.controls {
+    top: 41%;
+    right: 12px;
+    padding: 0 0.63rem;
+    z-index: 5;
+    text-align: center;
+}
+.button {
+    width: 0.9375rem;
+    height: 0.9375rem;
+    display: block;
+    cursor: pointer;
+    border-radius: 30%;
+    transition: all ease .2s;
+    transform: rotate(45deg);
+}
+.button:not(:last-child) {
+    margin-bottom: 0.63rem;
+}
+.button {
+    border: 1px solid #fff;
+    opacity: .6;
+    outline: none;
+    background-color: #ffffff;
+}
+.button:hover,
+.button:focus {
+    opacity: 1;
+}
+.selected {
+    background-color: #17ff00;
+}
 }
