@@ -123,4 +123,34 @@ a{
 .selected {
     background-color: #17ff00;
 }
+/*Search and Services*/
+.services{
+    padding: 1px 250px;
+    background-color: #f3f3f3;
+}
+.services input{
+    box-shadow: #b3b3b3 1px 6px 21px;
+    background-color: white;
+    border-radius: 30px !important;
+    width: 60% !important;
+    position: relative !important;
+    z-index: 1;
+}
+.services button{
+    color: white;
+    background: rgb(66,231,111);
+    background: linear-gradient(90deg, rgba(66,231,111,1) 10%, rgb(12, 155, 8) 90%);
+    position: absolute !important;
+    border-radius: 30px !important;
+    padding: 10px 50px;
+    top: 4px;
+    left: 8px;
+    font-size: 18px;
+    z-index: 2;
+}
+.icon{
+    margin: 15px 48px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 100%;
 }
