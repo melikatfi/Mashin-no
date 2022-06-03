@@ -70,9 +70,7 @@ a{
     margin-right: 5px;
 }
 .cont {
-    margin: 0 ;
-}
-.cont {
+    margin: 0;
     overflow: hidden;
     position: relative;
     max-width: 62.5rem;
@@ -112,7 +110,7 @@ a{
 }
 .button {
     border: 1px solid #fff;
-    opacity: .6;
+    opacity: 1;
     outline: none;
     background-color: #ffffff;
 }
@@ -123,10 +121,14 @@ a{
 .selected {
     background-color: #17ff00;
 }
+/*Wrapper*/
+.wrapper{
+    background-color: #f3f3f3;
+
+}
 /*Search and Services*/
 .services{
     padding: 1px 250px;
-    background-color: #f3f3f3;
 }
 .services input{
     box-shadow: #b3b3b3 1px 6px 21px;
