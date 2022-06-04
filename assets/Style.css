@@ -158,7 +158,7 @@ a{
 }
 /*Gallery Part 1*/
 .gallery-1{
-    padding: 10px 110px;
+    padding: 10px 80px;
 }
 .line{
     margin: 10px auto !important;
@@ -185,4 +185,84 @@ a{
     background: url("images/3.jpeg") no-repeat center;
     height: 150px;
     box-shadow: 7px 37px 50px -30px rgb(0 0 0);
+}
+/*Amazing Products*/
+.amazing{
+    padding: 10px 110px;
+    margin: 20px 0;
+}
+.amazing .a-border{
+    border-bottom: solid 1px #b3b3b3;
+}
+.amazing .a-border hr{
+    width: 30%;
+    position: relative;
+    border: solid 1px #4c4c4c;
+    margin: 0;
+    opacity: 100%;
+    top: 0.1rem;
+}
+.amazing .row>*{
+    padding: 0 !important;
+}
+.amazing .card{
+    box-shadow: #b3b3b3 1px 2px 20px;
+    border-radius: 10px;
+    z-index: 0;
+}
+.amazing .card-img-top{
+    border-radius: 10px 10px 0 0;
+}
+.card-btn{
+    z-index: 2;
+    background-color: #08cd00 !important;
+    position: relative;
+    bottom: -12px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 6px 8px;
+    border-radius: 100%;
+}
+.card-overlay{
+    display: none;
+    position: absolute;
+    height: 100%;
+    border-radius: 10px;
+}
+.card-overlay-color{
+    background-color: #b3b3b3;
+    opacity: 70%;
+    height: 100%;
+    border-radius: 10px;
+}
+.card-overlay-links{
+    position: relative;
+    top: -112px;
+}
+.card-overlay-links .btn{
+    width: 75%;
+    border-radius: 30px;
+    padding: 5px;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    margin: 3px auto;
+    opacity: 100%;
+}
+.btn-overlay:hover{
+    width: 75%;
+    border-radius: 30px;
+    padding: 5px;
+    color: #6b6b6b;
+    background-color: white;
+    border: solid 1px #ffffff;
+    margin: 3px auto;
+    opacity: 100%;
+}
+.card:hover .card-overlay{
+    transition: ease all 0.2s;
+    display: block;
+}
+.card:hover .card-btn{
+    transition: ease all 0.2s;
+    display: none;
 }

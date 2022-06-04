@@ -1,6 +1,7 @@
 (function() {
 
     var button = document.querySelectorAll('.button');
+    const index = 0;
 
     function controls() {
         $(this).addClass('selected').siblings('button').removeClass('selected');
@@ -9,9 +10,9 @@
         }, 450);
     }
     function timer(){
-        var i = 0; i < button.length; i++
+        var x = document.getElementsByClassName(".slide")
+        x[index].classList.add('selected');
     }
-
     setInterval(timer,2000)
     /***Event Listeners***/
     for ( var i = 0; i < button.length; i++ ) {
@@ -19,3 +20,5 @@
     }
 
 })();
+
+
