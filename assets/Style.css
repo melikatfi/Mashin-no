@@ -305,3 +305,25 @@ a{
     color: #6b6b6b;
     font-weight: bold;
 }
+/*Brands*/
+.brands{
+    padding: 40px 120px;
+    margin: 20px 0;
+}
+.brands .col-lg-1{
+    width: 115px;
+    height: auto;
+}
+.brands h6{
+    font-weight: lighter;
+    color: #818181;
+}
+.brands img{
+    width: 70px;
+}
+.brands .img{
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    padding: 11px 0;
+}
