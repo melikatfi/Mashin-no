@@ -327,3 +327,26 @@ a{
     text-align: center;
     padding: 11px 0;
 }
+/*Banner 1*/
+.banner{
+    padding: 20px 120px;
+    color: white;
+    border-radius: 20px;
+}
+.banner img{
+    border-radius: 20px;
+}
+.banner-overlay{
+    position: relative;
+    right: 740px;
+    font-size: 20px;
+    bottom: 285px;
+}
+.banner .btn{
+    color: white;
+    background: linear-gradient(90deg, rgba(66,231,111,1) 10%, rgb(12, 155, 8) 90%);
+    position: absolute !important;
+    border-radius: 30px !important;
+    padding: 10px 30px;
+    font-size: 18px;
+}
