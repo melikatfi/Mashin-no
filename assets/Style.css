@@ -222,6 +222,7 @@ a{
     font-weight: bold;
     padding: 6px 8px;
     border-radius: 100%;
+    transition: ease all 0.2s;
 }
 .card-overlay{
     display: none;
@@ -258,13 +259,11 @@ a{
     margin: 3px auto;
     opacity: 100%;
 }
-.card:hover .card-overlay{
-    transition: ease all 0.2s;
-    display: block;
-}
-.card:hover .card-btn{
-    transition: ease all 0.2s;
+.card-btn:hover{
     display: none;
+}
+.card-btn:hover .card-overlay{
+    display: block;
 }
 /*Special Products*/
 .special{
@@ -332,15 +331,17 @@ a{
     padding: 20px 120px;
     color: white;
     border-radius: 20px;
+    position: relative;
 }
 .banner img{
     border-radius: 20px;
 }
 .banner-overlay{
-    position: relative;
-    right: 740px;
-    font-size: 20px;
-    bottom: 285px;
+    position: absolute;
+    right: 830px;
+    font-size: 14px;
+    bottom: 140px;
+    padding: 5px;
 }
 .banner .btn{
     color: white;
@@ -353,7 +354,7 @@ a{
 /*Accessory*/
 .accessory{
     padding: 0 50px 0 110px;
-    margin: 20px 0;
+    margin: 0;
 }
 .accessory .a-border{
     border-bottom: solid 1px #b3b3b3;
@@ -505,7 +506,8 @@ a{
 }
 .banner2 img{
     border-radius: 20px;
-}/*Masrafi*/
+}
+/*Masrafi*/
 .masrafi{
     padding: 0 50px 0 110px;
     margin: 0;
