@@ -807,3 +807,31 @@ a{
     color: #ffffff;
     text-decoration: none;
 }
+/*Blog*/
+.blog{
+    padding: 60px 120px 70px 120px;
+    background: #eaeaea;
+}
+.blog .row>*{
+    padding: 0;
+}
+.blog .col-lg-11{
+    position: relative;
+    top: -20px;
+    left: -45px;
+}
+.blog .col-lg-1{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.blog .col-lg-4{
+    width: 32.333333%;
+}
+.blog .card{
+    border-radius: 25px;
+}
+.blog .card-img-top{
+    border-top-left-radius: 25px!important;
+    border-top-right-radius: 25px!important;
+    height: 180px;
+}
