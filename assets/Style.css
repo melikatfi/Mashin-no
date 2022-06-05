@@ -835,3 +835,81 @@ a{
     border-top-right-radius: 25px!important;
     height: 180px;
 }
+/*Footer*/
+.contact{
+    padding: 20px 120px;
+    background: #18202F;
+}
+.contact div:nth-child(1) a{
+    text-align: center;
+    border: solid 1px white;
+    border-radius: 100%;
+    width: 50px;
+    height: fit-content;
+    padding: 11px;
+    margin: 5px;
+}
+.contact div:nth-child(1) i{
+    color: white;
+    font-size: 20px;
+}
+.contact div:nth-child(2){
+    text-align: left;
+    justify-content: flex-end;
+    margin: 5px;
+}
+.contact div:nth-child(2) a{
+    color: white;
+}
+.contact div:nth-child(2) i{
+    text-align: right;
+    color: #73D042;
+    font-size: 24px;
+}
+footer .wrapper{
+    padding: 0 120px;
+    background: #1D2836;
+    color: white;
+    font-size: 16px;
+}
+footer .wrapper a{
+    color: white;
+}
+footer .logo{
+    width: 200px;
+}
+footer .col-lg-4{
+    width: 31.333333%;
+}
+footer .col-lg-2{
+    width: 18.666667%;
+}
+footer input{
+    position: absolute;
+    z-index: 1;
+    border-radius: 0 25px 25px 0!important;
+}
+footer input,
+input::placeholder {
+    font-size: 20px;
+}
+footer .btn{
+    position: relative !important;
+    background-color: #64DD16;
+    color: white;
+    font-size: 15px;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 25px !important;
+    left: 30px;
+    z-index: 4 !important;
+}
+footer hr{
+    font-weight: bolder;
+}
+.enamad .col-lg-2{
+    width: 11.666667%;
+}
+.copyright{
+    color: #909AA3;
+}
