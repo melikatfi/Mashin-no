@@ -659,3 +659,149 @@ a{
     border-radius: 40px;
     height: 220px;
 }
+/*Car Accessory*/
+.car-accessory{
+    padding: 0 50px 0 110px;
+    margin: 0;
+}
+.car-accessory .a-border{
+    border-bottom: solid 1px #b3b3b3;
+}
+.car-accessory .a-border hr{
+    width: 20%;
+    position: relative;
+    border: solid 1px #4c4c4c;
+    margin: 0;
+    opacity: 100%;
+    top: 0.1rem;
+}
+.car-accessory .ul{
+    height: 350px;
+    width: 50px;
+    background-color: #002a37;
+    color: #ffffff;
+    text-align: center;
+    margin: 135px auto;
+    border-radius: 40px;
+    --bs-gutter-x: 0;
+    padding: 5px 0 5px 0;
+}
+.car-accessory .li{
+    margin: 20px 0;
+    list-style-type: none;
+    padding: 0!important;
+}
+.car-accessory .li:nth-child(4){
+    background-color: #ffc800;
+}
+.car-accessory .li i{
+    padding: 15px 0;
+}
+.car-accessory-images div:nth-child(1){
+    background: url("images/banner1.png") no-repeat center;
+    border-radius: 0 15px 15px 0;
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+}
+.car-accessory-images div:nth-child(2) .back1{
+    background: url("images/4.jpeg") no-repeat center;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0!important;
+    margin-bottom: 2px;
+    position: relative;
+}
+.car-accessory-images div:nth-child(2) .back2{
+    background: url("images/3.jpeg") no-repeat center;
+    height: 200px;
+    object-fit: cover;
+    position: relative;
+}
+.car-accessory-images div:nth-child(3){
+    background: url("images/banner1.png") no-repeat center;
+    border-radius: 15px 0 0 15px;
+    height: 400px;
+    object-fit: cover;
+    position: relative;
+}
+
+.car-accessory-images div:nth-child(1) span{
+    display: block;
+    width: 150px !important;
+    height: 40px;
+    background: #d7d7d7;
+    border: solid 2px #ffffff;
+    opacity: 40%;
+    border-radius: 30px !important;
+    position: absolute;
+    bottom: 25px;
+    left: 100px;
+}
+.car-accessory-images div:nth-child(1) .text{
+    position: absolute;
+    bottom: 35px;
+    left: 112px;
+    color: white;
+    text-decoration: none;
+}
+
+.car-accessory-images div:nth-child(2) .back1 span{
+    display: block;
+    width: 150px !important;
+    height: 40px;
+    background: #d7d7d7;
+    border: solid 2px #ffffff;
+    opacity: 40%;
+    border-radius: 30px !important;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.car-accessory-images div:nth-child(2) .back1 .text{
+    position: absolute;
+    bottom: 29px;
+    left: 35px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.car-accessory-images div:nth-child(2) .back2 span{
+    display: block;
+    width: 150px !important;
+    height: 40px;
+    background: #d7d7d7;
+    border: solid 2px #ffffff;
+    opacity: 40%;
+    border-radius: 30px !important;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.car-accessory-images div:nth-child(2) .back2 .text{
+    position: absolute;
+    bottom: 29px;
+    left: 35px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.car-accessory-images div:nth-child(3) span{
+    display: block;
+    width: 150px !important;
+    height: 40px;
+    background: #d7d7d7;
+    border: solid 2px white;
+    opacity: 40%;
+    border-radius: 30px !important;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.car-accessory-images div:nth-child(3) .text{
+    position: absolute;
+    bottom: 29px;
+    left: 35px;
+    color: #ffffff;
+    text-decoration: none;
+}
