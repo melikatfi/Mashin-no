@@ -652,3 +652,10 @@ a{
     text-decoration: none;
 }
 /*banner no3*/
+.banner3{
+    padding: 0 137px 0 104px!important;
+}
+.banner3 img{
+    border-radius: 40px;
+    height: 220px;
+}
