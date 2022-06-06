@@ -1,0 +1,526 @@
+@media screen and (max-width: 1200px){
+    .services button{
+        right: 79%;
+    }
+    .icon{
+        padding: 16px;
+    }
+    .btn-overlay{
+        font-size: 13px !important;
+    }
+    .banner-overlay{
+        width: 20% !important;
+    }
+}
+@media screen and (max-width: 992px) {
+    .mainMenu{
+        width: 20%;
+    }
+    .mainMenu ul{
+        height: 400px;
+    }
+    .services {
+        padding: 1px 150px;
+    }
+    .services button{
+        padding: 10px 25px;
+        right: 71%;
+    }
+    .icon{
+        padding: 40px !important;
+        margin: 5px !important;
+        font-size: 30px !important;
+    }
+    .gallery-1 div{
+        width: 80% !important;
+        margin: 20px auto;
+    }
+    .amazing .row{
+        justify-content: space-evenly;
+    }
+    .amazing .card{
+        width: 33%;
+    }
+    .card-overlay-color{
+        width: 261px;
+    }
+    .brands .row{
+        justify-content: space-between !important;
+    }
+    .banner-overlay {
+        right: 65% !important;
+        font-size: 13px;
+        bottom: 30%;
+    }
+    .banner .btn {
+        font-size: 15px;
+    }
+    footer .wrapper {
+        padding: 0 35px;
+    }
+    .contact {
+        padding: 20px 35px;
+    }
+    .call .col-lg-4{
+        width: 44.333333%;
+    }
+    .links{
+        justify-content: space-around !important;
+        padding: 0 30px 5px 0;
+    }
+}
+@media screen and (max-width: 950px) {
+    .navbar{
+        justify-content: space-between !important;
+        padding: 0 50px;
+        height: 100px;
+    }
+    .align-items-baseline{
+        align-items: baseline !important;
+    }
+    .nav-item:nth-child(1){
+        width: 50%;
+    }
+    .navbar-brand{
+        margin-right: 0 !important;
+    }
+    .bars{
+        top: 16px;
+        position: relative;
+        display: block;
+        width: fit-content !important;
+        font-size: 30px;
+    }
+    .logo{
+        width: 50% !important;
+    }
+    .nav-item:nth-child(2){
+        display: none;
+    }
+    .nav-item:nth-child(3){
+        width: 50%;
+    }
+    .log span{
+        left: 177px;
+        top: 40px;
+    }
+    .mainMenu{
+        display: none !important;
+    }
+    .container{
+        max-width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .mainMenu .my-2{
+        margin: 0!important;
+    }
+    .cont{
+        height: 250px;
+    }
+    .row>*{
+        padding-right: 0 !important;
+    }
+    .slide{
+        object-fit: cover;
+    }
+    .services {
+        padding: 1px 50px;
+    }
+    .services button {
+        right: 83%;
+    }
+    .icon{
+        font-size: 38px !important;
+        margin: 20px 44px !important;
+        padding: 26px !important;
+    }
+    .gallery-1 .row div:nth-child(2) , .gallery-1 .row div:nth-child(3){
+        display: none;
+    }
+    .amazing{
+        padding: 0 50px;
+    }
+    .amazing .card{
+        width: auto !important;
+    }
+    .amazing .card:nth-child(2) , .amazing .card:nth-child(3) ,.amazing .card:nth-child(4) ,
+    .amazing .card:nth-child(5) {
+        display: none !important;
+    }
+    .special{
+        padding: 40px 50px;
+    }
+    .box:nth-child(2){
+        display: none;
+    }
+    .special .badge{
+        right: 0;
+    }
+    .box img{
+        width: 50%;
+    }
+    .box .row>*{
+        padding: 17px !important;
+    }
+    .brands {
+        padding: 0 50px;
+        margin: 0;
+    }
+    .brands .circle{
+        margin: auto;
+        width: 120px;
+    }
+    .brands img{
+        width: 100px;
+    }
+    .brands div div:not(.brands div div:nth-child(1),.brands div div:nth-child(2),.brands div div:nth-child(3)){
+        display: none;
+    }
+    .banner{
+        padding: 20px 50px;
+    }
+    .banner-overlay {
+        width: 26% !important;
+        right: 67% !important;
+        bottom: 28% !important;
+    }
+    .banner .btn{
+        display: none;
+    }
+    .accessory{
+        padding: 0 50px;
+    }
+    .accessory .row .ul{
+        display: none;
+    }
+    .accessory .a-border hr{
+        width: 25%;
+    }
+    .accessory-images div span{
+        width: 180px !important;
+        height: 45px;
+        left: 103px;
+    }
+    .accessory-images div .text {
+        bottom: 32px;
+        left: 115px;
+        font-size: 20px;
+    }
+    .accessory-images div{
+        height: 200px !important;
+        margin: auto;
+        border-radius: 30px !important;
+    }
+    .accessory-images div:not(.accessory-images div:nth-child(1)){
+        display: none;
+    }
+    .banner2{
+        padding: 20px 50px !important;
+    }
+    .masrafi{
+        padding: 0 50px;
+    }
+    .masrafi .row .ul{
+        display: none;
+    }
+    .masrafi .a-border hr{
+        width: 25%;
+    }
+    .masrafi-images div span{
+        width: 180px !important;
+        height: 45px;
+        left: 103px;
+    }
+    .masrafi-images div .text {
+        bottom: 32px;
+        left: 115px;
+        font-size: 20px;
+    }
+    .masrafi-images div{
+        height: 200px !important;
+        margin: auto;
+        border-radius: 30px !important;
+    }
+    .masrafi-images div:not(.masrafi-images div:nth-child(1)){
+        display: none;
+    }
+    .banner3{
+        padding: 30px 50px !important;
+        text-align: center;
+    }
+    .banner3 .row{
+        display: block;
+    }
+    .banner3 img:nth-child(2){
+        display: none;
+    }
+    .car-accessory{
+        padding: 0 50px 20px 50px!important;
+    }
+    .car-accessory .row .ul{
+        display: none;
+    }
+    .car-accessory .a-border hr{
+        width: 25%;
+    }
+    .car-accessory-images div span{
+        width: 180px !important;
+        height: 45px;
+        left: 103px;
+    }
+    .car-accessory-images div .text {
+        bottom: 32px;
+        left: 115px;
+        font-size: 20px;
+    }
+    .car-accessory-images div{
+        height: 200px !important;
+        margin: auto;
+        border-radius: 30px !important;
+    }
+    .car-accessory-images div:not(.car-accessory-images div:nth-child(1)){
+        display: none;
+    }
+    .blog{
+        padding: 50px 50px 20px 50px;
+    }
+    .blog .card{
+        margin-bottom: 5px;
+    }
+    .blog .controls2{
+        display: none;
+    }
+    .blog .col-lg-11 {
+        top: 0;
+        left: 0;
+        margin-bottom: 5px;
+    }
+    .blog .row:nth-child(2){
+        justify-content: center !important;
+    }
+    .social a{
+        padding: 11px 1px;
+    }
+    footer .wrapper .logo , footer .minimenu , footer .address, footer .wrapper .f-about, footer .wrapper hr
+    , footer .wrapper .links{
+        display: none;
+    }
+    footer .btn{
+        top: 12%;
+    }
+    footer .wrapper .f-info{
+        flex-direction: column-reverse;
+    }
+    footer .discount{
+        padding-top: 5px;
+        font-size: 24px;
+        width: 83% !important;
+        margin: auto;
+    }
+    footer .discount input{
+        margin-top: 5px !important;
+    }
+    footer .about{
+        width: 83%;
+        margin: 12px auto;
+    }
+    footer .about .logo{
+        display: block;
+    }
+    footer .enamad{
+        justify-content: center!important;
+    }
+    .accordion{
+        display: block;
+    }
+    .copyright{
+        display: none;
+    }
+}
+@media screen and (max-width: 800px){
+    .services button {
+        right: 80%;
+    }
+    .icon{
+        padding: 16px !important;
+    }
+    .card-overlay-color{
+        width: 275px;
+    }
+}
+@media screen and (max-width: 690px){
+    .services button {
+        right: 76%;
+    }
+    .icon{
+        padding: 19px !important;
+        margin: 19px 18px !important;
+    }
+    .card-overlay-color{
+        width: 275px;
+    }
+}
+@media screen and (max-width: 576px){
+    .icon {
+        margin: 19px 19px;
+    }
+    .services button {
+        right: 74%;
+        width: 118px;
+        font-size: 14px;
+        padding: 8px;
+        top: 10px;
+    }
+    .amazing .a-border hr {
+        width: 55%;
+    }
+    .card-overlay-color {
+        width: 275px;
+    }
+    .banner-overlay {
+        right: 66% !important;
+        bottom: 10%;
+    }
+    .masrafi-images div:nth-child(1) span{
+        width: 175px;
+    }
+}
+@media screen and (max-width: 500px){
+    .services {
+        padding: 1px 14px;
+    }
+    .services .m-3{
+        margin: 20px auto !important;
+    }
+    .services .p-3{
+        padding: 8px !important;
+    }
+    .services button {
+        width: 106px;
+        font-size: 14px;
+        padding: 6px;
+        top: 3px;
+    }
+    .banner {
+        padding: 20px 5px;
+    }
+    .banner-overlay {
+        right: 68% !important;
+        bottom: 2%;
+    }
+    .banner2 {
+        padding: 30px 17px 0 17px !important;
+    }
+    .blog .card:not(.blog .card:nth-child(1)){
+        display: none;
+    }
+    .social a{
+        width: 43px;
+        padding: 8px 0;
+    }
+    .contact .row:nth-child(1){
+        justify-content: space-between;
+    }
+    .call a{
+        width: 70% !important;
+    }
+    footer .discount {
+        padding-top: 20px;
+        font-size: 18px;
+        margin: auto;
+        padding-right: 12px !important;
+        text-align: center;
+    }
+    .discount .mt-5{
+        margin-top: 10px !important;
+    }
+    footer .btn{
+        left: -5% !important;
+        top: 3px !important;
+        padding: 8px 25px !important;
+    }
+    footer .about {
+        width: 83%;
+        margin: 2px auto;
+    }
+
+}
+@media screen and (max-width: 460px){
+    .log .btn {
+        padding: 3px 13px;
+    }
+    log span {
+        left: 177px !important;
+    }
+    .services button {
+        right: 74% !important;
+    }
+    .social a {
+        width: 19%;
+        padding: 6px;
+    }
+    footer .about {
+        margin: 15px auto;
+    }
+    .icon{
+        padding: 7px !important;
+        font-size: 30px !important;
+    }
+    .services input,
+    input::placeholder {
+        font-size: 14px !important;
+    }
+    .services button{
+        right: 72%;
+        top: 2px;
+    }
+    .banner-overlay{
+        bottom: 82% !important;
+        font-size: 12px;
+        width: 3%;
+        height: 0.5%;
+    }
+    .banner-overlay h3{
+        font-size: 16px;
+    }
+    footer .btn {
+        top: 5px !important;
+        padding: 7px 25px !important;
+    }
+    }
+@media screen and (max-width: 380px){
+    .services button {
+        right: 69% !important;
+    }
+    .banner-overlay{
+        width: 32% !important;
+    }
+    .accessory-images div:nth-child(1) span{
+        left: 66px;
+    }
+    .accessory-images div:nth-child(1) .text{
+        bottom: 31px;
+        left: 78px;
+    }
+    .masrafi-images div:nth-child(1) span{
+        left: 66px;
+    }
+    .masrafi-images div:nth-child(1) .text{
+        bottom: 31px;
+        left: 78px;
+    }
+    .social i {
+        font-size: 14px;
+    }
+    .social a {
+        width: 18%;
+        padding: 1px;
+    }
+    .call{
+        font-size: 14px;
+    }
+    footer .btn {
+        left: -9% !important;
+    }
+}
