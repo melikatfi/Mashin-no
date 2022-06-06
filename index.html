@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>index</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="stylesheet" href="assets/Style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body dir="rtl">
-    <div class="text-center bg-warning p-2 freeShip">
+    <div class="text-center p-2 freeShip">
         <p>
             ارسال رایگان سفارشات بالای ۳۰۰ هزار تومان تهران
         </p>
     </div>
     <!--NavBar-->
-    <nav class="navbar bg-dark">
-        <div class="nav-item logo navbar-brand col-2">
-            <img src="assets/images/logo.png" alt="logo"/>
-            <p class="text-light">فروشگاه اینترنتی لوازم یدکی خودرو</p>
+    <nav class="navbar">
+        <div class="nav-item row align-items-baseline">
+            <div class="text-light bars col-md-6"><i class="fa fa-bars"></i></div>
+            <div class="logo navbar-brand col-2 col-md-6">
+                <img src="assets/images/logo.png" alt="logo" class="img-fluid"/>
+                <p class="text-light">فروشگاه اینترنتی لوازم یدکی خودرو</p>
+            </div>
         </div>
         <div class="nav-item col-6">
             <a href="#" class="px-3">دسته بندی‌ها</a>
@@ -37,8 +42,8 @@
         </div>
     </nav>
     <!--Slider and Main Menu-->
-    <section class="container MainSlider row mx-auto my-2 justify-content-center">
-        <div class="mainMenu col-lg-2 ml-2">
+    <section class="container MainSlider row mx-lg-auto my-lg-2 justify-content-center">
+        <div class="mainMenu col-lg-2 ml-2 row">
             <ul>
                 <li>
                     <a href="#">
@@ -83,8 +88,74 @@
                 </li>
             </ul>
         </div>
-        <div class="cont slider col-lg-9">
-            <div class="slideDiv">
+        <div class="col-lg-2 ml-2 row hovermenu">
+            <ul>
+                <li>
+                    <form class="input-group mr-2 col-6">
+                        <div class="input-group-prepend">
+                            <button class="btn"><i class="fa fa-search"></i></button>
+                        </div>
+                        <input type="text" class="form-control" placeholder="برند خودرو">
+                    </form>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/images/mercedes.png" alt="mercedes" class="img-fluid">
+                        مرسدس
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/images/mercedes.png" alt="mercedes" class="img-fluid">
+                        مرسدس
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/images/mercedes.png" alt="mercedes" class="img-fluid">
+                        مرسدس
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/images/mercedes.png" alt="mercedes" class="img-fluid">
+                        مرسدس
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/images/mercedes.png" alt="mercedes" class="img-fluid">
+                        مرسدس
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/images/mercedes.png" alt="mercedes" class="img-fluid">
+                        مرسدس
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/images/mercedes.png" alt="mercedes" class="img-fluid">
+                        مرسدس
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/images/mercedes.png" alt="mercedes" class="img-fluid">
+                        مرسدس
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/images/mercedes.png" alt="mercedes" class="img-fluid">
+                        مرسدس
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="cont slider col-lg-9 col-md-12 col-sm-12">
+            <div class="slideDiv col-sm-12">
                 <img src="assets/images/1.jpeg" alt="1" class="slide active">
                 <img src="assets/images/2.jpeg" alt="2" class="slide">
                 <img src="assets/images/3.jpeg" alt="3" class="slide">
@@ -99,35 +170,36 @@
             </nav>
         </div>
     </section>
+    <!--Wrapper-->
     <section class="wrapper">
         <!--Search and Services-->
         <section class="services">
-            <form class="input-group m-3 col-6">
+            <form class="input-group m-3 col-lg-6 col-md-11 col-sm-12">
                 <input type="text" class="form-control p-3" placeholder="محصولات مورد نیاز خود را جست و جو نمایید">
                 <button class="btn" type="submit">جست‌وجو کنید</button>
             </form>
             <div class="container mt-5 mb-4 text-center">
                 <h5>خدمات و پشتیبانی ماشین‌نو</h5>
-                <div class="row">
-                    <div class="col-lg-3">
+                <div class="row pt-2">
+                    <div class="col-3">
                         <div class="icon">
                             <i class="fa fa-user"></i>
                         </div>
                         <h6>ضمانت بهترین قیمت کالا</h6>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-3">
                         <div class="icon">
                             <i class="fa fa-user"></i>
                         </div>
                         <h6>گارانتی ۷ روز بازگشت</h6>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-3">
                         <div class="icon">
                             <i class="fa fa-user"></i>
                         </div>
                         <h6>ارسال در همان روز</h6>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-3">
                         <div class="icon">
                             <i class="fa fa-user"></i>
                         </div>
@@ -140,9 +212,9 @@
         <!--Gallery Part1-->
         <section class="gallery-1 py-4 mt-5">
             <div class="row justify-content-evenly">
-                <div class="col-lg-4">&nbsp;</div>
-                <div class="col-lg-4">&nbsp;</div>
-                <div class="col-lg-4">&nbsp;</div>
+                <div class="col-lg-4 col-md-10 col-sm-10">&nbsp;</div>
+                <div class="col-lg-4 col-md-10 col-sm-10">&nbsp;</div>
+                <div class="col-lg-4 col-md-10 col-sm-10">&nbsp;</div>
             </div>
         </section>
         <!--Amazing Products-->
@@ -152,7 +224,7 @@
                 <hr/>
             </div>
             <div class="row">
-                <div class="card col-lg-2 m-3">
+                <div class="card col-lg-2 col-md-6 col-sm-10 m-3">
                     <div class="card-overlay">
                         <div class="card-overlay-color">&nbsp;</div>
                         <div class="card-overlay-links text-center">
@@ -164,7 +236,7 @@
                         </div>
                     </div>
                     <div>
-                        <img class="card-img-top" src="assets/images/1.jpeg" alt="1">
+                        <img class="card-img-top img-fluid" src="assets/images/1.jpeg" alt="1">
                     </div>
                     <div class="text-center">
                         <h6 class="card-title mt-2">شغالدست پیکان راسخ فرمان</h6>
@@ -183,7 +255,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="card col-lg-2 m-3">
+                <div class="card col-lg-2 col-md-6 col-sm-10  m-3">
                     <div class="card-overlay">
                         <div class="card-overlay-color">&nbsp;</div>
                         <div class="card-overlay-links text-center">
@@ -195,7 +267,7 @@
                         </div>
                     </div>
                     <div>
-                        <img class="card-img-top" src="assets/images/1.jpeg" alt="1">
+                        <img class="card-img-top img-fluid" src="assets/images/1.jpeg" alt="1">
                     </div>
                     <div class="text-center">
                         <h6 class="card-title mt-2">شغالدست پیکان راسخ فرمان</h6>
@@ -214,7 +286,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="card col-lg-2 m-3">
+                <div class="card col-lg-2 col-md-6 col-sm-10  m-3">
                     <div class="card-overlay">
                         <div class="card-overlay-color">&nbsp;</div>
                         <div class="card-overlay-links text-center">
@@ -226,7 +298,7 @@
                         </div>
                     </div>
                     <div>
-                        <img class="card-img-top" src="assets/images/1.jpeg" alt="1">
+                        <img class="card-img-top img-fluid" src="assets/images/1.jpeg" alt="1">
                     </div>
                     <div class="text-center">
                         <h6 class="card-title mt-2">شغالدست پیکان راسخ فرمان</h6>
@@ -245,7 +317,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="card col-lg-2 m-3">
+                <div class="card col-lg-2 col-md-6 col-sm-10  m-3">
                     <div class="card-overlay">
                         <div class="card-overlay-color">&nbsp;</div>
                         <div class="card-overlay-links text-center">
@@ -257,7 +329,7 @@
                         </div>
                     </div>
                     <div>
-                        <img class="card-img-top" src="assets/images/1.jpeg" alt="1">
+                        <img class="card-img-top img-fluid" src="assets/images/1.jpeg" alt="1">
                     </div>
                     <div class="text-center">
                         <h6 class="card-title mt-2">شغالدست پیکان راسخ فرمان</h6>
@@ -276,7 +348,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="card col-lg-2 m-3">
+                <div class="card col-lg-2 col-md-6 col-sm-10  m-3">
                     <div class="card-overlay">
                         <div class="card-overlay-color">&nbsp;</div>
                         <div class="card-overlay-links text-center">
@@ -288,7 +360,7 @@
                         </div>
                     </div>
                     <div>
-                        <img class="card-img-top" src="assets/images/1.jpeg" alt="1">
+                        <img class="card-img-top img-fluid" src="assets/images/1.jpeg" alt="1">
                     </div>
                     <div class="text-center">
                         <h6 class="card-title mt-2">شغالدست پیکان راسخ فرمان</h6>
@@ -312,10 +384,10 @@
         <!--Special Products-->
         <section class="special">
             <div class="row justify-content-evenly">
-                <div class="col-lg-5 box">
+                <div class="col-lg-5 col-md-12 col-sm-12 box">
                     <span class="badge">فروش ویژه</span>
                     <div class="row">
-                        <img class="col-6" src="assets/images/3.jpeg" alt="1">
+                        <img class="col-6 img-fluid" src="assets/images/3.jpeg" alt="1">
                         <div class="col-6">
                             <h3>شغالدست پیکان راسخ فرمان</h3>
                             <p>اطلاعات دیگر</p>
@@ -324,10 +396,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 box">
+                <div class="col-lg-5 col-md-12 col-sm-12 box">
                     <span class="badge">فروش ویژه</span>
                     <div class="row">
-                        <img class="col-6" src="assets/images/3.jpeg" alt="3">
+                        <img class="col-6 img-fluid" src="assets/images/3.jpeg" alt="3">
                         <div class="col-6">
                             <h3>شغالدست پیکان راسخ فرمان</h3>
                             <p>اطلاعات دیگر</p>
@@ -339,114 +411,132 @@
             </div>
         </section>
         <!--Brands-->
-        <section class="brands row justify-content-evenly">
-            <div class="col-lg-1 text-center">
-                <div class="img">
-                    <img src="assets/images/mercedes.png" alt="mercedes">
+        <section class="brands">
+            <div class="row justify-content-evenly">
+                <div class="col-lg-1 col-md-4 col-sm-4 text-center">
+                    <div class="circle">
+                        <div class="img">
+                            <img class="img-fluid" src="assets/images/mercedes.png" alt="mercedes">
+                        </div>
+                        <h6 class="px-1 pt-3">نام برند</h6>
+                    </div>
                 </div>
-                <h6 class="px-1 pt-3">نام برند</h6>
-            </div>
-            <div class="col-lg-1 text-center">
-                <div class="img">
-                    <img src="assets/images/mercedes.png" alt="mercedes">
+                <div class="col-lg-1 col-md-4 col-sm-4 text-center">
+                    <div class="circle">
+                        <div class="img">
+                            <img src="assets/images/mercedes.png" alt="mercedes" class="img-fluid">
+                        </div>
+                        <h6 class="px-1 pt-3">نام برند</h6>
+                    </div>
                 </div>
-                <h6 class="px-1 pt-3">نام برند</h6>
-            </div>
-            <div class="col-lg-1 text-center">
-                <div class="img">
-                    <img src="assets/images/mercedes.png" alt="mercedes">
+                <div class="col-lg-1 col-md-4 col-sm-4 text-center">
+                    <div class="circle">
+                        <div class="img">
+                            <img src="assets/images/mercedes.png" alt="mercedes" class="img-fluid">
+                        </div>
+                        <h6 class="px-1 pt-3">نام برند</h6>
+                    </div>
                 </div>
-                <h6 class="px-1 pt-3">نام برند</h6>
-            </div>
-            <div class="col-lg-1 text-center">
-                <div class="img">
-                    <img src="assets/images/mercedes.png" alt="mercedes">
+                <div class="col-lg-1 col-md-4 col-sm-4 text-center">
+                    <div class="circle">
+                        <div class="img">
+                            <img src="assets/images/mercedes.png" alt="mercedes" class="img-fluid">
+                        </div>
+                        <h6 class="px-1 pt-3">نام برند</h6>
+                    </div>
                 </div>
-                <h6 class="px-1 pt-3">نام برند</h6>
-            </div>
-            <div class="col-lg-1 text-center">
-                <div class="img">
-                    <img src="assets/images/mercedes.png" alt="mercedes">
+                <div class="col-lg-1 col-md-4 col-sm-4 text-center">
+                    <div class="circle">
+                        <div class="img">
+                            <img src="assets/images/mercedes.png" alt="mercedes" class="img-fluid">
+                        </div>
+                        <h6 class="px-1 pt-3">نام برند</h6>
+                    </div>
                 </div>
-                <h6 class="px-1 pt-3">نام برند</h6>
-            </div>
-            <div class="col-lg-1 text-center">
-                <div class="img">
-                    <img src="assets/images/mercedes.png" alt="mercedes">
+                <div class="col-lg-1 col-md-4 col-sm-4 text-center">
+                    <div class="circle">
+                        <div class="img">
+                            <img src="assets/images/mercedes.png" alt="mercedes" class="img-fluid">
+                        </div>
+                        <h6 class="px-1 pt-3">نام برند</h6>
+                    </div>
                 </div>
-                <h6 class="px-1 pt-3">نام برند</h6>
-            </div>
-            <div class="col-lg-1 text-center">
-                <div class="img">
-                    <img src="assets/images/mercedes.png" alt="mercedes">
+                <div class="col-lg-1 col-md-4 col-sm-4 text-center">
+                    <div class="circle">
+                        <div class="img">
+                            <img src="assets/images/mercedes.png" alt="mercedes" class="img-fluid">
+                        </div>
+                        <h6 class="px-1 pt-3">نام برند</h6>
+                    </div>
                 </div>
-                <h6 class="px-1 pt-3">نام برند</h6>
             </div>
         </section>
         <!--Banner no1-->
         <section class="banner">
             <img class="img-fluid col-md-12" src="assets/images/banner1.png" alt="banner">
-            <div class="banner-overlay col-3">
+            <div class="banner-overlay col-lg-2 col-md-2 col-sm-3">
                 <h3>لورم لورم لورم</h3>
                 <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. و متون بلکه روزنامه و مجله </p>
                 <a href="#" class="btn">جست و جو کنید</a>
             </div>
         </section>
         <!--Accessory-->
-        <section class="accessory row">
-            <div class="col-lg-1 ul">
-                <div class="li">
-                    <a>
-                        <i class="fa fa-user"></i>
-                    </a>
-                </div>
-                <div class="li">
-                    <a>
-                        <i class="fa fa-user"></i>
-                    </a>
-                </div>
-                <div class="li">
-                    <a>
-                        <i class="fa fa-user"></i>
-                    </a>
-                </div>
-                <div class="li">
-                    <a>
-                        <i class="fa fa-user"></i>
-                    </a>
-                </div>
-                <div class="li">
-                    <a>
-                        <i class="fa fa-user"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-11">
-                <div class="a-border mt-5 mb-3">
-                    <h3>
-                        <i class="fa fa-user px-2"></i>
-                        لوازم جوانبی
-                    </h3>
-                    <hr/>
-                </div>
-                <div class="row accessory-images px-2">
-                    <div class="col-lg-4">
-                        <span class="accessory-overlay">&nbsp;</span>
-                        <a href="#" class="text">خرید لوازم جانبی ماشین</a>
+        <section class="accessory">
+            <div class="row">
+                <div class="col-lg-1 ul">
+                    <div class="li">
+                        <a>
+                            <i class="fa fa-user"></i>
+                        </a>
                     </div>
-                    <div class="col-lg-5">
-                        <div class="back1">
+                    <div class="li">
+                        <a>
+                            <i class="fa fa-user"></i>
+                        </a>
+                    </div>
+                    <div class="li">
+                        <a>
+                            <i class="fa fa-user"></i>
+                        </a>
+                    </div>
+                    <div class="li">
+                        <a>
+                            <i class="fa fa-user"></i>
+                        </a>
+                    </div>
+                    <div class="li">
+                        <a>
+                            <i class="fa fa-user"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-11">
+                    <div class="a-border mt-5 mb-3">
+                        <h3>
+                            <i class="fa fa-user px-2"></i>
+                            لوازم جوانبی
+                        </h3>
+                        <hr/>
+                    </div>
+                    <div class="row accessory-images px-2">
+                        <div class="col-lg-4 col-md-7 col-sm-7">
                             <span class="accessory-overlay">&nbsp;</span>
                             <a href="#" class="text">خرید لوازم جانبی ماشین</a>
                         </div>
-                        <div class="back2">
+                        <div class="col-lg-5 col-md-7 col-sm-7">
+                            <div class="back1">
+                                <span class="accessory-overlay">&nbsp;</span>
+                                <a href="#" class="text">خرید لوازم جانبی ماشین</a>
+                            </div>
+                            <div class="back2">
+                                <span class="accessory-overlay">&nbsp;</span>
+                                <a href="#" class="text">خرید لوازم جانبی ماشین</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-7 col-sm-7">
                             <span class="accessory-overlay">&nbsp;</span>
                             <a href="#" class="text">خرید لوازم جانبی ماشین</a>
                         </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <span class="accessory-overlay">&nbsp;</span>
-                        <a href="#" class="text">خرید لوازم جانبی ماشین</a>
                     </div>
                 </div>
             </div>
@@ -456,7 +546,7 @@
             <img class="img-fluid col-md-12" src="assets/images/why-mashinno.png" alt="banner">
         </section>
         <!--Masrafi-->
-        <section class="masrafi pt-5">
+        <section class="masrafi pt-lg-5">
             <section class="row">
                 <div class="col-lg-1 ul">
                     <div class="li">
@@ -489,27 +579,27 @@
                     <div class="a-border mt-5 mb-3">
                         <h3>
                             <i class="fa fa-user px-2"></i>
-                            لوازم مصرفی
+                            لوازم جوانبی
                         </h3>
                         <hr/>
                     </div>
                     <div class="row masrafi-images px-2">
-                        <div class="col-lg-4">
-                            <span>&nbsp;</span>
+                        <div class="col-lg-4 col-md-7 col-sm-7">
+                            <span class="accessory-overlay">&nbsp;</span>
                             <a href="#" class="text">خرید لوازم جانبی ماشین</a>
                         </div>
-                        <div class="col-lg-5">
+                        <div class="col-lg-5 col-md-7 col-sm-7">
                             <div class="back1">
-                                <span>&nbsp;</span>
+                                <span class="accessory-overlay">&nbsp;</span>
                                 <a href="#" class="text">خرید لوازم جانبی ماشین</a>
                             </div>
                             <div class="back2">
-                                <span>&nbsp;</span>
+                                <span class="accessory-overlay">&nbsp;</span>
                                 <a href="#" class="text">خرید لوازم جانبی ماشین</a>
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <span>&nbsp;</span>
+                        <div class="col-lg-3 col-md-7 col-sm-7">
+                            <span class="accessory-overlay">&nbsp;</span>
                             <a href="#" class="text">خرید لوازم جانبی ماشین</a>
                         </div>
                     </div>
@@ -517,12 +607,14 @@
             </section>
         </section>
         <!--banner no3-->
-        <section class="banner3 row">
-            <img src="assets/images/4.jpeg" class="img-fluid col-5"/>
-            <img src="assets/images/2.jpeg" class="img-fluid col-7" />
+        <section class="banner3">
+            <div class="row">
+                <img src="assets/images/4.jpeg" class="img-fluid col-lg-5 col-md-10 col-sm-10"/>
+                <img src="assets/images/2.jpeg" class="img-fluid col-lg-7 col-md-10 col-sm-10" />
+            </div>
         </section>
         <!--Car Accessory-->
-        <section class="car-accessory pt-5">
+        <section class="car-accessory">
             <section class="row">
                 <div class="col-lg-1 ul">
                     <div class="li">
@@ -552,30 +644,30 @@
                     </div>
                 </div>
                 <div class="col-lg-11">
-                    <div class="a-border mt-5 mb-3">
+                    <div class="a-border mt-lg-5 mb-3">
                         <h3>
                             <i class="fa fa-user px-2"></i>
-                            اکسسوری خودرو
+                            لوازم جوانبی
                         </h3>
                         <hr/>
                     </div>
-                    <div class="row car-accessory-images px-2">
-                        <div class="col-lg-4">
-                            <span>&nbsp;</span>
+                    <div class="row accessory-images px-2">
+                        <div class="col-lg-4 col-md-7 col-sm-7">
+                            <span class="accessory-overlay">&nbsp;</span>
                             <a href="#" class="text">خرید لوازم جانبی ماشین</a>
                         </div>
-                        <div class="col-lg-5">
+                        <div class="col-lg-5 col-md-7 col-sm-7">
                             <div class="back1">
-                                <span>&nbsp;</span>
+                                <span class="accessory-overlay">&nbsp;</span>
                                 <a href="#" class="text">خرید لوازم جانبی ماشین</a>
                             </div>
                             <div class="back2">
-                                <span>&nbsp;</span>
+                                <span class="accessory-overlay">&nbsp;</span>
                                 <a href="#" class="text">خرید لوازم جانبی ماشین</a>
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <span>&nbsp;</span>
+                        <div class="col-lg-3 col-md-7 col-sm-7">
+                            <span class="accessory-overlay">&nbsp;</span>
                             <a href="#" class="text">خرید لوازم جانبی ماشین</a>
                         </div>
                     </div>
@@ -583,30 +675,30 @@
             </section>
         </section>
     </section>
-
+    <!--Blog-->
     <section class="blog">
         <div class="text-center row">
-            <div class="col-lg-11"><h4>در وبلاگ ما</h4></div>
-            <div class="col-lg-1 mb-3">
+            <div class="col-lg-11 col-md-12 col-sm-12"><h4>در وبلاگ ما</h4></div>
+            <div class="col-lg-1 mb-3 controls2">
                 <a> < </a>
                 |
                 <a> > </a>
             </div>
         </div>
         <div class="row justify-content-between">
-            <div class="card col-lg-4">
+            <div class="card col-lg-4 col-md-9 col-sm-10">
                 <img class="card-img-top" src="assets/images/1.jpeg" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه</p>
                 </div>
             </div>
-            <div class="card col-lg-4">
+            <div class="card col-lg-4 col-md-9 col-sm-10">
                 <img class="card-img-top" src="assets/images/1.jpeg" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه</p>
                 </div>
             </div>
-            <div class="card col-lg-4">
+            <div class="card col-lg-4 col-md-9 col-sm-10">
                 <img class="card-img-top" src="assets/images/1.jpeg" alt="Card image cap">
                 <div class="card-body">
                     <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه</p>
@@ -614,34 +706,38 @@
             </div>
         </div>
     </section>
+    <!--Footer-->
     <footer>
-        <div class="row contact">
-            <div class="col-lg-6 row">
-                <a class="col-2" href="#">
-                    <i class="fa fa-user"></i>
-                </a>
-                <a class="col-2" href="#">
-                    <i class="fa fa-user"></i>
-                </a>
-                <a class="col-2" href="#">
-                    <i class="fa fa-user"></i>
-                </a>
-                <a class="col-2" href="#">
-                    <i class="fa fa-user"></i>
-                </a>
-            </div>
-            <div class="col-lg-6 row">
-                <a href="tel:02133990835" class="col-4">021 33990835</a>
-                <i class="fa fa-phone col-1"></i>
+        <div class="contact">
+            <div class="row">
+                <div class="col-6 row social">
+                    <a class="col-2" href="#">
+                        <i class="fa fa-user"></i>
+                    </a>
+                    <a class="col-2" href="#">
+                        <i class="fa fa-user"></i>
+                    </a>
+                    <a class="col-2" href="#">
+                        <i class="fa fa-user"></i>
+                    </a>
+                    <a class="col-2" href="#">
+                        <i class="fa fa-user"></i>
+                    </a>
+                </div>
+                <div class="col-6 row call pt-3">
+                    <a href="tel:02133990835" class="col-lg-4 col-md-6 col-sm-6">021 33990835</a>
+                    <i class="fa fa-phone col-1"></i>
+                </div>
             </div>
         </div>
         <div class="wrapper">
             <img src="assets/images/logo.png" alt="logo" class="logo img-fluid pt-3 pb-2">
-            <div class="row">
-                <div class="col-lg-4">
+            <div class="row f-info">
+                <div class="col-lg-4 col-md-10 col-sm-10 about">
+                    <img src="assets/images/logo.png" alt="logo" class="logo img-fluid pt-3 pb-2 col-2">
                     <p class="text-justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت</p>
                 </div>
-                <div class="col-lg-2 text-center">
+                <div class="col-lg-2 col-md-10 col-sm-10 text-center address">
                     <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم  صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
                     <div class="my-2">
                         <a href="tel:02154536600">021-54536600</a>
@@ -650,7 +746,7 @@
                     </div>
                     <a href="mailto:info@mashinno.com">info@mashinno.com</a>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-10 col-sm-10 minimenu">
                     <ul class="pr-2">
                         <li>
                             <a href="#">آموزش خرید از سایت</a>
@@ -681,8 +777,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-4">
-                    برای دریافت کد تخفیف شماره موبایل خود را وارد نمایید
+                <div class="col-lg-3 col-md-10 col-sm-10 discount">
+                    <p>برای دریافت کد تخفیف شماره موبایل خود را وارد نمایید</p>
                     <form class="input-group mt-5 mr-2 col-6">
                         <input type="text" class="form-control" placeholder="********09">
                         <div class="input-group-prepend">
@@ -692,7 +788,7 @@
                 </div>
             </div>
             <hr />
-            <p class="text-center py-3">
+            <p class="text-center f-about py-3">
                 درباره فروشگاه لوازم یدکی و قطعات خودرو ماشین نو
                 <br /><br />
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
@@ -701,7 +797,7 @@
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
             </p>
             <hr />
-            <div class="mt-5 row justify-content-between">
+            <div class="mt-5 row justify-content-between links">
                 <div class="col-lg-1 p-0">
                     <ul>
                         <li class="font-weight-bold">سرلینک</li>
@@ -965,12 +1061,134 @@
                 </div>
             </div>
             <div class="row enamad justify-content-end pt-4">
-                <a href="#" class="col-lg-2">
+                <a href="#" class="col-lg-2 col-md-2 col-sm-6">
                     <img src="assets/images/sabt.png" alt="sabt" class="img-fluid">
                 </a>
-                <a href="#" class="col-lg-2">
+                <a href="#" class="col-lg-2 col-md-2 col-sm-6">
                     <img src="assets/images/enamad-one-star.png" alt="enamad" class="img-fluid">
                 </a>
+            </div>
+            <div class="accordion accordion-flush ">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            دسترسی سریع
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="col-12 text-center p-0">
+                                <ul>
+                                    <li class="font-weight-bold">سرلینک</li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            بخش تامین
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="col-12 text-center p-0">
+                                <ul>
+                                    <li class="font-weight-bold">سرلینک</li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            لینک های سریع
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="col-12 text-center p-0">
+                                <ul>
+                                    <li class="font-weight-bold">سرلینک</li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                    <li>
+                                        <a>لینک</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="text-center pb-3 pt-1 copyright">
                 <p>تمامی حقوق مادی و معنوی این وب سایت برای ماشین نو محفوظ می باشد ، هرگونه کپی برداری از سایت پیگرد قانونی دارد</p>

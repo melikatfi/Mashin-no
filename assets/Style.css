@@ -1,12 +1,26 @@
 a{
     text-decoration: none !important;
 }
+li{
+    list-style-type: none;
+}
+ul{
+    padding: 0 !important;
+}
+.font-weight-bold{
+    font-weight: bold;!important;
+}
 .freeShip{
+    background-color: #FEEB30 ;
     font-size: 16px;
 }
 /*nav*/
 .navbar{
     padding: 0 150px;
+    background-color: #273238;
+}
+.bars{
+    display: none;
 }
 .logo img{
     height: 60px;
@@ -60,11 +74,40 @@ a{
     padding: 5px 0 !important;
 }
 .mainMenu li{
-    list-style-type: none;
     padding: 15px;
 }
 .mainMenu a{
     color: #353535;
+}
+.hovermenu{
+    display: none !important;
+    background-color: #eaeaea;
+    position: absolute;
+    z-index: 6;
+    right: 333px;
+    height: 450px;
+}
+.hovermenu ul{
+    margin: 0 !important;
+    padding: 5px 0 !important;
+}
+.hovermenu li{
+    padding: 8px 5px;
+}
+.hovermenu a{
+    color: #353535;
+}
+.hovermenu li img{
+    width: 25px;
+}
+.hovermenu input{
+    position: absolute;
+    padding-right: 40px;
+}
+.hovermenu .btn{
+    position: absolute !important;
+    z-index: 1;
+    color: #62DC17;
 }
 .slider{
     margin-right: 5px;
@@ -134,25 +177,27 @@ a{
     box-shadow: #b3b3b3 1px 6px 21px;
     background-color: white;
     border-radius: 30px !important;
-    width: 60% !important;
-    position: relative !important;
+    width: 100% !important;
+    position: absolute !important;
     z-index: 1;
 }
 .services button{
+    position: relative !important;
     color: white;
-    background: rgb(66,231,111);
-    background: linear-gradient(90deg, rgba(66,231,111,1) 10%, rgb(12, 155, 8) 90%);
-    position: absolute !important;
+    background: rgb(98, 220, 23);
+    background: linear-gradient(90deg, rgb(98, 220, 23) 10%, rgb(31, 170, 0) 90%);
     border-radius: 30px !important;
     padding: 10px 50px;
-    top: 4px;
-    left: 8px;
     font-size: 18px;
-    z-index: 2;
+    z-index: 4 !important;
+    right: 589px;
+    top: 5px;
 }
 .icon{
-    margin: 15px 48px;
+    font-size: 20px;
+    margin: 8px 46px;
     background-color: #ffffff;
+    height: fit-content;
     padding: 25px;
     border-radius: 100%;
 }
@@ -259,11 +304,11 @@ a{
     margin: 3px auto;
     opacity: 100%;
 }
-.card-btn:hover{
-    display: none;
-}
-.card-btn:hover .card-overlay{
+.card:hover .card-overlay{
     display: block;
+}
+.card:hover .card-btn{
+    display: none;
 }
 /*Special Products*/
 .special{
@@ -309,9 +354,12 @@ a{
     padding: 40px 120px;
     margin: 20px 0;
 }
-.brands .col-lg-1{
-    width: 115px;
+.brands .circle{
+    width: 90px;
     height: auto;
+}
+.brands .row>*{
+    padding: 0 !important;
 }
 .brands h6{
     font-weight: lighter;
@@ -334,11 +382,12 @@ a{
     position: relative;
 }
 .banner img{
+    position: relative;
     border-radius: 20px;
 }
 .banner-overlay{
     position: absolute;
-    right: 830px;
+    right: 68%;
     font-size: 14px;
     bottom: 140px;
     padding: 5px;
@@ -380,7 +429,6 @@ a{
 }
 .accessory .li{
     margin: 20px 0;
-    list-style-type: none;
     padding: 0!important;
 }
 .accessory .li:nth-child(2){
@@ -420,7 +468,7 @@ a{
 
 .accessory-images div:nth-child(1) span{
     display: block;
-    width: 150px !important;
+    width: 150px ;
     height: 40px;
     background: #d7d7d7;
     border: solid 2px #ffffff;
@@ -536,7 +584,6 @@ a{
 }
 .masrafi .li{
     margin: 20px 0;
-    list-style-type: none;
     padding: 0!important;
 }
 .masrafi .li:nth-child(3){
@@ -690,7 +737,6 @@ a{
 }
 .car-accessory .li{
     margin: 20px 0;
-    list-style-type: none;
     padding: 0!important;
 }
 .car-accessory .li:nth-child(4){
@@ -824,9 +870,9 @@ a{
     font-size: 20px;
     font-weight: bolder;
 }
-.blog .col-lg-4{
-    width: 32.333333%;
-}
+/*.blog .col-lg-4{*/
+/*    width: 32.333333%;*/
+/*}*/
 .blog .card{
     border-radius: 25px;
 }
@@ -840,7 +886,7 @@ a{
     padding: 20px 120px;
     background: #18202F;
 }
-.contact div:nth-child(1) a{
+.social a{
     text-align: center;
     border: solid 1px white;
     border-radius: 100%;
@@ -849,19 +895,19 @@ a{
     padding: 11px;
     margin: 5px;
 }
-.contact div:nth-child(1) i{
+.social i{
     color: white;
     font-size: 20px;
 }
-.contact div:nth-child(2){
+.call{
     text-align: left;
     justify-content: flex-end;
     margin: 5px;
 }
-.contact div:nth-child(2) a{
+.call a{
     color: white;
 }
-.contact div:nth-child(2) i{
+.call i{
     text-align: right;
     color: #73D042;
     font-size: 24px;
@@ -878,38 +924,73 @@ footer .wrapper a{
 footer .logo{
     width: 200px;
 }
+footer .about .logo{
+    display: none;
+}
 footer .col-lg-4{
-    width: 31.333333%;
+    /*width: 31.333333%;*/
 }
 footer .col-lg-2{
     width: 18.666667%;
 }
 footer input{
-    position: absolute;
+    position: relative;
     z-index: 1;
     border-radius: 0 25px 25px 0!important;
+}
+footer .about{
+    text-align: justify;
 }
 footer input,
 input::placeholder {
     font-size: 20px;
 }
 footer .btn{
-    position: relative !important;
+    position: absolute !important;
     background-color: #64DD16;
     color: white;
     font-size: 15px;
-    padding: 10px 25px;
     font-weight: bold;
     border-radius: 25px !important;
-    left: 30px;
+    padding: 7px 25px;
+    left: -8%;
     z-index: 4 !important;
 }
 footer hr{
     font-weight: bolder;
 }
-.enamad .col-lg-2{
-    width: 11.666667%;
+.enamad a{
+    width: 13%;
 }
+.accordion{
+    display: none;
+}
+.accordion-button{
+    background-color: #1D2836 !important;
+    text-align: center !important;
+    color: #ffffff !important;
+    font-size: 20px;
+    font-weight: bold !important;
+}
+.accordion-button::after{
+    background-image: none !important;
+    content: "^" !important;
+    font-size: 24px;
+    color: #ffffff !important;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: none !important;
+    content: "^";
+    font-size: 24px;
+    color: #ffffff !important;
+    text-align: center;
+}
+.accordion-item{
+    background-color: #1D2836 !important;
+    border: none !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
 .copyright{
     color: #909AA3;
 }
