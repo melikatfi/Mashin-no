@@ -1,4 +1,7 @@
 @media screen and (min-width: 2560px){
+    .freeShip p{
+        font-size: 3rem;
+    }
     .h3, h3 {
         font-size: 3.75rem !important;
     }
@@ -30,6 +33,7 @@
         width: auto;
         padding: 5px 15px;
         font-size: 22px;
+        left: 395px;
     }
     .slider{
         height: auto;
@@ -182,6 +186,9 @@
     .h3, h3 {
         font-size: 2.2rem;
     }
+    .navbar .logo {
+        width: 32.666667% !important;
+    }
     .banner-overlay {
         right: 66%;
         font-size: 1.5rem;
@@ -251,9 +258,14 @@
     }
 }
 @media screen and (max-width: 991px){
+    .mobile-ul-opener{
+        display: block;
+    }
+    .freeShip {
+        font-size: 24px;
+    }
     .log span {
-        left: 30.5%;
-        top: 39%;
+        top: 26%;
     }
     .bars i{
         font-size: 2rem;
@@ -266,7 +278,10 @@
         top: 12px;
         position: relative;
     }
-    .navbar .nav-item:nth-child(2), .mainMenu{
+    .navbar .nav-item .bars{
+        width: 13%;
+    }
+    .menu, .mainMenu{
         display: none !important;
     }
     .container, .container-md, .container-sm {
@@ -304,7 +319,7 @@
     }
     .banner-overlay {
         font-size: 1rem;
-        bottom: 23%;
+        bottom: 30%;
     }
     .banner .btn{
         top: 90%;
@@ -408,7 +423,6 @@
     }
     .log .cart span {
         left: 170px;
-        top: 52px;
     }
     .icon{
         margin: 9px;
@@ -420,18 +434,24 @@
     .banner-overlay h3{
         font-size: 1rem;
     }
-    /*.social a {*/
-    /*    width: 41px;*/
-    /*    padding: 8px;*/
-    /*}*/
     .contact {
         padding: 20px 50px;
     }
     .call .col-lg-4 {
         width: 85%;
     }
+    .bars i{
+        margin-bottom: 37px;
+    }
 }
 @media screen and (max-width: 599px){
+    .navbar .logo {
+        width: 89% !important;
+        margin-right: 10px;
+    }
+    .bars i {
+        font-size: 1.5rem;
+    }
     .navbar .nav-item{
         max-width: 45% !important;
     }
@@ -439,10 +459,12 @@
         width: 10% !important;
     }
     .logo{
+        padding-top: 7px;
         max-width: 55% !important;
     }
-    .log .cart span {
-        top: 40px;
+    .controls button{
+        width: 10px;
+        height: 14px;
     }
     .services input,
     input::placeholder {
@@ -491,8 +513,14 @@
     }
 }
 @media screen and (max-width: 490px){
-    .log .cart span {
-        top: 34px;
+    .freeShip {
+        font-size: 16px;
+    }
+    .logo p{
+        display: none;
+    }
+    .navbar .logo{
+        width: 100%;
     }
     .services button {
         padding: 9px 20px;
@@ -550,7 +578,6 @@
     }
     .log .cart span {
         left: 136px;
-        top: 21px;
     }
     .slider{
         height: 300px;
@@ -635,10 +662,6 @@
     }
 }
 @media screen and (max-width: 320px) {
-    .log .cart span {
-        top: 14px;
-    }
-
     .services input, input::placeholder {
         font-size: 10px;
     }

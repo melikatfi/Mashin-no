@@ -15,6 +15,49 @@ ul{
     font-size: 16px;
 }
 /*nav*/
+.mobile-ul-opener{
+    display: none;
+    background-color: #002a37;
+    color: #ffffff;
+    width: 50px;
+    height: max-content;
+    position: fixed;
+    right: 15px;
+    z-index: 20;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 100%;
+    top: 88%;
+}
+.mobile-ul-opener i{
+    padding: 13px;
+}
+.mobile-ul{
+    display: none;
+    height: 350px;
+    width: 50px;
+    background-color: #002a37;
+    color: #ffffff;
+    text-align: center;
+    margin: 135px auto;
+    border-radius: 40px;
+    --bs-gutter-x: 0;
+    padding: 5px 0 5px 0;
+    position: fixed;
+    z-index: 20;
+    right: 15px;
+    top: -8%;
+}
+.mobile-li{
+    margin: 20px 0;
+    padding: 0!important;
+}
+.mobile-li:hover{
+    background-color: #89FF3F;
+}
+.mobile-li i{
+    padding: 15px 0;
+}
 .mobile-nav{
     display: none !important;
     width: 100%;
