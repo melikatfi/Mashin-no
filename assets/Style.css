@@ -880,8 +880,15 @@ body .row:nth-child(1){
     justify-content: flex-end;
     margin: 5px;
 }
-.call a{
+.call div{
+    color: #797E8C;
+}
+.cal div span{
+    display: none;
+}
+.call div a{
     color: white;
+    text-decoration: none;
 }
 .call i{
     text-align: right;
