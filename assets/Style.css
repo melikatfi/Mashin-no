@@ -36,7 +36,7 @@ body .row:nth-child(1){
 }
 .mobile-overlay{
     background-color: #b3b3b3;
-    opacity: 50% !important;
+    opacity: 40% !important;
 }
 .navbar{
     padding: 0 150px;
@@ -44,9 +44,6 @@ body .row:nth-child(1){
 }
 .bars{
     display: none;
-}
-.logo img{
-    height: 60px;
 }
 .logo p{
     font-size: 12px;
@@ -62,23 +59,23 @@ body .row:nth-child(1){
     color: #eeeeee;
 }
 .log{
-    text-align: left;
+    display: flex;
+    justify-content: flex-end
 }
-.log .cart{
+.log .cart a{
     color: #08cd00;
     font-size: 24px;
     position: relative;
     padding-top: 2px;
 }
-.log span{
+.log .cart span{
     width: 15px;
     background-color: #fff;
     font-size: 8px;
     padding: 2px 5px;
     border-radius: 50%;
     position: absolute;
-    left: 298px;
-    top: 39px;
+    left: 290px;
 }
 .log .login{
     padding: 2px 4px;
@@ -194,7 +191,7 @@ body .row:nth-child(1){
 }
 /*Search and Services*/
 .services{
-    padding: 1px 250px;
+    padding: 30px 250px;
 }
 .services input{
     box-shadow: #b3b3b3 1px 6px 21px;
@@ -203,6 +200,10 @@ body .row:nth-child(1){
     width: 100% !important;
     position: absolute !important;
     z-index: 1;
+    padding: 1rem;
+}
+.services .input-group{
+    flex-direction: row-reverse;
 }
 .services button{
     position: relative !important;
@@ -213,12 +214,15 @@ body .row:nth-child(1){
     padding: 10px 50px;
     font-size: 18px;
     z-index: 4 !important;
-    right: 589px;
+    left: 3%;
     top: 5px;
+}
+.service-icons{
+    margin: 60px auto;
 }
 .icon{
     font-size: 20px;
-    margin: 8px 46px;
+    margin: 25px;
     background-color: #ffffff;
     height: fit-content;
     padding: 25px;
@@ -235,20 +239,17 @@ body .row:nth-child(1){
 .gallery-1 .row div:nth-child(1){
     border-radius: 30px;
     background: url("images/3.jpeg") no-repeat center;
-    width: 300px;
     height: 150px;
     box-shadow: 7px 37px 50px -30px rgb(0 0 0);
 }
 .gallery-1 .row div:nth-child(2){
     border-radius: 30px;
-    background: url("images/3.jpeg") no-repeat center;
+    background: url("images/5.jpeg") no-repeat center;
     height: 150px;
     box-shadow: 7px 37px 50px -30px rgb(0 0 0);
-    width: 300px;
 
 }
 .gallery-1 .row div:nth-child(3){
-    width: 300px;
     border-radius: 30px;
     background: url("images/3.jpeg") no-repeat center;
     height: 150px;
@@ -293,6 +294,7 @@ body .row:nth-child(1){
     transition: ease all 0.2s;
 }
 .card-overlay{
+    width: -webkit-fill-available;
     display: none;
     position: absolute;
     height: 100%;
@@ -339,22 +341,26 @@ body .row:nth-child(1){
     margin: 20px 0;
 }
 .special .box{
+    flex-direction: row;
     background-color: white;
     border-radius: 30px;
     box-shadow: #b7b7b7 2px 3px 21px;
     margin: 5px;
 }
+.box .card-img-top {
+    border-radius: 30px !important;
+    width: 50%;
+}
 .special .box img{
     object-fit: contain;
 }
 .special .badge{
-    position: relative;
+    position: absolute;
     background-color: #ff0600;
     padding: 15px 30px;
     color: white;
     font-size: 16px;
     border-radius: 30px 30px 0 30px;
-    right: -12px;
     top: -21px;
 }
 .box h3{
@@ -374,11 +380,10 @@ body .row:nth-child(1){
 }
 /*Brands*/
 .brands{
-    padding: 40px 120px;
+    padding: 70px 120px;
     margin: 20px 0;
 }
 .brands .circle{
-    width: 90px;
     height: auto;
 }
 .brands .row>*{
@@ -388,14 +393,11 @@ body .row:nth-child(1){
     font-weight: lighter;
     color: #818181;
 }
-.brands img{
-    width: 70px;
-}
 .brands .img{
     background-color: white;
     border-radius: 100%;
     text-align: center;
-    padding: 11px 0;
+    padding: 10px;
 }
 /*Banner 1*/
 .banner{
@@ -424,6 +426,12 @@ body .row:nth-child(1){
     font-size: 18px;
 }
 /*Accessory*/
+.img-1 , .img-4{
+    height: 400px;
+}
+.img-2 , .img-3{
+    height: 200px;
+}
 .accessory{
     padding: 0 50px 0 110px;
     margin: 0;
@@ -460,114 +468,96 @@ body .row:nth-child(1){
 .accessory .li i{
     padding: 15px 0;
 }
-.accessory-images div:nth-child(1){
+.accessory .img-1{
     background: url("images/banner1.png") no-repeat center;
     border-radius: 0 15px 15px 0;
-    height: 400px;
     object-fit: cover;
     position: relative;
 }
-.accessory-images div:nth-child(2) .back1{
+.accessory .img-2{
     background: url("images/4.jpeg") no-repeat center;
-    height: 200px;
     object-fit: cover;
     border-radius: 0!important;
     margin-bottom: 2px;
     position: relative;
 }
-.accessory-images div:nth-child(2) .back2{
+.accessory .img-3{
     background: url("images/3.jpeg") no-repeat center;
-    height: 200px;
     object-fit: cover;
     position: relative;
 }
-.accessory-images div:nth-child(3){
+.accessory .img-4{
     background: url("images/banner1.png") no-repeat center;
     border-radius: 15px 0 0 15px;
-    height: 400px;
     object-fit: cover;
     position: relative;
+    padding-right: 10%;
 }
 
-.accessory-images div:nth-child(1) span{
-    display: block;
-    width: 150px ;
-    height: 40px;
-    background: #d7d7d7;
-    border: solid 2px #ffffff;
-    opacity: 40%;
-    border-radius: 30px !important;
-    position: absolute;
-    bottom: 25px;
-    left: 100px;
+.accessory .img-1 .overlay-box{
+    width: fit-content;
+    text-align: center;
+    padding: 8px;
+    background: rgba(250,250,250,0.4);
+    border: solid 1px #ffffff;
+    border-radius: 30px;
+    position: relative;
+    right: 28%;
+    top: 87%;
 }
-.accessory-images div:nth-child(1) .text{
-    position: absolute;
-    bottom: 35px;
-    left: 112px;
+.accessory .img-1 .text{
     color: white;
     text-decoration: none;
 }
 
-.accessory-images div:nth-child(2) .back1 span{
-    display: block;
-    width: 150px !important;
-    height: 40px;
-    background: #d7d7d7;
-    border: solid 2px #ffffff;
-    opacity: 40%;
-    border-radius: 30px !important;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+.accessory .img-2 .overlay-box{
+    width: fit-content;
+    text-align: center;
+    padding: 8px;
+    background: rgba(250,250,250,0.4);
+    border: solid 1px #ffffff;
+    border-radius: 30px;
+    position: relative;
+    right: 60%;
+    top: 72%;
 }
-.accessory-images div:nth-child(2) .back1 .text{
-    position: absolute;
-    bottom: 29px;
-    left: 35px;
-    color: #ffffff;
+.accessory .img-2 .text{
+    color: white;
     text-decoration: none;
 }
 
-.accessory-images div:nth-child(2) .back2 span{
-    display: block;
-    width: 150px !important;
-    height: 40px;
-    background: #d7d7d7;
-    border: solid 2px #ffffff;
-    opacity: 40%;
-    border-radius: 30px !important;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+.accessory .img-3 .overlay-box{
+    width: fit-content;
+    text-align: center;
+    padding: 8px;
+    background: rgba(250,250,250,0.4);
+    border: solid 1px #ffffff;
+    border-radius: 30px;
+    position: relative;
+    right: 60%;
+    top: 72%;
 }
-.accessory-images div:nth-child(2) .back2 .text{
-    position: absolute;
-    bottom: 29px;
-    left: 35px;
-    color: #ffffff;
+.accessory .img-3 .text{
+    color: white;
     text-decoration: none;
 }
 
-.accessory-images div:nth-child(3) span{
-    display: block;
-    width: 150px !important;
-    height: 40px;
-    background: #d7d7d7;
-    border: solid 2px white;
-    opacity: 40%;
-    border-radius: 30px !important;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+.accessory .img-4 .overlay-box{
+    width: max-content;
+    text-align: center;
+    padding: 8px;
+    background: rgba(250,250,250,0.4);
+    border: solid 1px #ffffff;
+    border-radius: 30px;
+    position: relative;
+    top: 87%;
+    left: 6%;
 }
-.accessory-images div:nth-child(3) .text{
-    position: absolute;
-    bottom: 29px;
-    left: 35px;
-    color: #ffffff;
+.accessory .img-4 .text{
+    color: white;
     text-decoration: none;
 }
+
 /*Banner no2*/
 .banner2{
     padding: 0 137px 0 104px!important;
@@ -615,112 +605,93 @@ body .row:nth-child(1){
 .masrafi .li i{
     padding: 15px 0;
 }
-.masrafi-images div:nth-child(1){
+.masrafi .img-1{
     background: url("images/banner1.png") no-repeat center;
     border-radius: 0 15px 15px 0;
-    height: 400px;
     object-fit: cover;
     position: relative;
 }
-.masrafi-images div:nth-child(2) .back1{
+.masrafi .img-2{
     background: url("images/4.jpeg") no-repeat center;
-    height: 200px;
     object-fit: cover;
     border-radius: 0!important;
     margin-bottom: 2px;
     position: relative;
 }
-.masrafi-images div:nth-child(2) .back2{
+.masrafi .img-3{
     background: url("images/3.jpeg") no-repeat center;
-    height: 200px;
     object-fit: cover;
     position: relative;
 }
-.masrafi-images div:nth-child(3){
+.masrafi .img-4{
     background: url("images/banner1.png") no-repeat center;
     border-radius: 15px 0 0 15px;
-    height: 400px;
     object-fit: cover;
     position: relative;
+    padding-right: 10%;
 }
 
-.masrafi-images div:nth-child(1) span{
-    display: block;
-    width: 150px !important;
-    height: 40px;
-    background: #d7d7d7;
-    border: solid 2px #ffffff;
-    opacity: 40%;
-    border-radius: 30px !important;
-    position: absolute;
-    bottom: 25px;
-    left: 100px;
+.masrafi .img-1 .overlay-box{
+    width: fit-content;
+    text-align: center;
+    padding: 8px;
+    background: rgba(250,250,250,0.4);
+    border: solid 1px #ffffff;
+    border-radius: 30px;
+    position: relative;
+    right: 28%;
+    top: 87%;
 }
-.masrafi-images div:nth-child(1) .text{
-    position: absolute;
-    bottom: 35px;
-    left: 112px;
+.masrafi .img-1 .text{
     color: white;
     text-decoration: none;
 }
 
-.masrafi-images div:nth-child(2) .back1 span{
-    display: block;
-    width: 150px !important;
-    height: 40px;
-    background: #d7d7d7;
-    border: solid 2px #ffffff;
-    opacity: 40%;
-    border-radius: 30px !important;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+.masrafi .img-2 .overlay-box{
+    width: fit-content;
+    text-align: center;
+    padding: 8px;
+    background: rgba(250,250,250,0.4);
+    border: solid 1px #ffffff;
+    border-radius: 30px;
+    position: relative;
+    right: 60%;
+    top: 72%;
 }
-.masrafi-images div:nth-child(2) .back1 .text{
-    position: absolute;
-    bottom: 29px;
-    left: 35px;
-    color: #ffffff;
+.masrafi .img-2 .text{
+    color: white;
     text-decoration: none;
 }
 
-.masrafi-images div:nth-child(2) .back2 span{
-    display: block;
-    width: 150px !important;
-    height: 40px;
-    background: #d7d7d7;
-    border: solid 2px #ffffff;
-    opacity: 40%;
-    border-radius: 30px !important;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+.masrafi .img-3 .overlay-box{
+    width: fit-content;
+    text-align: center;
+    padding: 8px;
+    background: rgba(250,250,250,0.4);
+    border: solid 1px #ffffff;
+    border-radius: 30px;
+    position: relative;
+    right: 60%;
+    top: 72%;
 }
-.masrafi-images div:nth-child(2) .back2 .text{
-    position: absolute;
-    bottom: 29px;
-    left: 35px;
-    color: #ffffff;
+.masrafi .img-3 .text{
+    color: white;
     text-decoration: none;
 }
 
-.masrafi-images div:nth-child(3) span{
-    display: block;
-    width: 150px !important;
-    height: 40px;
-    background: #d7d7d7;
-    border: solid 2px white;
-    opacity: 40%;
-    border-radius: 30px !important;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+.masrafi .img-4 .overlay-box{
+    width: max-content;
+    text-align: center;
+    padding: 8px;
+    background: rgba(250,250,250,0.4);
+    border: solid 1px #ffffff;
+    border-radius: 30px;
+    position: relative;
+    top: 87%;
+    left: 6%;
 }
-.masrafi-images div:nth-child(3) .text{
-    position: absolute;
-    bottom: 29px;
-    left: 35px;
-    color: #ffffff;
+.masrafi .img-4 .text{
+    color: white;
     text-decoration: none;
 }
 /*banner no3*/
@@ -768,112 +739,93 @@ body .row:nth-child(1){
 .car-accessory .li i{
     padding: 15px 0;
 }
-.car-accessory-images div:nth-child(1){
+.car-accessory .img-1{
     background: url("images/banner1.png") no-repeat center;
     border-radius: 0 15px 15px 0;
-    height: 400px;
     object-fit: cover;
     position: relative;
 }
-.car-accessory-images div:nth-child(2) .back1{
+.car-accessory .img-2{
     background: url("images/4.jpeg") no-repeat center;
-    height: 200px;
     object-fit: cover;
     border-radius: 0!important;
     margin-bottom: 2px;
     position: relative;
 }
-.car-accessory-images div:nth-child(2) .back2{
+.car-accessory .img-3{
     background: url("images/3.jpeg") no-repeat center;
-    height: 200px;
     object-fit: cover;
     position: relative;
 }
-.car-accessory-images div:nth-child(3){
+.car-accessory .img-4{
     background: url("images/banner1.png") no-repeat center;
     border-radius: 15px 0 0 15px;
-    height: 400px;
     object-fit: cover;
     position: relative;
+    padding-right: 10%;
 }
 
-.car-accessory-images div:nth-child(1) span{
-    display: block;
-    width: 150px !important;
-    height: 40px;
-    background: #d7d7d7;
-    border: solid 2px #ffffff;
-    opacity: 40%;
-    border-radius: 30px !important;
-    position: absolute;
-    bottom: 25px;
-    left: 100px;
+.car-accessory .img-1 .overlay-box{
+    width: fit-content;
+    text-align: center;
+    padding: 8px;
+    background: rgba(250,250,250,0.4);
+    border: solid 1px #ffffff;
+    border-radius: 30px;
+    position: relative;
+    right: 28%;
+    top: 87%;
 }
-.car-accessory-images div:nth-child(1) .text{
-    position: absolute;
-    bottom: 35px;
-    left: 112px;
+.car-accessory .img-1 .text{
     color: white;
     text-decoration: none;
 }
 
-.car-accessory-images div:nth-child(2) .back1 span{
-    display: block;
-    width: 150px !important;
-    height: 40px;
-    background: #d7d7d7;
-    border: solid 2px #ffffff;
-    opacity: 40%;
-    border-radius: 30px !important;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+.car-accessory .img-2 .overlay-box{
+    width: fit-content;
+    text-align: center;
+    padding: 8px;
+    background: rgba(250,250,250,0.4);
+    border: solid 1px #ffffff;
+    border-radius: 30px;
+    position: relative;
+    right: 60%;
+    top: 72%;
 }
-.car-accessory-images div:nth-child(2) .back1 .text{
-    position: absolute;
-    bottom: 29px;
-    left: 35px;
-    color: #ffffff;
+.car-accessory .img-2 .text{
+    color: white;
     text-decoration: none;
 }
 
-.car-accessory-images div:nth-child(2) .back2 span{
-    display: block;
-    width: 150px !important;
-    height: 40px;
-    background: #d7d7d7;
-    border: solid 2px #ffffff;
-    opacity: 40%;
-    border-radius: 30px !important;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+.car-accessory .img-3 .overlay-box{
+    width: fit-content;
+    text-align: center;
+    padding: 8px;
+    background: rgba(250,250,250,0.4);
+    border: solid 1px #ffffff;
+    border-radius: 30px;
+    position: relative;
+    right: 60%;
+    top: 72%;
 }
-.car-accessory-images div:nth-child(2) .back2 .text{
-    position: absolute;
-    bottom: 29px;
-    left: 35px;
-    color: #ffffff;
+.car-accessory .img-3 .text{
+    color: white;
     text-decoration: none;
 }
 
-.car-accessory-images div:nth-child(3) span{
-    display: block;
-    width: 150px !important;
-    height: 40px;
-    background: #d7d7d7;
-    border: solid 2px white;
-    opacity: 40%;
-    border-radius: 30px !important;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+.car-accessory .img-4 .overlay-box{
+    width: max-content;
+    text-align: center;
+    padding: 8px;
+    background: rgba(250,250,250,0.4);
+    border: solid 1px #ffffff;
+    border-radius: 30px;
+    position: relative;
+    top: 87%;
+    left: 6%;
 }
-.car-accessory-images div:nth-child(3) .text{
-    position: absolute;
-    bottom: 29px;
-    left: 35px;
-    color: #ffffff;
+.car-accessory .img-4 .text{
+    color: white;
     text-decoration: none;
 }
 /*Blog*/
@@ -893,17 +845,18 @@ body .row:nth-child(1){
     font-size: 20px;
     font-weight: bolder;
 }
-/*.blog .col-lg-4{*/
-/*    width: 32.333333%;*/
-/*}*/
 .blog .card{
     border-radius: 25px;
+    box-shadow: #dbdbdb 0 3px 6px;
 }
 .blog .card-img-top{
     border-top-left-radius: 25px!important;
     border-top-right-radius: 25px!important;
     height: 180px;
 }
+/*.blog .col-lg-4 {*/
+/*    width: 32.333333%;*/
+/*}*/
 /*Footer*/
 .contact{
     padding: 20px 120px;
@@ -949,9 +902,6 @@ footer .logo{
 }
 footer .about .logo{
     display: none;
-}
-footer .col-lg-4{
-    /*width: 31.333333%;*/
 }
 footer .col-lg-2{
     width: 18.666667%;
