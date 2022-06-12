@@ -823,7 +823,7 @@ footer .btn{
     }
     .services input, input::placeholder {
         font-size: 12px;
-        padding: 12px;
+        padding: 12px 4px;
     }
     .service-icons h6{
         font-size: 12px;
@@ -849,7 +849,7 @@ footer .btn{
         padding: 5px;
     }
 }
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 360px) {
     .freeShip p{
         font-size: 0.95rem;
     }
@@ -953,7 +953,7 @@ footer .btn{
         width: 140px;
     }
 }
-@media screen and (max-width: 285px){
+@media screen and (max-width: 300px){
     .freeShip p {
         font-size: 0.85rem;
     }
@@ -988,7 +988,7 @@ footer .btn{
         font-size: 9px;
     }
     .services input, input::placeholder {
-        padding: 11px;
+        padding: 11px 2px;
     }
     .services button {
         padding: 7px 17px;
