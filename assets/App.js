@@ -31,7 +31,7 @@ function getTemplate() {
     }
 
     if (screen.width < 500 && CurrentPage !== 'MobilePage') {
-        return window.location.replace("mobile-index.html");
+        return window.location.replace("/mobile-index.html");
     }
 }
 
