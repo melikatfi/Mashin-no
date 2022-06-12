@@ -28,10 +28,14 @@ CurrentPage = 'DesktopPage';
 function getTemplate() {
     if (screen.width >= 500 && CurrentPage !== 'DesktopPage') {
         return window.location.replace("/index.html");
+    }else {
+        return window.location.replace("mobile-index.html");
     }
 
     if (screen.width < 500 && CurrentPage !== 'MobilePage') {
-        return window.location.replace("/mobile-index.html");
+        return window.location.replace("mobile-index.html");
+    }else {
+        return window.location.replace("/index.html");
     }
 }
 
