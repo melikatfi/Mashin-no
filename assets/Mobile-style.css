@@ -929,6 +929,12 @@ footer .btn{
     .banner {
         padding: 20px 10px;
     }
+    .blog .card-img-top {
+        height: auto;
+    }
+    .blog .card-text{
+        font-size: 12px;
+    }
     .banner-overlay {
         bottom: 9% !important;
     }
@@ -1129,12 +1135,6 @@ footer .btn{
     }
     .banner3 .shadow{
         top: 66%;
-    }
-    .blog .card-img-top {
-        height: auto;
-    }
-    .blog .card-text{
-        font-size: 12px;
     }
     .blog {
         padding: 0;
