@@ -457,12 +457,10 @@ body .row:nth-child(1){
 .brands .slider{
     height: 200px;
 }
-.brands .col-3{
-    margin: 5px;
-}
 .brands .circle{
     height: auto;
     max-width: 75%;
+    margin: auto;
 }
 .brands .row>*{
     padding: 0 !important;
@@ -568,6 +566,9 @@ body .row:nth-child(1){
 }
 
 /*Banner no2*/
+.banner2{
+    padding: 20px 10px;
+}
 .banner2 , .banner2 img{
     border-radius: 30px;
 }
@@ -644,6 +645,7 @@ body .row:nth-child(1){
 
 /*banner no3*/
 .banner3{
+    padding: 20px 10px;
     position: relative;
     z-index: 1;
 }
@@ -921,7 +923,7 @@ footer .btn{
         padding: 10px;
     }
     .brands .slider {
-        height: 150px;
+        height: 125px;
     }
     .icon {
         padding: 10px;
@@ -1006,9 +1008,6 @@ footer .btn{
     }
     .brands {
         padding: 0 10px;
-    }
-    .brands .col-3 {
-        margin: 7px;
     }
     .banner-overlay {
         bottom: 13% !important;
@@ -1117,7 +1116,7 @@ footer .btn{
     .brands {
         padding: 0;
     }
-    .banner {
+    .banner{
         padding: 20px 5px;
     }
     .banner-overlay {
@@ -1128,6 +1127,9 @@ footer .btn{
     }
     .overlay-box{
         font-size: 12px;
+    }
+    .banner2, .banner3{
+        padding: 0 5px;
     }
     .accessory .col-7, .masrafi .col-7, .car-accessory .col-7 {
         width: 66%;
