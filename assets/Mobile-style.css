@@ -145,7 +145,7 @@ body .row:nth-child(1){
     padding: 2px 5px;
     border-radius: 50%;
     position: absolute;
-    left: 155px;
+    left: 160px;
 }
 .log .login{
     padding: 2px 4px;
@@ -891,7 +891,7 @@ footer .btn{
         font-size: 14px;
     }
     .log .cart span {
-        left: 126px;
+        left: 130px;
     }
     .services {
         padding: 10px;
@@ -967,7 +967,7 @@ footer .btn{
         font-size: 22px;
     }
     .log .cart span {
-        left: 123px;
+        left: 127px;
     }
     .cont {
         height: 200px;
@@ -1047,7 +1047,7 @@ footer .btn{
         padding: 0;
     }
     footer .btn {
-        padding: 5px 16px;
+        padding: 5px 10px;
         font-size: 10px;
         left: -5%;
     }
@@ -1081,7 +1081,7 @@ footer .btn{
         font-size: 20px;
     }
     .log .cart span {
-        left: 105px;
+        left: 110px;
     }
     .services .h5, h5 {
         font-size: 0.95rem;
