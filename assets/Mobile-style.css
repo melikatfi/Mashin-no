@@ -780,7 +780,7 @@ body .row:nth-child(1){
 .call i{
     text-align: right;
     color: #73D042;
-    font-size: 30px;
+    font-size: 28px;
     padding-right: 0 !important;
 }
 footer .wrapper{
@@ -871,6 +871,9 @@ footer .btn{
     }
     footer .btn{
         padding: 7px 15px;
+    }
+    .f-info p {
+        font-size: 11px;
     }
     .enamad .col-2 {
         flex: 0 0 auto;
