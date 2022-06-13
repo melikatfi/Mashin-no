@@ -14,9 +14,34 @@ ul{
     background-color: #FEEB30 ;
     font-size: 16px;
 }
+.freeShip p{
+    margin: 0!important;
+}
+/*slider*/
+.slider {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.slider::-webkit-scrollbar {
+    display: none;
+}
+.slider .slide {
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: 0.3s left ease-in-out;
+}
+.slider .item {
+    margin-right: 10px;
+}
+.slider .item:last-child {
+    margin-right: 0;
+}
 /*nav*/
 .mobile-ul-opener{
-    display: none;
     background-color: #002a37;
     color: #ffffff;
     width: 50px;
@@ -78,14 +103,15 @@ ul{
     background-color: #b3b3b3;
     opacity: 40% !important;
 }
-
 body .row:nth-child(1){
     --bs-gutter-x: 0!important;
 }
-
 .navbar{
-    padding: 0 20px;
+    padding: 0 10px;
     background-color: #273238;
+}
+.navbar .logo img{
+    max-width: 80% !important;
 }
 .navbar .nav-item{
     justify-content: space-evenly;
@@ -119,7 +145,7 @@ body .row:nth-child(1){
     padding: 2px 5px;
     border-radius: 50%;
     position: absolute;
-    left: 170px;
+    left: 155px;
 }
 .log .login{
     padding: 2px 4px;
@@ -187,7 +213,6 @@ body .row:nth-child(1){
 /*Wrapper*/
 .wrapper{
     background-color: #f3f3f3;
-
 }
 
 /*Search and Services*/
@@ -228,7 +253,7 @@ body .row:nth-child(1){
     margin: 5px;
     background-color: #ffffff;
     height: fit-content;
-    padding: 10px;
+    padding: 15px;
     border-radius: 100%;
 }
 
@@ -236,34 +261,43 @@ body .row:nth-child(1){
 .gallery-1{
     padding: 10px 0;
 }
+.gallery-1 .slider{
+    height: 200px;
+}
 .line{
     margin: 10px auto !important;
     box-shadow: 0 39px 38px 2px rgb(175 175 175) !important
 }
-.gallery-1 .row div:nth-child(1){
+.gallery-1 .item:nth-child(1){
     border-radius: 30px;
     background: url("images/3.jpeg") no-repeat center;
+    background-size: cover;
     height: 150px;
-    box-shadow: 7px 37px 50px -30px rgb(0 0 0);
+    box-shadow: 0 21px 27px 0 rgb(170 170 171);
 }
-.gallery-1 .row div:nth-child(2){
+.gallery-1 .item:nth-child(2){
     border-radius: 30px;
     background: url("images/5.jpeg") no-repeat center;
+    background-size: cover;
     height: 150px;
-    box-shadow: 7px 37px 50px -30px rgb(0 0 0);
+    box-shadow: 0 21px 27px 0 rgb(170 170 171);
 
 }
-.gallery-1 .row div:nth-child(3){
+.gallery-1 .item:nth-child(3){
     border-radius: 30px;
     background: url("images/3.jpeg") no-repeat center;
+    background-size: cover;
     height: 150px;
-    box-shadow: 7px 37px 50px -30px rgb(0 0 0);
+    box-shadow: 0 21px 27px 0 rgb(170 170 171);
 }
 
 /*Amazing Products*/
 .amazing{
-    padding: 10px 20px;
-    margin: 20px 0;
+    padding: 10px;
+    margin: 0;
+}
+.amazing .slider{
+    height: 350px;
 }
 .amazing .a-border{
     border-bottom: solid 1px #b3b3b3;
@@ -280,6 +314,7 @@ body .row:nth-child(1){
     padding: 0 !important;
 }
 .amazing .card{
+    height: max-content;
     box-shadow: #b3b3b3 1px 2px 20px;
     border-radius: 20px;
     z-index: 0;
@@ -289,12 +324,13 @@ body .row:nth-child(1){
 }
 .card-btn{
     z-index: 2;
-    background-color: #08cd00 !important;
+    background: rgb(37, 174, 1);
+    background: linear-gradient(180deg, rgb(37, 174, 1) 10%, rgb(92, 216, 18) 90%);
     position: relative;
     bottom: -12px;
     color: #ffffff;
     font-weight: bold;
-    padding: 6px 8px;
+    padding: 6px 9px;
     border-radius: 100%;
     transition: ease all 0.2s;
 }
@@ -415,14 +451,18 @@ body .row:nth-child(1){
 
 /*Brands*/
 .brands{
-    padding: 50px 20px;
-    margin: 20px 0;
+    padding: 20px 10px 0 10px;
+    margin: 20px 0 0 0;
+}
+.brands .slider{
+    height: 200px;
 }
 .brands .col-3{
     margin: 5px;
 }
 .brands .circle{
     height: auto;
+    max-width: 75%;
 }
 .brands .row>*{
     padding: 0 !important;
@@ -440,7 +480,7 @@ body .row:nth-child(1){
 
 /*Banner 1*/
 .banner{
-    padding: 20px 20px;
+    padding: 20px 10px;
     color: white;
     border-radius: 20px;
     position: relative;
@@ -451,17 +491,19 @@ body .row:nth-child(1){
 }
 .banner-overlay{
     font-size: 0.65rem;
-    width: 33%;
     position: absolute;
-    right: 67%;
+    right: 66%;
     bottom: 16%;
     padding: 7px;
 }
 
 /*Accessory*/
 .accessory{
-    padding: 0 20px;
+    padding: 0 10px;
     margin: 0;
+}
+.accessory .slider{
+    height: 220px;
 }
 .accessory .a-border{
     border-bottom: solid 1px #b3b3b3;
@@ -478,28 +520,32 @@ body .row:nth-child(1){
     margin: 5px auto;
 }
 .accessory .img-1{
-    background: url("images/banner1.png") no-repeat center;
+    background-size: contain !important;
+    background: url("images/2.jpeg") repeat center;
     border-radius: 15px;
     position: relative;
     height: 200px;
     overflow: hidden;
 }
 .accessory .img-2{
-    background: url("images/4.jpeg") no-repeat center;
+    background-size: contain !important;
+    background: url("images/2.jpeg") repeat center;
     border-radius: 15px;
     position: relative;
     height: 200px;
     overflow: hidden;
 }
 .accessory .img-3{
-    background: url("images/3.jpeg") no-repeat center;
+    background-size: contain !important;
+    background: url("images/2.jpeg") repeat center;
     border-radius: 15px;
     position: relative;
     height: 200px;
     overflow: hidden;
 }
 .accessory .img-4{
-    background: url("images/banner1.png") no-repeat center;
+    background-size: contain !important;
+    background: url("images/2.jpeg") repeat center;
     border-radius: 15px;
     position: relative;
     height: 200px;
@@ -528,8 +574,11 @@ body .row:nth-child(1){
 
 /*Masrafi*/
 .masrafi{
-    padding: 0 20px;
+    padding: 0 10px;
     margin: 0;
+}
+.masrafi .slider{
+    height: 220px;
 }
 .masrafi .a-border{
     border-bottom: solid 1px #b3b3b3;
@@ -546,28 +595,32 @@ body .row:nth-child(1){
     margin: 5px auto;
 }
 .masrafi .img-1{
-    background: url("images/banner1.png") no-repeat center;
+    background-size: contain !important;
+    background: url("images/2.jpeg") repeat center;
     border-radius: 15px;
     position: relative;
     height: 200px;
     overflow: hidden;
 }
 .masrafi .img-2{
-    background: url("images/4.jpeg") no-repeat center;
+    background-size: contain !important;
+    background: url("images/2.jpeg") repeat center;
     border-radius: 15px;
     position: relative;
     height: 200px;
     overflow: hidden;
 }
 .masrafi .img-3{
-    background: url("images/3.jpeg") no-repeat center;
+    background-size: contain !important;
+    background: url("images/2.jpeg") repeat center;
     border-radius: 15px;
     position: relative;
     height: 200px;
     overflow: hidden;
 }
 .masrafi .img-4{
-    background: url("images/banner1.png") no-repeat center;
+    background-size: contain !important;
+    background: url("images/2.jpeg") repeat center;
     border-radius: 15px;
     position: relative;
     height: 200px;
@@ -609,8 +662,11 @@ body .row:nth-child(1){
 
 /*Car Accessory*/
 .car-accessory{
-    padding: 50px 20px;
+    padding: 50px 10px;
     margin: 0;
+}
+.car-accessory .slider{
+    height: 220px;
 }
 .car-accessory .a-border{
     border-bottom: solid 1px #b3b3b3;
@@ -627,29 +683,29 @@ body .row:nth-child(1){
     margin: 5px auto;
 }
 .car-accessory .img-1{
-    background: url("images/banner1.png") no-repeat center;
-    border-radius: 15px;
+    background-size: contain !important;
+    background: url("images/2.jpeg") repeat center;    border-radius: 15px;
     position: relative;
     height: 200px;
     overflow: hidden;
 }
 .car-accessory .img-2{
-    background: url("images/4.jpeg") no-repeat center;
-    border-radius: 15px;
+    background-size: contain !important;
+    background: url("images/2.jpeg") repeat center;    border-radius: 15px;
     position: relative;
     height: 200px;
     overflow: hidden;
 }
 .car-accessory .img-3{
-    background: url("images/3.jpeg") no-repeat center;
-    border-radius: 15px;
+    background-size: contain !important;
+    background: url("images/2.jpeg") repeat center;    border-radius: 15px;
     position: relative;
     height: 200px;
     overflow: hidden;
 }
 .car-accessory .img-4{
-    background: url("images/banner1.png") no-repeat center;
-    border-radius: 15px;
+    background-size: contain !important;
+    background: url("images/2.jpeg") repeat center;    border-radius: 15px;
     position: relative;
     height: 200px;
     overflow: hidden;
@@ -672,9 +728,13 @@ body .row:nth-child(1){
 
 /*Blog*/
 .blog{
-    padding: 10px 20px;
+    padding: 0 10px 30px 10px;
+}
+.blog .slider{
+    height: 300px;
 }
 .blog .card{
+    height: max-content;
     margin: 10px auto;
     border-radius: 25px;
     box-shadow: #dbdbdb 0 3px 6px;
@@ -686,21 +746,21 @@ body .row:nth-child(1){
 }
 /*Footer*/
 .contact{
-    padding: 20px;
+    padding: 10px;
     background: #18202F;
 }
 .social a {
     text-align: center;
     border: solid 1px white;
     border-radius: 100%;
-    width: 43px;
+    width: 34px;
     height: fit-content;
-    padding: 8px;
+    padding: 4px;
     margin: 2px;
 }
 .social i{
     color: white;
-    font-size: 20px;
+    font-size: 16px;
 }
 .call{
     text-align: left;
@@ -720,7 +780,8 @@ body .row:nth-child(1){
 .call i{
     text-align: right;
     color: #73D042;
-    font-size: 24px;
+    font-size: 30px;
+    padding-right: 0 !important;
 }
 footer .wrapper{
     padding: 0 20px;
@@ -732,29 +793,26 @@ footer .wrapper a{
     color: white;
 }
 footer .logo{
-    width: 200px;
+    width: 150px;
 }
 footer input{
     position: relative;
     z-index: 1;
     border-radius: 0 25px 25px 0!important;
+    padding-left: 50px !important;
 }
 footer .about{
     text-align: justify;
-}
-footer input,
-input::placeholder {
-    font-size: 20px;
 }
 footer .btn{
     position: absolute !important;
     background-color: #64DD16;
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bold;
     border-radius: 25px !important;
-    padding: 7px 25px;
-    left: -8%;
+    padding: 9px 25px;
+    left: -16%;
     z-index: 4 !important;
 }
 .accordion-button{
@@ -803,10 +861,13 @@ footer .btn{
         font-size: 15px;
     }
     .banner-overlay{
-        right: 65%;
+        right: 66%;
     }
     .f-info p{
         font-size: 14px;
+    }
+    footer .form-control{
+        font-size: 0.8rem !important;
     }
     footer .btn{
         padding: 7px 15px;
@@ -817,6 +878,21 @@ footer .btn{
     }
 }
 @media screen and (max-width: 398px){
+    .navbar {
+        padding: 0 3px;
+    }
+    .log .btn {
+        background-color: #08cd00;
+        padding: 2px 15px;
+        border-radius: 30px;
+        font-size: 14px;
+    }
+    .log .cart span {
+        left: 126px;
+    }
+    .services {
+        padding: 10px;
+    }
     .services button {
         padding: 7px 17px;
         font-size: 12px;
@@ -831,6 +907,19 @@ footer .btn{
     .card-overlay-links .btn{
         font-size: 15px;
     }
+    .special {
+        padding: 40px 10px;
+        margin: 0;
+    }
+    .special .card h5 {
+        font-size: 15px;
+    }
+    .brands .img {
+        padding: 10px;
+    }
+    .brands .slider {
+        height: 150px;
+    }
     .icon {
         padding: 5px;
     }
@@ -838,15 +927,15 @@ footer .btn{
         padding: 20px 10px;
     }
     .banner-overlay {
-        bottom: 7% !important;
+        bottom: 9% !important;
     }
     .call .col-lg-4 {
         width: 76%;
         right: 66%;
     }
     .social a {
-        width: 35px;
-        padding: 5px;
+        width: 33px;
+        padding: 3px;
     }
 }
 @media screen and (max-width: 360px) {
@@ -869,7 +958,7 @@ footer .btn{
         font-size: 22px;
     }
     .log .cart span {
-        left: 130px;
+        left: 123px;
     }
     .cont {
         height: 200px;
@@ -900,11 +989,17 @@ footer .btn{
         width: 57%;
     }
     .special {
-        padding: 40px 0;
+        padding: 40px 10px;
     }
     .special .card h5 {
         font-size: 13px;
         padding-bottom: 0 !important;
+    }
+    .brands {
+        padding: 0 10px;
+    }
+    .brands .col-3 {
+        margin: 7px;
     }
     .banner-overlay {
         bottom: 13% !important;
@@ -929,7 +1024,7 @@ footer .btn{
         padding: 17px 0;
     }
     .contact {
-        padding: 20px 2px;
+        padding: 20px 11px;
     }
     .call div {
         font-size: 12px;
@@ -943,17 +1038,21 @@ footer .btn{
         padding: 0;
     }
     footer .btn {
-        padding: 6px 19px;
-        font-size: 11px;
+        padding: 5px 16px;
+        font-size: 10px;
+        left: -5%;
     }
     .discount .form-control{
         padding: 0.15rem 0.75rem;
+    }
+    .f-info p {
+        font-size: 10px;
     }
     footer .logo {
         width: 140px;
     }
 }
-@media screen and (max-width: 300px){
+@media screen and (max-width: 310px){
     .freeShip p {
         font-size: 0.85rem;
     }
@@ -973,7 +1072,7 @@ footer .btn{
         font-size: 20px;
     }
     .log .cart span {
-        left: 109px;
+        left: 105px;
     }
     .services .h5, h5 {
         font-size: 0.95rem;
@@ -1028,6 +1127,15 @@ footer .btn{
     .banner3 .shadow{
         top: 66%;
     }
+    .blog .card-img-top {
+        height: auto;
+    }
+    .blog .card-text{
+        font-size: 12px;
+    }
+    .blog {
+        padding: 0;
+    }
     .discount{
         width: 90% !important;
     }
@@ -1045,20 +1153,23 @@ footer .btn{
         width: 60% !important;
     }
     .social a {
-        width: 24px;
+        width: 22px;
         padding: 0;
     }
     .social i {
-        font-size: 12px;
-        padding: 5px 0;
+        font-size: 14px;
+        padding: 0 0;
+    }
+    .discount .form-control {
+        padding: 0.17rem 0.75rem;
     }
     .call div {
         font-size: 10px;
         padding: 0 !important;
     }
-    footer .btn{
-        padding: 5px 18px;
-        font-size: 12px;
+    footer .btn {
+        padding: 5px 14px;
+        font-size: 10px;
     }
     .enamad .col-2 {
         width: 24.666667%;
