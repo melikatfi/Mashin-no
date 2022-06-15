@@ -11,7 +11,7 @@ ul{
     font-weight: bold;!important;
 }
 .freeShip{
-    background-color: #FEEB30 ;
+    background-color: #E03435 ;
     font-size: 16px;
 }
 .freeShip p{
@@ -107,16 +107,20 @@ body .row:nth-child(1){
     --bs-gutter-x: 0!important;
 }
 .navbar{
+    justify-content: space-between !important;
     padding: 0 10px;
-    background-color: #273238;
+    background-color: #ffffff;
 }
 .navbar .logo img{
-    max-width: 80% !important;
+    max-width: 150px !important;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
-.navbar .nav-item{
-    justify-content: space-evenly;
+.nav-item a:nth-child(2){
+    text-decoration: none;
+    color: #000;
 }
-.nav-item a{
+.nav-item a:last-child{
     text-decoration: none;
     color: #f3f3f3;
 }
@@ -138,14 +142,16 @@ body .row:nth-child(1){
     position: relative;
     padding-top: 2px;
 }
-.log .cart span{
-    width: 15px;
-    background-color: #fff;
+.log .cart span {
+    width: 14px;
+    background-color: #000;
+    color: #ffffff;
     font-size: 8px;
-    padding: 2px 5px;
+    padding: 2px 0;
     border-radius: 50%;
     position: absolute;
-    left: 160px;
+    left: 167px;
+    text-align: center;
 }
 .log .login{
     padding: 2px 4px;
@@ -163,7 +169,7 @@ body .row:nth-child(1){
     position: relative;
     max-width: 62.5rem;
     line-height: 0;
-    height: 250px;
+    height: 400px;
 }
 .slideDiv,
 .controls {
@@ -212,7 +218,7 @@ body .row:nth-child(1){
 
 /*Wrapper*/
 .wrapper{
-    background-color: #f3f3f3;
+    /*background-color: #F5F5F5;*/
 }
 
 /*Search and Services*/
@@ -297,7 +303,7 @@ body .row:nth-child(1){
     margin: 0;
 }
 .amazing .slider{
-    height: 350px;
+    height: 400px;
 }
 .amazing .a-border{
     border-bottom: solid 1px #b3b3b3;
@@ -382,7 +388,7 @@ body .row:nth-child(1){
 
 /*Special Products*/
 .special{
-    padding: 40px 20px;
+    padding: 40px 60px;
     margin: 20px 0;
 }
 .special .box{
@@ -459,7 +465,7 @@ body .row:nth-child(1){
 }
 .brands .circle{
     height: auto;
-    max-width: 75%;
+    max-width: 60%;
     margin: auto;
 }
 .brands .row>*{
@@ -488,10 +494,10 @@ body .row:nth-child(1){
     border-radius: 20px;
 }
 .banner-overlay{
-    font-size: 0.65rem;
+    font-size: 16px;
     position: absolute;
     right: 66%;
-    bottom: 16%;
+    bottom: 18%;
     padding: 7px;
 }
 
@@ -567,7 +573,7 @@ body .row:nth-child(1){
 
 /*Banner no2*/
 .banner2{
-    padding: 20px 10px;
+    padding: 20px 50px;
 }
 .banner2 , .banner2 img{
     border-radius: 30px;
@@ -645,7 +651,7 @@ body .row:nth-child(1){
 
 /*banner no3*/
 .banner3{
-    padding: 20px 10px;
+    padding: 20px 50px;
     position: relative;
     z-index: 1;
 }
@@ -814,7 +820,7 @@ footer .btn{
     font-weight: bold;
     border-radius: 25px !important;
     padding: 9px 25px;
-    left: -16%;
+    left: -5%;
     z-index: 4 !important;
 }
 .accordion-button{
@@ -843,7 +849,47 @@ footer .btn{
     border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 580px){
+    .icon {
+        margin: 10px;
+    }
+    .banner-overlay {
+        font-size: 15px;
+        right: 66%;
+    }
+}
+@media screen and (max-width: 500px){
+    .cont {
+        height: 250px;
+    }
+    .special {
+        padding: 0 20px;
+    }
+    .brands .circle {
+        max-width: 75%;
+    }
+    .banner-overlay{
+        font-size: 0.75rem;
+        bottom: 16%;
+    }
+
+}
+@media screen and (max-width: 465px){
+    .log .btn{
+        font-size: 14px;
+        padding: 4px 18px;
+    }
+    .cart i{
+        font-size: 24px;
+    }
+    .log .cart span{
+        left: 135px;
+    }
+    .navbar .logo img {
+        padding-right: 15px;
+    }
+}
+@media screen and (max-width: 450px){
     .services input::placeholder {
         font-size: 14px;
     }
@@ -853,8 +899,14 @@ footer .btn{
     .services input {
         padding: 14px;
     }
+    .services h6{
+        font-size: 0.85rem;
+    }
+    .brands .slider {
+        height: 130px;
+    }
     .brands{
-        padding: 0 20px;
+        padding: 10px 20px;
     }
     .special .card h5{
         font-size: 17px;
@@ -863,7 +915,19 @@ footer .btn{
         font-size: 15px;
     }
     .banner-overlay{
+        bottom: 6%;
         right: 66%;
+    }
+    .banner2 {
+        padding: 20px;
+    }
+    .banner3 {
+        padding: 20px;
+        position: relative;
+        z-index: 1;
+    }
+    .banner3 .shadow {
+        top: 74%;
     }
     .f-info p{
         font-size: 14px;
@@ -882,7 +946,7 @@ footer .btn{
         width: 20.666667%;
     }
 }
-@media screen and (max-width: 398px){
+@media screen and (max-width: 416px){
     .navbar {
         padding: 0 3px;
     }
@@ -893,7 +957,7 @@ footer .btn{
         font-size: 14px;
     }
     .log .cart span {
-        left: 130px;
+        left: 122px;
     }
     .services {
         padding: 10px;
@@ -919,6 +983,9 @@ footer .btn{
     .special .card h5 {
         font-size: 15px;
     }
+    .amazing .slider {
+        height: 300px;
+    }
     .brands .img {
         padding: 10px;
     }
@@ -938,7 +1005,7 @@ footer .btn{
         font-size: 12px;
     }
     .banner-overlay {
-        bottom: 9% !important;
+        bottom: 4% !important;
     }
     .call .col-lg-4 {
         width: 76%;
@@ -948,10 +1015,19 @@ footer .btn{
         width: 33px;
         padding: 3px;
     }
+    footer .logo {
+        width: 130px;
+    }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 385px) {
     .freeShip p{
         font-size: 0.95rem;
+    }
+    .navbar .logo img {
+        max-width: 120px !important;
+    }
+    .cart i {
+        font-size: 22px;
     }
     .navbar {
         padding: 0 4px;
@@ -960,16 +1036,14 @@ footer .btn{
         font-size: 10px;
     }
     .log .btn {
-        background-color: #08cd00;
-        padding: 5px 14px;
-        border-radius: 30px;
-        font-size: 14px;
+        padding: 3px 14px;
+        font-size: 12px;
     }
     .cart a{
         font-size: 22px;
     }
     .log .cart span {
-        left: 127px;
+        left: 115px;
     }
     .cont {
         height: 200px;
@@ -1056,13 +1130,18 @@ footer .btn{
     .f-info p {
         font-size: 10px;
     }
-    footer .logo {
-        width: 140px;
-    }
+
 }
-@media screen and (max-width: 310px){
+@media screen and (max-width: 360px){
     .freeShip p {
         font-size: 0.85rem;
+    }
+    .cart i {
+        font-size: 21px;
+    }
+    .log .cart span {
+        left: 102px;
+        top: 11px;
     }
     .log .btn {
         padding: 8px 12px;
@@ -1078,9 +1157,6 @@ footer .btn{
     }
     .cart a{
         font-size: 20px;
-    }
-    .log .cart span {
-        left: 110px;
     }
     .services .h5, h5 {
         font-size: 0.95rem;
@@ -1104,6 +1180,12 @@ footer .btn{
     .gallery-1 .col-8{
         height: 100px;
     }
+    .amazing .card-title{
+        font-size: 0.85rem;
+    }
+    .amazing .card-text h6{
+        font-size: 0.75rem;
+    }
     .amazing .a-border, .accessory .a-border,.masrafi .a-border,.car-accessory .a-border{
         margin: 0 10px;
     }
@@ -1120,7 +1202,7 @@ footer .btn{
         padding: 20px 5px;
     }
     .banner-overlay {
-        bottom: 4% !important;
+        bottom: 14% !important;
     }
     .banner-overlay h3{
         margin-bottom: 3px !important;
@@ -1178,5 +1260,17 @@ footer .btn{
     }
     .enamad .col-2 {
         width: 24.666667%;
+    }
+}
+@media screen and (max-width: 321px){
+    .log .btn {
+        padding: 3px 7px
+    }
+    .log .cart span {
+        left: 98px;
+    }
+    .icon {
+        padding: 7px;
+        margin: 3px;
     }
 }

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "IranYekanReg";
+    src: url("IRANYekanRegularFaNum.ttf");
+}
+@font-face {
+    font-family: "IranYekanLi";
+    src: url("IRANYekanLightFaNum.ttf");
+}
+@font-face {
+    font-family: "IranYekanBold";
+    src: url("IRANYekanBoldFaNum.ttf");
+}
+body{
+    font-family: IranYekanReg !important;
+}

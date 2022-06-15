@@ -6,13 +6,44 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="stylesheet" href="assets/Style.css">
     <link rel="stylesheet" href="assets/responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <script src="https://kit.fontawesome.com/4ed60bd0ea.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body dir="rtl">
+    <div class="mobile-ul-opener">
+    <i class="fa fa-list"></i>
+</div>
+    <div class="mobile-ul">
+    <div class="mobile-li">
+        <a>
+            <i class="fa fa-user"></i>
+        </a>
+    </div>
+    <div class="mobile-li">
+        <a>
+            <i class="fa fa-user"></i>
+        </a>
+    </div>
+    <div class="mobile-li">
+        <a>
+            <i class="fa fa-user"></i>
+        </a>
+    </div>
+    <div class="mobile-li">
+        <a>
+            <i class="fa fa-user"></i>
+        </a>
+    </div>
+    <div class="mobile-li">
+        <a>
+            <i class="fa fa-user"></i>
+        </a>
+    </div>
+</div>
     <div class="text-center p-2 freeShip">
         <p>
-            <a href="mobile-index.html">
+            <a href="mobile-index.html" class="text-dark">
                 ارسال رایگان سفارشات بالای ۳۰۰ هزار تومان تهران
             </a>
         </p>
@@ -20,9 +51,8 @@
     <!--NavBar-->
     <nav class="navbar">
         <div class="nav-item row align-items-baseline">
-            <div class="text-light bars col-7"><i class="fa fa-bars"></i></div>
             <div class="logo col-4">
-                <img loading="lazy" src="assets/images/logo.png" alt="logo" class="img-fluid"/>
+                <img src="assets/images/logo.png" alt="logo" class="img-fluid"/>
             </div>
             <div class="menu col-8">
                 <a href="#" class="px-3">دسته بندی‌ها</a>
@@ -45,8 +75,8 @@
         </div>
     </nav>
     <!--Slider and Main Menu-->
-    <section class="container MainSlider row mx-lg-auto my-lg-2 justify-content-center">
-        <div class="mainMenu col-lg-2 ml-2 row">
+    <section class="MainSlider row mx-lg-auto my-lg-2">
+        <div class="mainMenu col-lg-2 col-md-2 ml-2 row">
             <ul>
                 <li>
                     <a href="#">
@@ -157,12 +187,12 @@
                 </li>
             </ul>
         </div>
-        <div class="cont slider col-lg-9 col-md-12">
+        <div class="cont slider col-lg-9 col-md-10">
             <div class="slideDiv">
-                <img loading="lazy" src="assets/images/1.jpeg" alt="1" class="slide active">
-                <img loading="lazy" src="assets/images/2.jpeg" alt="2" class="slide">
-                <img loading="lazy" src="assets/images/3.jpeg" alt="3" class="slide">
-                <img loading="lazy" src="assets/images/4.jpeg" alt="4" class="slide">
+                <img src="assets/images/1.jpeg" alt="1" class="slide active">
+                <img src="assets/images/2.jpeg" alt="2" class="slide">
+                <img src="assets/images/3.jpeg" alt="3" class="slide">
+                <img src="assets/images/4.jpeg" alt="4" class="slide">
             </div>
 
             <nav class="controls">
@@ -184,42 +214,43 @@
                 <input type="text" class="form-control" placeholder="محصولات مورد نیاز خود را جست و جو نمایید">
             </form>
             <div class="container text-center service-icons">
-                <h5>خدمات و پشتیبانی ماشین‌نو</h5>
+                <h4>خدمات و پشتیبانی ماشین‌نو</h4>
                 <div class="row pt-2">
                     <div class="col-3">
                         <div class="icon">
-                            <img loading="lazy" class="img-fluid" src="assets/images/mercedes.png" alt="mercedes">
+                            <img loading="lazy" class="img-fluid" src="assets/images/s1.png" alt="mercedes">
                         </div>
                         <h6>ضمانت بهترین قیمت کالا</h6>
                     </div>
                     <div class="col-3">
                         <div class="icon">
-                            <img loading="lazy" class="img-fluid" src="assets/images/mercedes.png" alt="mercedes">
+                            <img loading="lazy" class="img-fluid" src="assets/images/s2.png" alt="mercedes">
                         </div>
                         <h6>گارانتی ۷ روز بازگشت</h6>
                     </div>
                     <div class="col-3">
                         <div class="icon">
-                            <img loading="lazy" class="img-fluid" src="assets/images/mercedes.png" alt="mercedes">
+                            <img loading="lazy" class="img-fluid" src="assets/images/s3.png" alt="mercedes">
                         </div>
                         <h6>ارسال در همان روز</h6>
                     </div>
                     <div class="col-3">
                         <div class="icon">
-                            <img loading="lazy" class="img-fluid" src="assets/images/mercedes.png" alt="mercedes">
+                            <img loading="lazy" class="img-fluid" src="assets/images/s4.png" alt="mercedes">
                         </div>
                         <h6>ارسال به سراسر ایران</h6>
                     </div>
                 </div>
             </div>
-            <div class="col-12 line">&nbsp;</div>
         </section>
+        <br/><br/>
+        <hr class="line" />
         <!--Gallery Part1-->
         <section class="gallery-1 py-4 mt-5">
             <div class="row justify-content-evenly">
-                <div class="col-lg-3 col-md-10">&nbsp;</div>
-                <div class="col-lg-3 col-md-10">&nbsp;</div>
-                <div class="col-lg-3 col-md-10">&nbsp;</div>
+                <div class="col-lg-3 col-md-5 col-sm-5">&nbsp;</div>
+                <div class="col-lg-3 col-md-5 col-sm-5">&nbsp;</div>
+                <div class="col-lg-3 col-md-5 col-sm-5">&nbsp;</div>
             </div>
         </section>
         <!--Amazing Products-->
@@ -389,7 +420,7 @@
         <!--Special Products-->
         <section class="special">
             <div class="row justify-content-evenly">
-                <div class="card col-lg-5 col-md-12 box">
+                <div class="card col-lg-5 col-md-5 box">
                     <span class="badge">فروش ویژه</span>
                     <img loading="lazy" class="card-img-top col-6 img-fluid" src="assets/images/3.jpeg" alt="1">
                     <div class="card-body col-6">
@@ -399,9 +430,16 @@
                             <del>۲۱۳ هزارتومان</del>
                             <h5>۱۰۰ هزار تومان</h5>
                         </div>
+                        <div>
+                            <nav class="special-controls row">
+                                <button class="special-button selected" type="button"></button>
+                                <button class="special-button" type="button"></button>
+                                <button class="special-button" type="button"></button>
+                            </nav>
+                        </div>
                     </div>
                 </div>
-                <div class="card col-lg-5 col-md-12 box">
+                <div class="card col-lg-5 col-md-5 box">
                     <span class="badge">فروش ویژه</span>
                     <img loading="lazy" class="card-img-top col-6 img-fluid" src="assets/images/3.jpeg" alt="1">
                     <div class="card-body col-6">
@@ -410,6 +448,13 @@
                             <p>اطلاعات دیگر</p>
                             <del>۲۱۳ هزارتومان</del>
                             <h5>۱۰۰ هزار تومان</h5>
+                        </div>
+                        <div>
+                            <nav class="special-controls row">
+                                <button class="special-button selected" type="button"></button>
+                                <button class="special-button" type="button"></button>
+                                <button class="special-button" type="button"></button>
+                            </nav>
                         </div>
                     </div>
                 </div>
@@ -524,12 +569,12 @@
                         <hr/>
                     </div>
                     <div class="row accessory-images px-2">
-                        <div class="col-lg-4 col-md-7 img-1">
+                        <div class="col-lg-4 col-md-4 col-sm-4 img-1">
                             <div class="overlay-box">
                                 <a href="#" class="text">خرید لوازم جانبی ماشین</a>
                             </div>
                         </div>
-                        <div class="col-lg-5 col-md-7">
+                        <div class="col-lg-5 col-md-5 col-sm-5">
                             <div class="img-2">
                                 <div class="overlay-box">
                                     <a href="#" class="text">خرید لوازم جانبی ماشین</a>
@@ -541,7 +586,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-7 img-4">
+                        <div class="col-lg-3 col-md-3 col-sm-3 img-4">
                             <div class="overlay-box">
                                 <a href="#" class="text">خرید لوازم جانبی ماشین</a>
                             </div>
@@ -588,17 +633,17 @@
                     <div class="a-border mt-5 mb-3">
                         <h3>
                             <i class="fa fa-user px-2"></i>
-                            لوازم جوانبی
+                            لوازم مصرفی
                         </h3>
                         <hr/>
                     </div>
                     <div class="row masrafi-images px-2">
-                        <div class="col-lg-4 col-md-7 img-1">
+                        <div class="col-lg-4 col-md-4 col-sm-4 img-1">
                             <div class="overlay-box">
                                 <a href="#" class="text">خرید لوازم جانبی ماشین</a>
                             </div>
                         </div>
-                        <div class="col-lg-5 col-md-7">
+                        <div class="col-lg-5 col-md-5 col-sm-5">
                             <div class="img-2">
                                 <div class="overlay-box">
                                     <a href="#" class="text">خرید لوازم جانبی ماشین</a>
@@ -610,7 +655,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-7 img-4">
+                        <div class="col-lg-3 col-md-3 col-sm-3 img-4">
                             <div class="overlay-box">
                                 <a href="#" class="text">خرید لوازم جانبی ماشین</a>
                             </div>
@@ -622,8 +667,8 @@
         <!--banner no3-->
         <section class="banner3">
             <div class="row justify-content-between">
-                <img loading="lazy" src="assets/images/4.jpeg" alt="4" class="img-fluid col-lg-5 col-md-10"/>
-                <img loading="lazy" src="assets/images/2.jpeg" alt="2" class="img-fluid col-lg-6 col-md-10" />
+                <img loading="lazy" src="assets/images/banner3-2.png" alt="4" class="img-fluid col-lg-5 col-md-5 col-sm-6"/>
+                <img loading="lazy" src="assets/images/banner3.png" alt="2" class="img-fluid col-lg-6 col-md-6 col-sm-6" />
             </div>
         </section>
         <!--Car Accessory-->
@@ -660,17 +705,17 @@
                     <div class="a-border mt-lg-5 mb-3">
                         <h3>
                             <i class="fa fa-user px-2"></i>
-                            لوازم جوانبی
+                            اکسسوری خودرو
                         </h3>
                         <hr/>
                     </div>
                     <div class="row accessory-images px-2">
-                        <div class="col-lg-4 col-md-7 img-1">
+                        <div class="col-lg-4 col-md-4 col-sm-4 img-1">
                             <div class="overlay-box">
                                 <a href="#" class="text">خرید لوازم جانبی ماشین</a>
                             </div>
                         </div>
-                        <div class="col-lg-5 col-md-7">
+                        <div class="col-lg-5 col-md-5 col-sm-5">
                             <div class="img-2">
                                 <div class="overlay-box">
                                     <a href="#" class="text">خرید لوازم جانبی ماشین</a>
@@ -682,7 +727,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-7 img-4">
+                        <div class="col-lg-3 col-md-3 col-sm-3 img-4">
                             <div class="overlay-box">
                                 <a href="#" class="text">خرید لوازم جانبی ماشین</a>
                             </div>
@@ -729,36 +774,34 @@
             <div class="row">
                 <div class="col-6 row social">
                     <a class="col-2" href="#">
-                        <i class="fa fa-user"></i>
+                        <i class="fa fa-facebook"></i>
                     </a>
                     <a class="col-2" href="#">
-                        <i class="fa fa-user"></i>
+                        <i class="fa fa-instagram"></i>
                     </a>
                     <a class="col-2" href="#">
-                        <i class="fa fa-user"></i>
+                        <i class="fa fa-twitter"></i>
                     </a>
                     <a class="col-2" href="#">
-                        <i class="fa fa-user"></i>
+                        <i class="fa fa-linkedin"></i>
                     </a>
                 </div>
                 <div class="col-6 row call pt-lg-3">
                     <div class="col-lg-4 col-md-6">
-                        <span>پشتیبانی ۷/۲۴</span>
-                        <br/>
                         <a href="tel:02133990835">۰۲۱ ۳۳۹۹۰۸۳۵</a>
                     </div>
-                    <i class="fa fa-phone col-1"></i>
+                    <i class="fa fa-headphones col-1"></i>
                 </div>
             </div>
         </div>
         <div class="wrapper">
             <img loading="lazy" src="assets/images/logo.png" alt="logo" class="logo img-fluid pt-3 pb-2">
             <div class="row f-info">
-                <div class="col-lg-4 col-md-10 about">
+                <div class="col-lg-4 col-md-4 col-sm-6 about">
                     <img loading="lazy" src="assets/images/logo.png" alt="logo" class="logo img-fluid pt-3 pb-2 col-2">
                     <p class="text-justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت</p>
                 </div>
-                <div class="col-lg-2 col-md-10 text-center address">
+                <div class="col-lg-2 col-md-2 col-sm-6 text-center address">
                     <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم  صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
                     <div class="my-2">
                         <a href="tel:02154536600">021-54536600</a>
@@ -767,7 +810,7 @@
                     </div>
                     <a href="mailto:info@mashinno.com">info@mashinno.com</a>
                 </div>
-                <div class="col-lg-2 col-md-10 minimenu">
+                <div class="col-lg-2 col-md-2 col-sm-6 minimenu">
                     <ul class="pr-2">
                         <li>
                             <a href="#">آموزش خرید از سایت</a>
@@ -798,7 +841,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-10 discount">
+                <div class="col-lg-3 col-md-3 col-sm-6 discount">
                     <p>برای دریافت کد تخفیف شماره موبایل خود را وارد نمایید</p>
                     <form class="input-group mt-5 mr-2 col-6">
                         <input type="text" class="form-control" placeholder="********09">
@@ -819,7 +862,7 @@
             </p>
             <hr />
             <div class="mt-5 row justify-content-between links">
-                <div class="col-lg-1 p-0">
+                <div class="col-lg-1 col-md-1 col-sm-1 p-0">
                     <ul>
                         <li class="font-weight-bold">سرلینک</li>
                         <li>
@@ -848,7 +891,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-1 p-0">
+                <div class="col-lg-1 col-md-1 col-sm-1 p-0">
                     <ul>
                         <li class="font-weight-bold">سرلینک</li>
                         <li>
@@ -877,7 +920,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-1 p-0">
+                <div class="col-lg-1 col-md-1 col-sm-1 p-0">
                     <ul>
                         <li class="font-weight-bold">سرلینک</li>
                         <li>
@@ -906,7 +949,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-1 p-0">
+                <div class="col-lg-1 col-md-1 col-sm-1 p-0">
                     <ul>
                         <li class="font-weight-bold">سرلینک</li>
                         <li>
@@ -935,7 +978,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-1 p-0">
+                <div class="col-lg-1 col-md-1 col-sm-1 p-0">
                     <ul>
                         <li class="font-weight-bold">سرلینک</li>
                         <li>
@@ -964,7 +1007,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-1 p-0">
+                <div class="col-lg-1 col-md-1 col-sm-1 p-0">
                     <ul>
                         <li class="font-weight-bold">سرلینک</li>
                         <li>
@@ -993,7 +1036,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-1 p-0">
+                <div class="col-lg-1 col-md-1 col-sm-1 p-0">
                     <ul>
                         <li class="font-weight-bold">سرلینک</li>
                         <li>
@@ -1022,7 +1065,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-1 p-0">
+                <div class="col-lg-1 col-md-1 col-sm-1 p-0">
                     <ul>
                         <li class="font-weight-bold">سرلینک</li>
                         <li>
@@ -1051,7 +1094,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-1 p-0">
+                <div class="col-lg-1 col-md-1 col-sm-1 p-0">
                     <ul>
                         <li class="font-weight-bold">سرلینک</li>
                         <li>
@@ -1082,10 +1125,10 @@
                 </div>
             </div>
             <div class="row enamad justify-content-end pt-4">
-                <a href="#" class="col-lg-2 col-md-2">
+                <a href="#" class="col-lg-2 col-md-2 col-sm-2">
                     <img loading="lazy" src="assets/images/sabt.png" alt="sabt" class="img-fluid">
                 </a>
-                <a href="#" class="col-lg-2 col-md-2">
+                <a href="#" class="col-lg-2 col-md-2 col-sm-2">
                     <img loading="lazy" src="assets/images/enamad-one-star.png" alt="enamad" class="img-fluid">
                 </a>
             </div>

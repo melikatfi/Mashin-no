@@ -1,6 +1,6 @@
 @media screen and (min-width: 2560px){
     .freeShip p{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .h3, h3 {
         font-size: 3.75rem !important;
@@ -261,254 +261,234 @@
     .mobile-ul-opener{
         display: block;
     }
-    .freeShip {
-        font-size: 24px;
+    .navbar {
+        padding: 0 60px;
     }
-    .log span {
-        top: 26%;
+    .log .cart span {
+        left: 201px;
     }
-    .bars i{
-        font-size: 2rem;
+    .MainSlider .col-md-2 {
+        flex: 0 0 auto;
+        width: 18.666667%;
     }
-    .logo p{
-        text-align: center;
+    .MainSlider .container{
+        width: 100%;
     }
-    .navbar .bars{
-        display: block;
-        top: 12px;
-        position: relative;
+    .MainSlider{
+        justify-content: left !important;
+        padding: 0 !important;
+        margin: 0 !important;
     }
-    .navbar .nav-item .bars{
-        width: 13%;
+    .cont{
+        padding: 0 !important;
+        margin: 0 !important;
     }
-    .menu, .mainMenu{
-        display: none !important;
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        width: 100% !important;
     }
-    .container, .container-md, .container-sm {
-        max-width: 100% !important;
+    .icon {
+        margin: 25px;
     }
-    .MainSlider {
-        --bs-gutter-x: 0 !important;
-        padding-right: 0 !important;
-        padding-left: 0 !important;
-    }
-    .services {
-        padding: 25px 50px;
-    }
-    .gallery-1 div:not(.gallery-1 div:nth-child(1)){
-        display: none;
-    }
-    .gallery-1 .col-md-10 {
-        height: 200px !important;
-        width: 70.333333% !important;
-    }
-    .amazing .col-lg-2 {
-        width: 27.666667% !important;
-    }
-    .amazing {
-        padding: 10px 50px;
+    .gallery-1 .row div:last-child{
+        margin: 20px;
     }
     .special {
-        padding: 40px 50px;
+        padding: 40px 20px;
     }
-    .special .card:nth-child(2){
-        display: none;
+    .special .badge{
+        right: 0;
+    }
+    .special-button {
+        height: 25px !important;
+        margin: 4px;
     }
     .brands {
-        padding: 45px 50px;
+        padding: 70px 90px;
+        margin: 0;
     }
-    .banner-overlay {
-        font-size: 1rem;
-        bottom: 30%;
-    }
-    .banner .btn{
-        top: 90%;
-        font-size: .85rem !important;
-        padding: 8px 20px;
-    }
-    .ul{
+    .accessory .ul,.masrafi .ul,.car-accessory .ul{
         display: none;
     }
-    .accessory .row, .masrafi .row, .car-accessory .row{
-        justify-content: center !important;
-    }
-    .img-1{
-        height: 200px;
-        border-radius: 30px !important;
-    }
-    .img-2, .img-3, .img-4{
-        display: none;
+    .accessory, .masrafi, .car-accessory {
+        padding: 0 50px 0 50px !important;
+        margin: 0;
     }
     .banner2 {
-        padding: 50px !important;
+        padding: 30px 50px !important;
     }
-    .masrafi .a-border {
-        margin: 5px 0 30px !important;
-    }
-    .masrafi, .accessory{
-        padding: 0 50px;
-    }
-    .car-accessory{
-        padding: 0 50px 40px 50px;
-    }
-    .overlay-box{
-        right: 32% !important;
-        top: 70% !important;
+    .banner3 img {
+        border-radius: 40px;
+        height: auto;
     }
     .banner3 {
-        padding: 5% 12% 5% 0 !important;
+        padding: 25px 50px !important;
     }
-    .banner3 .row{
-        display: block !important;
-        flex-wrap: nowrap;
+    .blog .col-lg-11 {
+        position: static;
+         top: 0;
+         left: 0;
     }
-    .banner3 .row img:nth-child(2){
-        display: none;
+    .blog .col-lg-1 {
+        text-align: end;
     }
     .blog {
         padding: 60px 50px 70px 50px;
     }
-    .blog .col-lg-1 {
-        font-size: 20px;
-        font-weight: bolder;
-        display: none;
+    .call a {
+        font-size: 18px;
     }
-    .blog .col-lg-11 {
-        left: 0 !important;
+    .call i {
+        font-size: 30px;
     }
-    .call .col-lg-4 {
-        width: 51.333333%;
+    footer .wrapper {
+        padding: 0 50px;
     }
-    footer .wrapper .logo , footer .minimenu , footer .address, footer .wrapper .f-about, footer .wrapper hr
-    , footer .wrapper .links{
-        display: none;
+    footer .btn {
+        padding: 8px 9px;
+        left: -10%;
     }
-    footer .btn{
-        padding: 7px 22px;
-        left: -4%;
-        top: 11%;
-    }
-    footer .wrapper .f-info{
-        flex-direction: column-reverse;
-    }
-    footer .discount {
-        padding-top: 16px;
-        font-size: 1.25rem;
-        width: 83% !important;
-        margin: auto;
-    }
-    footer .discount input{
-        margin-top: 5px !important;
-    }
-    footer .about{
-        width: 83%;
-        margin: 12px auto;
-    }
-    footer .about .logo{
-        display: block;
-    }
-    footer .enamad{
-        justify-content: center!important;
-    }
-    .accordion{
-        display: block;
-    }
-    .copyright{
-        display: none;
+    footer .btn {
+        font-size: 14px;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 915px){
     .navbar {
-        padding: 0 30px;
+        padding: 0 20px;
     }
     .log .cart span {
-        left: 170px;
+        left: 160px;
     }
-    .icon{
-        margin: 9px;
-    }
-    .banner-overlay {
-        font-size: 0.75rem;
-        bottom: 30%;
-    }
-    .banner-overlay h3{
-        font-size: 1rem;
-    }
-    .contact {
-        padding: 20px 50px;
-    }
-    .call .col-lg-4 {
-        width: 85%;
-    }
-    .bars i{
-        margin-bottom: 37px;
-    }
-}
-@media screen and (max-width: 599px){
-    .navbar .logo {
-        width: 89% !important;
-        margin-right: 10px;
-    }
-    .bars i {
-        font-size: 1.5rem;
-    }
-    .navbar .nav-item{
-        max-width: 45% !important;
-    }
-    .bars{
-        width: 10% !important;
-    }
-    .logo{
-        padding-top: 7px;
-        max-width: 55% !important;
-    }
-    .controls button{
-        width: 10px;
-        height: 14px;
-    }
-    .services input,
-    input::placeholder {
-        font-size: 16px;
-    }
-    .services button {
-        padding: 10px 35px;
-    }
-    .icon {
-        padding: 9px;
-    }
-    .banner3 {
-        padding: 5% 7% !important;
+    .mainMenu li a{
+        font-size: 14px;
     }
     .amazing .col-lg-2 {
-        width: 43% !important;
+        flex: 0 0 auto;
+        width: 25.666667% !important;
     }
-    .brands .col-lg-1 {
-        width: 20.333333%;
+    .brands {
+        padding: 20px 90px;
     }
     .banner-overlay {
-        font-size: 0.65rem;
+        right: 68%;
+        font-size: 1rem;
         bottom: 30%;
     }
-    .overlay-box {
-        right: 38% !important;
-        top: 70% !important;
+    .banner .btn {
+        font-size: 1rem;
     }
-    .blog .justify-content-between {
-        justify-content: center !important;
+
+}
+@media screen and (max-width: 836px){
+    .navbar {
+        padding: 0 10px;
     }
-    .blog .justify-content-between .card:not(.blog .justify-content-between .card:nth-child(1)){
-        display: none;
+    .navbar .logo {
+        width: 26.666667% !important;
     }
-    .contact {
-        padding: 20px 30px;
+    .log .cart span {
+        left: 150px;
+    }
+    .MainSlider .col-md-10 {
+        width: 80%;
+    }
+    .MainSlider .col-md-2 {
+        width: 22%;
+    }
+    .menu .px-3, .menu .px-5{
+        padding: 3px !important;
+    }
+    .services {
+        padding: 20px 65px;
+    }
+    .icon {
+        margin: 30px;
+    }
+    .amazing {
+        padding: 10px 60px;
+        margin: 0;
+    }
+    .special .col-md-5 {
+        width: 60%;
+        margin: 20px;
+    }
+    .brands {
+        padding: 0 60px 50px;
+    }
+    .img-2 .overlay-box, .img-3 .overlay-box {
+        right: 45% !important;
+    }
+    .img-4 .overlay-box {
+        left: 50% !important;
     }
     footer .wrapper {
         padding: 0 20px;
     }
     footer .btn {
-        left: -5%;
+        font-size: 13px;
+        padding: 8px 10px;
+        left: -15%;
     }
-    .enamad a {
-        width: 22%;
+    footer input,
+    input::placeholder {
+        font-size: 16px;
+    }
+    .contact {
+        padding: 20px 20px;
+    }
+}
+@media screen and (max-width: 767px){
+    .icon {
+        margin: 20px;
+    }
+    .banner-overlay {
+        right: 67%;
+        font-size: 0.95rem;
+        bottom: 28%;
+    }
+    .banner .btn {
+        font-size: 0.95rem;
+    }
+    .accessory, .masrafi, .car-accessory {
+        padding: 0 25px 0 25px !important;
+        margin: 0;
+    }
+    .social a {
+        width: 40px;
+        padding: 8px;
+    }
+    footer .col-lg-2 {
+        width: 50%;
+    }
+    footer input{
+        border-radius: 25px !important;
+    }
+    footer .discount .mt-5 {
+        margin-top: 1rem!important;
+    }
+    footer .btn {
+        font-size: 13px;
+        padding: 8px 15px;
+        left: 0;
+    }
+    .enamad{
+        width: 25%;
+        align-items: baseline;
+        margin: auto !important;
+    }
+}
+@media screen and (max-width: 754px){
+    .banner-overlay {
+        right: 67%;
+        font-size: 0.85rem;
+        bottom: 31%;
+    }
+    .banner .btn {
+        font-size: 0.85rem;
+    }
+    .img-2 .overlay-box, .img-3 .overlay-box {
+        right: 40% !important;
+    }
+    .img-4 .overlay-box {
+        left: 60% !important;
     }
 }
