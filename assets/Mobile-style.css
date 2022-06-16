@@ -12,7 +12,7 @@ ul{
 }
 .freeShip{
     background-color: #E03435 ;
-    font-size: 16px;
+    font-size: 15px;
 }
 .freeShip p{
     margin: 0!important;
@@ -147,19 +147,21 @@ body .row:nth-child(1){
     background-color: #000;
     color: #ffffff;
     font-size: 8px;
-    padding: 2px 0;
+    padding: 1px 0;
     border-radius: 50%;
     position: absolute;
-    left: 167px;
+    left: 156px;
     text-align: center;
 }
 .log .login{
     padding: 2px 4px;
+    font-size: 14px;
 }
 .log .btn{
     background-color: #08cd00;
-    padding: 5px 24px;
+    padding: 5px 22px;
     border-radius: 30px;
+    font-size: 14px;
 }
 
 /*main menu + slider*/
@@ -232,10 +234,10 @@ body .row:nth-child(1){
     width: 100% !important;
     position: absolute !important;
     z-index: 1;
-    padding: 1rem;
+    padding: 12px;
 }
 .services input::placeholder {
-    font-size: 16px;
+    font-size: 14px;
 }
 .services .input-group{
     flex-direction: row-reverse;
@@ -247,7 +249,7 @@ body .row:nth-child(1){
     background: linear-gradient(90deg, rgb(98, 220, 23) 10%, rgb(31, 170, 0) 90%);
     border-radius: 30px !important;
     padding: 9px 20px;
-    font-size: 18px;
+    font-size: 14px;
     z-index: 4 !important;
     left: 3%;
     top: 5px;
@@ -309,7 +311,7 @@ body .row:nth-child(1){
     border-bottom: solid 1px #b3b3b3;
 }
 .amazing .a-border hr{
-    width: 58%;
+    width: 50%;
     position: relative;
     border: solid 1px #4c4c4c;
     margin: 0;
@@ -336,7 +338,7 @@ body .row:nth-child(1){
     bottom: -12px;
     color: #ffffff;
     font-weight: bold;
-    padding: 6px 9px;
+    padding: 3px 10px;
     border-radius: 100%;
     transition: ease all 0.2s;
 }
@@ -467,6 +469,7 @@ body .row:nth-child(1){
     height: auto;
     max-width: 60%;
     margin: auto;
+    font-family: IranYekanLi;
 }
 .brands .row>*{
     padding: 0 !important;
@@ -500,7 +503,9 @@ body .row:nth-child(1){
     bottom: 18%;
     padding: 7px;
 }
-
+.banner-overlay h3{
+    font-family: IranYekanBold;
+}
 /*Accessory*/
 .accessory{
     padding: 0 10px;
@@ -513,7 +518,7 @@ body .row:nth-child(1){
     border-bottom: solid 1px #b3b3b3;
 }
 .accessory .a-border hr{
-    width: 45%;
+    width: 30%;
     position: relative;
     border: solid 1px #4c4c4c;
     margin: 0;
@@ -567,6 +572,7 @@ body .row:nth-child(1){
     margin: auto;
 }
 .accessory .overlay-box .text{
+    font-size: 14px;
     color: white;
     text-decoration: none;
 }
@@ -591,7 +597,7 @@ body .row:nth-child(1){
     border-bottom: solid 1px #b3b3b3;
 }
 .masrafi .a-border hr{
-    width: 36%;
+    width: 30%;
     position: relative;
     border: solid 1px #4c4c4c;
     margin: 0;
@@ -645,6 +651,7 @@ body .row:nth-child(1){
     margin: auto;
 }
 .masrafi .overlay-box .text{
+    font-size: 14px;
     color: white;
     text-decoration: none;
 }
@@ -680,7 +687,7 @@ body .row:nth-child(1){
     border-bottom: solid 1px #b3b3b3;
 }
 .car-accessory .a-border hr{
-    width: 36%;
+    width: 35%;
     position: relative;
     border: solid 1px #4c4c4c;
     margin: 0;
@@ -730,6 +737,7 @@ body .row:nth-child(1){
     margin: auto;
 }
 .car-accessory .overlay-box .text{
+    font-size: 14px;
     color: white;
     text-decoration: none;
 }
@@ -755,7 +763,7 @@ body .row:nth-child(1){
 /*Footer*/
 .contact{
     padding: 10px;
-    background: #18202F;
+    background: #131429;
 }
 .social a {
     text-align: center;
@@ -793,7 +801,7 @@ body .row:nth-child(1){
 }
 footer .wrapper{
     padding: 0 20px;
-    background: #1D2836;
+    background: #131429;
     color: white;
     font-size: 16px;
 }
@@ -824,7 +832,7 @@ footer .btn{
     z-index: 4 !important;
 }
 .accordion-button{
-    background-color: #1D2836 !important;
+    background-color: #131429 !important;
     text-align: center !important;
     color: #ffffff !important;
     font-size: 20px;
@@ -844,7 +852,7 @@ footer .btn{
     text-align: center;
 }
 .accordion-item{
-    background-color: #1D2836 !important;
+    background-color: #131429 !important;
     border: none !important;
     border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
@@ -854,8 +862,9 @@ footer .btn{
         margin: 10px;
     }
     .banner-overlay {
-        font-size: 15px;
+        font-size: 14px;
         right: 66%;
+        bottom: 8%;
     }
 }
 @media screen and (max-width: 500px){
@@ -872,9 +881,36 @@ footer .btn{
         font-size: 0.75rem;
         bottom: 16%;
     }
-
+    .banner-overlay h3{
+        font-size: 17px;
+    }
+    .card h6{
+        font-size: 14px;
+    }
+    .amazing .a-border hr {
+        width: 70%;
+    }
+    .accessory .a-border hr {
+        width: 35%;
+    }
+    .masrafi .a-border hr {
+        width: 35%;
+    }
+    .car-accessory .a-border hr {
+        width: 42%;
+    }
+    .discount p{
+        font-size: 13px;
+    }
+    .about p{
+        font-size: 14px;
+    }
+    footer .btn {
+        padding: 9px 12px;
+        left: -6%;
+    }
 }
-@media screen and (max-width: 465px){
+@media screen and (max-width: 478px){
     .log .btn{
         font-size: 14px;
         padding: 4px 18px;
@@ -883,24 +919,51 @@ footer .btn{
         font-size: 24px;
     }
     .log .cart span{
-        left: 135px;
+        left: 146px;
     }
     .navbar .logo img {
         padding-right: 15px;
     }
-}
-@media screen and (max-width: 450px){
-    .services input::placeholder {
+    .blog .slider {
+        height: 330px;
+    }
+    .call span{
+        font-size: 13px;
+    }
+    .call a{
         font-size: 14px;
     }
-    .services button{
-        font-size: 16px;
+}
+@media screen and (max-width: 455px){
+    .log .btn {
+        font-size: 12px;
+        padding: 4px 15px;
     }
-    .services input {
-        padding: 14px;
+    .log .login {
+        font-size: 13px;
+    }
+    .log .cart span {
+        left: 135px;
+    }
+    .services input::placeholder, .services input {
+        font-size: 11px;
+    }
+    .services button {
+        font-size: 12px;
+        padding: 8px 20px;
+        top: 4px;
+    }
+    .service-icons h5{
+        font-size: 16px;
     }
     .services h6{
         font-size: 0.85rem;
+    }
+    .icon {
+        margin: 7px;
+    }
+    .card-overlay-links .btn{
+        font-size: 12px;
     }
     .brands .slider {
         height: 130px;
@@ -908,8 +971,11 @@ footer .btn{
     .brands{
         padding: 10px 20px;
     }
+    .circle h6{
+        font-size: 14px;
+    }
     .special .card h5{
-        font-size: 17px;
+        font-size: 14px;
     }
     .banner-overlay h3{
         font-size: 15px;
@@ -946,24 +1012,25 @@ footer .btn{
         width: 20.666667%;
     }
 }
-@media screen and (max-width: 416px){
+@media screen and (max-width: 430px){
     .navbar {
         padding: 0 3px;
     }
     .log .btn {
-        background-color: #08cd00;
-        padding: 2px 15px;
-        border-radius: 30px;
-        font-size: 14px;
+        font-size: 11px;
+        padding: 4px 12px;
+    }
+    .cart i {
+        font-size: 22px;
     }
     .log .cart span {
-        left: 122px;
+        left: 115px;
     }
     .services {
         padding: 10px;
     }
     .services button {
-        padding: 7px 17px;
+        padding: 8px 17px;
         font-size: 12px;
     }
     .services input, input::placeholder {
@@ -973,8 +1040,8 @@ footer .btn{
     .service-icons h6{
         font-size: 12px;
     }
-    .card-overlay-links .btn{
-        font-size: 15px;
+    .card-overlay-links .btn {
+        font-size: 10px;
     }
     .special {
         padding: 40px 10px;
@@ -1005,7 +1072,11 @@ footer .btn{
         font-size: 12px;
     }
     .banner-overlay {
-        bottom: 4% !important;
+        font-size: 10px;
+        bottom: 10% !important;
+    }
+    .banner-overlay h3{
+        font-size: 13px;
     }
     .call .col-lg-4 {
         width: 76%;
@@ -1018,121 +1089,12 @@ footer .btn{
     footer .logo {
         width: 130px;
     }
-}
-@media screen and (max-width: 385px) {
-    .freeShip p{
-        font-size: 0.95rem;
-    }
-    .navbar .logo img {
-        max-width: 120px !important;
-    }
-    .cart i {
-        font-size: 22px;
-    }
-    .navbar {
-        padding: 0 4px;
-    }
-    .services input, input::placeholder {
-        font-size: 10px;
-    }
-    .log .btn {
-        padding: 3px 14px;
-        font-size: 12px;
-    }
-    .cart a{
-        font-size: 22px;
-    }
-    .log .cart span {
-        left: 115px;
-    }
-    .cont {
-        height: 200px;
-    }
-    .services {
-        padding: 5px 10px;
-    }
-    .services input::placeholder {
-        font-size: 12px;
-    }
-    .services button {
-        top: 4px;
-    }
-    .service-icons {
-         margin: 40px auto 10px auto;
-    }
-    .gallery-1 {
-        padding: 10px 0;
-    }
-    .gallery-1 .col-8 {
-        width: 71.666667%;
-    }
-    .amazing {
-        padding: 10px 0;
-        margin: 5px 0;
-    }
-    .amazing .col-6 {
-        width: 57%;
-    }
-    .special {
-        padding: 40px 10px;
-    }
-    .special .card h5 {
-        font-size: 13px;
-        padding-bottom: 0 !important;
-    }
-    .brands {
-        padding: 0 10px;
-    }
-    .banner-overlay {
-        bottom: 13% !important;
-    }
-    .banner-overlay h3 {
-        font-size: 0.75rem;
-    }
-    .banner-overlay {
-        font-size: 0.5rem;
-    }
-    .accessory , .masrafi , .car-accessory{
-        padding: 0;
-    }
-    .car-accessory{
-        padding-top: 25px;
-    }
-    .accessory .col-7, .masrafi .col-7, .car-accessory .col-7 {
-        width: 76%;
-        height: 200px;
-    }
-    .blog {
-        padding: 17px 0;
-    }
-    .contact {
-        padding: 20px 11px;
-    }
-    .call div {
-        font-size: 12px;
-    }
-    .social i {
-        font-size: 12px;
-        padding: 7px;
-    }
-    .social a {
-        width: 27px;
-        padding: 0;
-    }
     footer .btn {
-        padding: 5px 10px;
-        font-size: 10px;
-        left: -5%;
-    }
-    .discount .form-control{
-        padding: 0.15rem 0.75rem;
-    }
-    .f-info p {
+        padding: 8px 15px;
         font-size: 10px;
     }
-
 }
-@media screen and (max-width: 360px){
+@media screen and (max-width: 370px){
     .freeShip p {
         font-size: 0.85rem;
     }
@@ -1140,7 +1102,7 @@ footer .btn{
         font-size: 21px;
     }
     .log .cart span {
-        left: 102px;
+        left: 106px;
         top: 11px;
     }
     .log .btn {
@@ -1148,11 +1110,11 @@ footer .btn{
         font-size: 0.65rem;
     }
     .log .login {
-        font-size: 15px;
+        font-size: 12px;
     }
     .log .btn {
         padding: 3px 9px;
-        font-size: 12px;
+        font-size: 11px;
         height: max-content;
     }
     .cart a{
@@ -1171,29 +1133,50 @@ footer .btn{
         font-size: 9px;
     }
     .services input, input::placeholder {
-        padding: 11px 2px;
+        padding: 9px 5px;
     }
     .services button {
         padding: 7px 17px;
         font-size: 10px;
     }
+    .service-icons h5 {
+        font-size: 14px;
+    }
     .gallery-1 .col-8{
         height: 100px;
     }
+    .amazing h4, .accessory h4, .masrafi h4, .car-accessory h4, .blog h4{
+    font-size: 16px;
+    }
     .amazing .card-title{
-        font-size: 0.85rem;
+        font-size: 11px;
     }
     .amazing .card-text h6{
-        font-size: 0.75rem;
+        font-size: 10px;
+    }
+    .amazing .card-text .fa-star{
+        margin: 2px;
+    }
+    .card-btn{
+        font-size: 15px;
+    }
+    .amazing .slider {
+        height: 280px;
     }
     .amazing .a-border, .accessory .a-border,.masrafi .a-border,.car-accessory .a-border{
         margin: 0 10px;
     }
     .card-overlay-links .btn {
-        font-size: 14px;
+        font-size: 9px;
     }
     .special {
         padding: 40px 5px;
+    }
+    .special .card h5 {
+        font-size: 14px;
+    }
+    .box p, .box del{
+        font-size: 12px;
     }
     .brands {
         padding: 0;
@@ -1203,6 +1186,9 @@ footer .btn{
     }
     .banner-overlay {
         bottom: 14% !important;
+    }
+    .banner-overlay {
+        bottom: 5% !important;
     }
     .banner-overlay h3{
         margin-bottom: 3px !important;
@@ -1229,10 +1215,6 @@ footer .btn{
     .f-info p {
         font-size: 12px;
     }
-    footer .btn {
-        top: 1%;
-        padding: 5px 16px;
-    }
     .social{
         width: 40% !important;
     }
@@ -1240,7 +1222,7 @@ footer .btn{
         width: 60% !important;
     }
     .social a {
-        width: 22px;
+        width: 25px;
         padding: 0;
     }
     .social i {
@@ -1255,22 +1237,34 @@ footer .btn{
         padding: 0 !important;
     }
     footer .btn {
-        padding: 5px 14px;
+        top: 1%;
+        padding: 5px 10px;
         font-size: 10px;
     }
     .enamad .col-2 {
         width: 24.666667%;
     }
 }
-@media screen and (max-width: 321px){
+@media screen and (max-width: 334px){
+    .navbar .logo img {
+        max-width: 110px !important;
+    }
+    .freeShip p {
+        font-size: 13px;
+    }
     .log .btn {
-        padding: 3px 7px
+        padding: 5px 9px;
+        font-size: 10px !important;
+        height: max-content;
     }
     .log .cart span {
-        left: 98px;
+        left: 100px;
     }
     .icon {
         padding: 7px;
         margin: 3px;
+    }
+    .banner-overlay {
+        font-size: 8px;
     }
 }
