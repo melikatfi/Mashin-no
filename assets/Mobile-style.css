@@ -1092,10 +1092,6 @@ footer .about{
         width: 33px;
         padding: 3px;
     }
-    footer .btn {
-        padding: 0.62rem;
-        font-size: 11px;
-    }
 }
 @media screen and (max-width: 370px){
     .freeShip p {
@@ -1232,16 +1228,11 @@ footer .about{
         font-size: 14px;
         padding: 0 0;
     }
-    .discount .form-control {
-        padding: 0.17rem 0.75rem;
-    }
     .call div {
         font-size: 10px;
         padding: 0 !important;
     }
     footer .btn {
-        padding: 0.46rem;
-        font-size: 10px;
         left: -17px;
     }
     .enamad .col-2 {
