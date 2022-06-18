@@ -819,36 +819,29 @@ footer .wrapper{
 footer .wrapper a{
     color: white;
 }
-footer .logo{
-    width: 150px;
-}
 .info-group{
-    position: relative !important;
+    /*position: relative !important;*/
 }
 .discount .input-group{
     flex-direction: row-reverse;
 }
 footer input{
-    width: 100% !important;
-    position: absolute !important;
     z-index: 1;
-    border-radius: 0 25px 25px 0!important;
-    /*padding-left: 50px !important;*/
+    border-radius: 25px !important;
 }
 footer .btn{
-    position: relative !important;
+    position: absolute !important;
     background-color: #64DD16;
     color: white;
     font-size: 12px;
     font-weight: bold;
     border-radius: 25px !important;
-    padding: 10px;
+    padding: 9px;
     width: fit-content;
-    left: -2rem;
     z-index: 4 !important;
 }
 footer .about{
-    text-align: justify;
+    /*text-align: justify;*/
 }
 .accordion-button{
     background-color: #131429 !important;
@@ -1269,5 +1262,5 @@ footer .about{
     }
 }
 body{
-    background-color: lightpink !important;
+    background-color: red !important;
 }
