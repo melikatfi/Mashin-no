@@ -949,7 +949,8 @@ footer .about{
         font-size: 14px;
     }
     footer .btn {
-        padding: 0.59rem;
+        padding: 11px;
+        font-size: 10px;
     }
 }
 @media screen and (max-width: 455px){
