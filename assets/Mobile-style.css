@@ -836,9 +836,10 @@ footer .btn{
     font-size: 12px;
     font-weight: bold;
     border-radius: 25px !important;
-    padding: 10px;
     width: fit-content;
+    height: 100%;
     z-index: 4 !important;
+    left: -1px;
 }
 footer .about{
     text-align: justify;
@@ -1231,9 +1232,6 @@ footer .about{
         font-size: 10px;
         padding: 0 !important;
     }
-    /*footer .btn {*/
-    /*    left: -17px;*/
-    /*}*/
     .enamad .col-2 {
         width: 24.666667%;
     }
