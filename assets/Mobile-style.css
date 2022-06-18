@@ -196,7 +196,7 @@ body .row:nth-child(1){
     text-align: center;
 }
 .controls .button {
-    width: 15px !important;
+    width: auto !important;
     height: 15px;
     border: 1px solid #fff;
     opacity: 1;
@@ -208,6 +208,7 @@ body .row:nth-child(1){
     -webkit-border-radius: 100% !important;
     transition: all ease .2s;
     margin: 2px;
+    padding: 6px;
 }
 .controls .button:not(:last-child) {
     margin-bottom: 0.63rem;
