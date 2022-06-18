@@ -200,7 +200,7 @@ body .row:nth-child(1){
     height: 0.9375rem;
     display: block;
     cursor: pointer;
-    border-radius: 30%;
+    border-radius: 100%;
     transition: all ease .2s;
     transform: rotate(45deg);
 }
@@ -230,14 +230,17 @@ body .row:nth-child(1){
 .services{
     padding: 15px 20px;
 }
+.service-group{
+    position: relative !important;
+}
 .services input{
     box-shadow: #b3b3b3 1px 6px 21px;
     background-color: white;
     border-radius: 30px !important;
     width: 100% !important;
-    position: absolute !important;
     z-index: 1;
     padding: 12px;
+    position: absolute !important;
 }
 .services input::placeholder {
     font-size: 14px;
@@ -253,9 +256,9 @@ body .row:nth-child(1){
     border-radius: 30px !important;
     padding: 9px 20px;
     font-size: 14px;
+    left: 4px;
     z-index: 4 !important;
-    left: 3%;
-    top: 5px;
+    width: fit-content;
 }
 .service-icons{
     margin: 60px auto;
@@ -448,7 +451,7 @@ body .row:nth-child(1){
     background-color: #566675;
     display: block;
     cursor: pointer;
-    border-radius: 30%;
+    border-radius: 100%;
     transition: all ease .2s;
     transform: rotate(45deg);
     margin: 2px;
@@ -814,14 +817,15 @@ footer .wrapper a{
 footer .logo{
     width: 150px;
 }
+.info-group{
+    position: relative !important;
+    flex-direction: row-reverse;
+}
 footer input{
-    position: relative;
+    position: absolute;
     z-index: 1;
     border-radius: 0 25px 25px 0!important;
     padding-left: 50px !important;
-}
-footer .about{
-    text-align: justify;
 }
 footer .btn{
     position: absolute !important;
@@ -831,8 +835,12 @@ footer .btn{
     font-weight: bold;
     border-radius: 25px !important;
     padding: 9px 25px;
-    left: -5%;
+    width: fit-content;
+    left: -2rem;
     z-index: 4 !important;
+}
+footer .about{
+    text-align: justify;
 }
 .accordion-button{
     background-color: #131429 !important;
@@ -954,7 +962,6 @@ footer .btn{
     .services button {
         font-size: 12px;
         padding: 8px 20px;
-        top: 4px;
     }
     .service-icons h5{
         font-size: 16px;
