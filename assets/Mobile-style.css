@@ -842,7 +842,7 @@ footer .btn{
     font-size: 12px;
     font-weight: bold;
     border-radius: 25px !important;
-    padding: 9px;
+    /*padding: 9px;*/
     width: fit-content;
     left: -2rem;
     z-index: 4 !important;
@@ -1269,5 +1269,5 @@ footer .about{
     }
 }
 body{
-    background-color: red;
+    background-color: red !important;
 }
