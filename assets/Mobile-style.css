@@ -13,13 +13,13 @@ ul{
 .font-weight-bold{
     font-weight: bold;!important;
 }
-.freeShip{
-    background-color: #E03435 ;
-    font-size: 15px;
-}
-.freeShip p{
-    margin: 0!important;
-}
+/*.freeShip{*/
+/*    background-color: #E03435 ;*/
+/*    font-size: 15px;*/
+/*}*/
+/*.freeShip p{*/
+/*    margin: 0!important;*/
+/*}*/
 /*slider*/
 .slider {
     width: 100%;
@@ -819,22 +819,25 @@ footer .logo{
 }
 .info-group{
     position: relative !important;
+}
+.discount .input-group{
     flex-direction: row-reverse;
 }
 footer input{
-    position: absolute;
+    width: 100% !important;
+    position: absolute !important;
     z-index: 1;
     border-radius: 0 25px 25px 0!important;
-    padding-left: 50px !important;
+    /*padding-left: 50px !important;*/
 }
 footer .btn{
-    position: absolute !important;
+    position: relative !important;
     background-color: #64DD16;
     color: white;
     font-size: 12px;
     font-weight: bold;
     border-radius: 25px !important;
-    padding: 9px 25px;
+    padding: 0.56rem;
     width: fit-content;
     left: -2rem;
     z-index: 4 !important;
@@ -916,10 +919,6 @@ footer .about{
     .about p{
         font-size: 14px;
     }
-    footer .btn {
-        padding: 9px 12px;
-        left: -6%;
-    }
 }
 @media screen and (max-width: 478px){
     .log .btn{
@@ -944,6 +943,9 @@ footer .about{
     .call a{
         font-size: 14px;
     }
+    footer .btn {
+        padding: 0.59rem;
+    }
 }
 @media screen and (max-width: 455px){
     .log .btn {
@@ -961,7 +963,7 @@ footer .about{
     }
     .services button {
         font-size: 12px;
-        padding: 8px 20px;
+        padding: 7px 20px;
     }
     .service-icons h5{
         font-size: 16px;
@@ -1007,12 +1009,6 @@ footer .about{
     }
     .f-info p{
         font-size: 14px;
-    }
-    footer .form-control{
-        font-size: 0.8rem !important;
-    }
-    footer .btn{
-        padding: 7px 15px;
     }
     .f-info p {
         font-size: 11px;
@@ -1096,12 +1092,9 @@ footer .about{
         width: 33px;
         padding: 3px;
     }
-    footer .logo {
-        width: 130px;
-    }
     footer .btn {
-        padding: 8px 15px;
-        font-size: 10px;
+        padding: 0.62rem;
+        font-size: 11px;
     }
 }
 @media screen and (max-width: 370px){
@@ -1247,9 +1240,9 @@ footer .about{
         padding: 0 !important;
     }
     footer .btn {
-        top: 1%;
-        padding: 5px 10px;
+        padding: 0.46rem;
         font-size: 10px;
+        left: -17px;
     }
     .enamad .col-2 {
         width: 24.666667%;
