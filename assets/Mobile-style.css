@@ -195,13 +195,13 @@ body .row:nth-child(1){
     z-index: 5;
     text-align: center;
 }
-.button {
+.controls .button {
     width: 15px !important;
     height: 15px;
     border: 1px solid #fff;
     opacity: 1;
     outline: none;
-    background-color: #566675;
+    background-color: #ffffff;
     display: block;
     cursor: pointer;
     border-radius: 100% !important;
@@ -209,20 +209,16 @@ body .row:nth-child(1){
     transition: all ease .2s;
     margin: 2px;
 }
-.button:not(:last-child) {
+.controls .button:not(:last-child) {
     margin-bottom: 0.63rem;
 }
-.button {
+.controls .button {
     border: 1px solid #fff;
     opacity: 1;
     outline: none;
     background-color: #ffffff;
 }
-.button:hover,
-.button:focus {
-    opacity: 1;
-}
-.selected {
+.controls .selected {
     background-color: #17ff00;
 }
 
