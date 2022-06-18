@@ -842,7 +842,7 @@ footer .btn{
     font-size: 12px;
     font-weight: bold;
     border-radius: 25px !important;
-    padding: 0.56rem;
+    padding: 9px;
     width: fit-content;
     left: -2rem;
     z-index: 4 !important;
@@ -948,10 +948,10 @@ footer .about{
     .call a{
         font-size: 14px;
     }
-    footer .btn {
-        padding: 11px;
-        font-size: 10px;
-    }
+    /*footer .btn {*/
+    /*    padding: 11px;*/
+    /*    font-size: 10px;*/
+    /*}*/
 }
 @media screen and (max-width: 455px){
     .log .btn {
@@ -1238,9 +1238,9 @@ footer .about{
         font-size: 10px;
         padding: 0 !important;
     }
-    footer .btn {
-        left: -17px;
-    }
+    /*footer .btn {*/
+    /*    left: -17px;*/
+    /*}*/
     .enamad .col-2 {
         width: 24.666667%;
     }
@@ -1267,4 +1267,7 @@ footer .about{
     .banner-overlay {
         font-size: 8px;
     }
+}
+body{
+    background-color: red;
 }
