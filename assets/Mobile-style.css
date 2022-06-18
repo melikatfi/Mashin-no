@@ -836,12 +836,12 @@ footer .btn{
     font-size: 12px;
     font-weight: bold;
     border-radius: 25px !important;
-    padding: 9px;
+    padding: 10px;
     width: fit-content;
     z-index: 4 !important;
 }
 footer .about{
-    /*text-align: justify;*/
+    text-align: justify;
 }
 .accordion-button{
     background-color: #131429 !important;
@@ -1261,6 +1261,4 @@ footer .about{
         font-size: 8px;
     }
 }
-body{
-    background-color: red !important;
-}
+
