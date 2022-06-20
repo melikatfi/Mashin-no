@@ -1,188 +1,130 @@
-@media screen and (min-width: 2560px){
-    .freeShip p{
-        font-size: 2rem;
-    }
+@media screen and (min-width: 1600px){
     .h3, h3 {
-        font-size: 3.75rem !important;
+        font-size: 2.75rem !important;
     }
-    h4, h4 {
-        font-size: 3.5rem !important;
-    }
-    .h5, h5 {
-        font-size: 3.25rem !important;
-    }
-    .h6, h6 {
+    .h4, h4 {
         font-size: 2.5rem !important;
     }
-    .MainSlider{
+    .h5, h5 {
+        font-size: 2.25rem !important;
+    }
+    .h6, h6 {
+        font-size: 2rem !important;
+    }
+    .navbar .logo {
+        max-width: 350px;
+    }
+    .menu a {
+        font-size: 1.7rem;
+    }
+    .log a{
+        font-size: 1.7rem;
+    }
+    .log .cart a {
+        color: #08cd00;
+        font-size: 2.5rem;
+    }
+    .log .cart span {
+        width: auto;
+        font-size: 1.2rem;
+        padding: 0 10px;
+        left: 372px;
+    }
+    .mainMenu li {
+        font-size: 1.7rem;
+    }
+    .cont {
         height: 800px;
     }
-    .mainMenu ul{
-        font-size: 2rem;
+    .button {
+        width: 2rem;
+        height: 2rem;
     }
-    .MainSlider .col-lg-2{
-        width: 24.666667% !important;
+    .services {
+        padding: 45px 400px;
     }
-    .nav-item a{
-        font-size: 40px;
+    .services input::placeholder {
+        font-size: 1.5rem;
     }
-    .log .cart a{
-        font-size: 50px;
+    .gallery-1 .row div {
+        height: 290px !important;
     }
-    .log .cart span{
-        width: auto;
-        padding: 5px 15px;
-        font-size: 22px;
-        left: 395px;
+    .card .text-center{
+        padding: 1%;
     }
-    .slider{
-        height: auto;
-    }
-    .services .input-group{
-        margin: auto;
-    }
-    .services input{
-        padding: 2rem;
-    }
-    .services input,
-    input::placeholder {
-        font-size: 35px;
-    }
-    .services button{
-        padding: 20px 58px;
-        font-size: 45px;
-    }
-    .gallery-1 .row div{
-        height: 350px !important;
-    }
-    .amazing .card-btn{
-        font-size: 60px;
-        padding: 10px 17px;
-        bottom: -40px;
-    }
-    .card-overlay-links .btn{
-        font-size: 35px;
+    .card-overlay-links .btn {
+        font-size: 1.8rem;
     }
     .card-overlay-links {
-        top: -190px;
+        position: relative;
+        top: -143px;
+    }
+    .card-btn {
+        bottom: -28px;
+        font-size: 1.5rem;
+        padding: 5px 16px;
     }
     .special {
         padding: 110px;
+        margin: 20px 0;
+    }
+    .box p {
+        font-size: 1.8rem;
+    }
+    .box del{
+        font-size: 1.5rem;
     }
     .special .badge {
-        font-size: 43px;
+        font-size: 1.5rem;
     }
-    .card-body {
-        padding: 3rem 1rem !important;
+    .special-button {
+        width: 1.5rem !important;
+        height: 1.5rem !important;
     }
-    .brands .img{
-        padding: 35px;
+    .banner {
+        padding: 20px 230px;
     }
-    .banner .btn{
-        border-radius: 60px !important;
-        font-size: 4rem;
+    .banner .col-lg-2 {
+        flex: 0 0 auto;
+        width: 22.666667%;
     }
-    .banner-overlay{
-        font-size: 3rem !important;
-        width: 28% !important;
-        bottom: 37%;
-        right: 67%;
+    .banner-overlay {
+        right: 66%;
+        font-size: 2.5rem;
+        bottom: 250px;
     }
-    .banner-overlay h3{
-        font-size: 4.75rem !important;
+    .banner .btn {
+        font-size: 1.75rem;
     }
-    .img-1, .img-4{
-        height: 600px;
-    }
-    .img-2 , .img-3{
-        height: 300px;
-        background-repeat: repeat !important;
-    }
-    .overlay-box .text{
-        font-size: 3rem;
-    }
-    .img-4 .overlay-box{
-        top: 83% !important;
-        left: 25% !important;
-    }
-    .img-1 .overlay-box{
-        top: 83% !important;
-    }
-    .img-3 .overlay-box, .img-2 .overlay-box{
-        right: 55% !important;
-        top: 66% !important;
+    .accessory, .masrafi ,.car-accessory {
+        padding: 0 150px 0 210px;
     }
     .ul {
-        height: auto !important;
-        width: 150px !important;
-        margin: 180px auto;
-        border-radius: 73px;
+        height: auto;
     }
-    .ul .li{
-        font-size: 3rem;
+    .li a{
+        font-size: 1.5rem;
     }
-    .banner2 {
-        margin: 60px 0;
+    .blog .card .card-body{
+        font-size: 1.5rem;
     }
-    .banner3 img {
-        height: 600px;
-        margin: 40px 0;
+    footer .wrapper{
+        font-size: 1.5rem;
     }
-    .car-accessory {
-        padding: 0 50px 70px 110px;
+    .f-info{
+        padding-top: 30px;
     }
-    .blog .row:nth-child(2){
-        margin: 50px auto;
+    .discount .btn{
+        font-size: 1rem;
     }
-    .blog .col-lg-1 {
-        font-size: 3rem;
-    }
-    .blog .card-img-top{
-        height: 50%;
-    }
-    .blog .card .card-text{
-        font-size: 3rem;
+    .contact{
+        font-size: 1.5rem;
     }
     .social a{
-        width: auto;
-        padding: 45px;
-        margin: 20px;
-    }
-    .social i {
-        font-size: 4rem;
-    }
-    .call a{
-        font-size: 3rem;
-    }
-    .call i{
-        font-size: 4rem;
-    }
-    .contact .pt-3 {
-        padding-top: 4rem!important;
-    }
-    footer .logo{
-        width: auto;
-    }
-    .about , .address, .minimenu , .discount , .f-about , .links ,.copyright{
-        font-size: 3rem;
-    }
-    .minimenu{
-        padding-right: 80px;
-    }
-    .discount input{
-        padding: 3rem;
-        border-radius: 57px !important;
-    }
-    footer .btn{
-        font-size: 3rem;
-        padding: 24px 45px;
-        border-radius: 57px !important;
-    }
-    .enamad a:nth-child(1){
-        text-align: end;
+        padding: 6px 10px;
     }
 }
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1200px) {
     .h3, h3 {
         font-size: 2.2rem;
     }
@@ -204,291 +146,130 @@
     }
 }
 @media screen and (max-width: 1200px){
-    .navbar {
-        padding: 0 95px;
+    .banner .btn {
+        font-size: 14px;
     }
-    .log .cart span{
-        left: 235px;
-    }
-    .MainSlider .col-lg-2{
-        width: 24.666667%;
-    }
-    .services {
-        padding: 25px 165px;
-    }
-    .amazing .col-lg-2 {
-        flex: 0 0 auto;
-        width: 20.666667% !important;
-    }
-    .brands .col-lg-1 {
-        width: 12.333333%;
-    }
-    .banner{
-        padding: 20px 50px;
-    }
-    .banner-overlay {
-        right: 68%;
-        font-size: 1.25rem;
-        bottom: 30%;
+    .icon {
+        margin: 5px;
     }
     .img-2 .overlay-box,.img-3 .overlay-box{
-        right: 50% !important;
+        right: 45% !important;
     }
     .img-4 .overlay-box{
-        left: 30% !important;
+        left: 40% !important;
     }
-    .contact{
-        padding: 20px 95px;
+    .banner-overlay {
+        right: 65%;
+        font-size: 1rem;
+        width: 25% !important;
+        bottom: 32%;
     }
-    footer .wrapper {
-        padding: 0 95px;
+    .discount form{
+        margin: 0 !important;
     }
-    footer .btn{
-        padding: 7px 8px;
-        left: -10%;
-    }
-    .call .col-lg-4 {
-        width: 35.333333%;
-    }
-    .icon{
-        padding: 16px;
-    }
-    .btn-overlay{
-        font-size: 13px !important;
+    .f-info{
+        padding-top: 15px;
     }
 }
 @media screen and (max-width: 991px){
-    .mobile-ul-opener{
-        display: block;
-    }
     .navbar {
-        padding: 0 60px;
+        align-items: baseline !important;
+        padding: 0 70px;
     }
-    .log .cart span {
-        left: 201px;
+    .log .cart span{
+        left: 228px;
     }
-    .MainSlider .col-md-2 {
-        flex: 0 0 auto;
-        width: 18.666667%;
-    }
-    .MainSlider .container{
-        width: 100%;
+    .menu a {
+        font-size: 0.8rem;
     }
     .MainSlider{
-        justify-content: left !important;
-        padding: 0 !important;
+        --bs-gutter-x: none !important;
         margin: 0 !important;
+        justify-content: space-between;
     }
-    .cont{
-        padding: 0 !important;
-        margin: 0 !important;
+    .log a{
+        font-size: 0.8rem;
     }
-    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        width: 100% !important;
-    }
-    .icon {
-        margin: 25px;
-    }
-    .gallery-1 .row div:last-child{
-        margin: 20px;
-    }
-    .special {
-        padding: 40px 20px;
-    }
-    .special .badge{
-        right: 0;
-    }
-    .special-button {
-        height: 25px !important;
-        margin: 4px;
-    }
-    .brands {
-        padding: 70px 90px;
-        margin: 0;
-    }
-    .accessory .ul,.masrafi .ul,.car-accessory .ul{
-        display: none;
-    }
-    .accessory, .masrafi, .car-accessory {
-        padding: 0 50px 0 50px !important;
-        margin: 0;
-    }
-    .banner2 {
-        padding: 30px 50px !important;
-    }
-    .banner3 img {
-        border-radius: 40px;
-        height: auto;
-    }
-    .banner3 {
-        padding: 25px 50px !important;
-    }
-    .blog .col-lg-11 {
-        position: static;
-         top: 0;
-         left: 0;
-    }
-    .blog .col-lg-1 {
-        text-align: end;
-    }
-    .blog {
-        padding: 60px 50px 70px 50px;
-    }
-    .call a {
-        font-size: 18px;
-    }
-    .call i {
-        font-size: 30px;
-    }
-    footer .wrapper {
-        padding: 0 50px;
-    }
-    footer .btn {
-        padding: 8px 9px;
-        left: -10%;
-    }
-    footer .btn {
-        font-size: 14px;
-    }
-}
-@media screen and (max-width: 915px){
-    .navbar {
-        padding: 0 20px;
+    .log .cart a {
+        font-size: 1.3rem;
     }
     .log .cart span {
-        left: 160px;
+        left: 210px;
+        font-size: 0.6rem;
     }
-    .mainMenu li a{
-        font-size: 14px;
-    }
-    .amazing .col-lg-2 {
-        flex: 0 0 auto;
-        width: 25.666667% !important;
-    }
-    .brands {
-        padding: 20px 90px;
-    }
-    .banner-overlay {
-        right: 68%;
-        font-size: 1rem;
-        bottom: 30%;
-    }
-    .banner .btn {
-        font-size: 1rem;
-    }
-
-}
-@media screen and (max-width: 836px){
-    .navbar {
-        padding: 0 10px;
-    }
-    .navbar .logo {
-        width: 26.666667% !important;
-    }
-    .log .cart span {
-        left: 150px;
-    }
-    .MainSlider .col-md-10 {
-        width: 80%;
-    }
-    .MainSlider .col-md-2 {
-        width: 22%;
-    }
-    .menu .px-3, .menu .px-5{
-        padding: 3px !important;
+    .mainMenu li {
+        font-size: 0.7rem;
     }
     .services {
-        padding: 20px 65px;
+        padding: 30px 150px;
     }
-    .icon {
-        margin: 30px;
+    .gallery-1 .row div{
+        margin: 5px;
     }
-    .amazing {
-        padding: 10px 60px;
-        margin: 0;
-    }
-    .special .col-md-5 {
-        width: 60%;
-        margin: 20px;
+    .special .box{
+        margin: 1rem;
     }
     .brands {
-        padding: 0 60px 50px;
+        padding: 0 120px;
     }
-    .img-2 .overlay-box, .img-3 .overlay-box {
-        right: 45% !important;
+    .circle img{
+        max-width: 100px;
     }
-    .img-4 .overlay-box {
-        left: 50% !important;
-    }
-    footer .wrapper {
-        padding: 0 20px;
-    }
-    footer .btn {
-        font-size: 13px;
-        padding: 8px 10px;
-        left: -15%;
-    }
-    footer input,
-    input::placeholder {
-        font-size: 16px;
-    }
-    .contact {
-        padding: 20px 20px;
-    }
-}
-@media screen and (max-width: 767px){
-    .icon {
-        margin: 20px;
+    .banner {
+        padding: 20px 100px;
     }
     .banner-overlay {
-        right: 67%;
-        font-size: 0.95rem;
-        bottom: 28%;
+        font-size: 0.7rem;
+        bottom: 35%;
+    }
+    .banner-overlay h3{
+        font-size: 1rem;
     }
     .banner .btn {
-        font-size: 0.95rem;
+        font-size: 10px;
     }
-    .accessory, .masrafi, .car-accessory {
-        padding: 0 25px 0 25px !important;
-        margin: 0;
+    .ul{
+        margin: 0 !important;
     }
-    .social a {
-        width: 40px;
-        padding: 8px;
+    .accessory .col-lg-11, .masrafi .col-lg-11,.car-accessory .col-lg-11{
+        max-width: 90%;
     }
-    footer .col-lg-2 {
-        width: 50%;
+    .accessory, .masrafi{
+        padding: 0 50px;
     }
-    footer input{
-        border-radius: 25px !important;
+    .accessory .ul,.masrafi .ul{
+        height: 350px;
+        margin: 130px 0 !important;
+        padding: 5px 0 5px 0;
     }
-    footer .discount .mt-5 {
-        margin-top: 1rem!important;
-    }
-    footer .btn {
-        font-size: 13px;
-        padding: 8px 15px;
-        left: 0;
-    }
-    .enamad{
-        width: 25%;
-        align-items: baseline;
-        margin: auto !important;
-    }
-}
-@media screen and (max-width: 754px){
-    .banner-overlay {
-        right: 67%;
-        font-size: 0.85rem;
-        bottom: 31%;
-    }
-    .banner .btn {
-        font-size: 0.85rem;
-    }
-    .img-2 .overlay-box, .img-3 .overlay-box {
+    .img-2 .overlay-box,.img-3 .overlay-box{
         right: 40% !important;
     }
-    .img-4 .overlay-box {
+    .img-4 .overlay-box{
         left: 60% !important;
+    }
+    .banner3 .row{
+        justify-content: center !important;
+    }
+    .banner3 img{
+        margin: 5px;
+    }
+    .car-accessory {
+        padding: 45px 50px;
+    }
+    .car-accessory .ul {
+        margin: 60px 0 !important;
+    }
+    .blog .col-lg-11 {
+         left: 0;
+    }
+    footer .wrapper {
+        padding: 0 45px;
+    }
+    .contact {
+        padding: 20px 50px;
+    }
+    footer .btn{
+        left: -25px;
     }
 }

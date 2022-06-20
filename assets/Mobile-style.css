@@ -816,9 +816,6 @@ footer .wrapper{
 footer .wrapper a{
     color: white;
 }
-.info-group{
-    /*position: relative !important;*/
-}
 .discount .input-group{
     flex-direction: row-reverse;
 }
