@@ -63,7 +63,7 @@ ul{
 }
 .navbar{
     align-items: baseline;
-    padding: 0 150px;
+    padding: 10px 150px !important;
 }
 .navbar .logo{
     max-width: 180px;
@@ -209,6 +209,7 @@ ul{
     background-color: #64DD14;
 }
 /*Wrapper*/
+
 
 /*Search and Services*/
 .services{
@@ -1029,7 +1030,261 @@ footer hr{
     border: none !important;
     border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
-
 .copyright{
     color: #909AA3;
+}
+
+/*single product*/
+.star-selected{
+    color: #64DC17;
+}
+.p-wrapper{
+    background-color: #F5F5F5;
+    padding: 30px 100px;
+}
+.p-wrapper .row{
+    --bs-gutter-x: 0;
+}
+.p-gallery{
+    margin-right: 15px;
+}
+.p-toolbar{
+    right: -6%;
+}
+.p-toolbar li{
+    font-size: 20px;
+    margin: 8px;
+}
+.p-main{
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px #E4E4E4;
+}
+.p-main h1{
+    font-size: 1.25rem;
+}
+.p-rate{
+    background-color: #F5F5F5;
+}
+img {
+    vertical-align: middle;
+}
+
+.mySlides {
+    object-fit: contain !important;
+    height: 185px;
+    display: none;
+}
+.cursor {
+    cursor: pointer;
+}
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 43%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.next {
+    right: 87%;
+}
+
+.prev{
+    left: 87%;
+}
+
+.prev:hover,
+.next:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+.thumbnails .col .cursor{
+    width: 85px !important;
+    height: 80px;
+    border-radius: 10%;
+    margin: 5px 0;
+    object-fit: cover;
+}
+
+.border-left{
+    border-left: 1px solid #dedede;
+}
+.p-info{
+    font-size: 0.8rem;
+    font-family: IranYekanBold;
+}
+.p-info a{
+    font-family: IranYekanReg;
+    font-size: 0.9rem;
+}
+
+.p-info a:nth-child(1), .p-info a:nth-child(2){
+    color: #5dccf8;
+}
+
+.p-description{
+    background-color: #F5FCFF;
+    border: #D4E6F0 1px solid;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+.p-description h6{
+    font-size: 0.9rem;
+    display: inline;
+    font-family: IranYekanBold;
+}
+.colors label input{
+    display: none!important;
+}
+.colors label{
+    border: #DBDCDC 1px solid;
+}
+
+.colors label input[type=checkbox] + span {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.orange i{
+    color: orange !important;
+}
+.red i{
+    color: red;
+}
+.green i{
+    color: limegreen;
+}
+
+.colors .active {
+    border: #000000 1px solid;
+}
+
+.colors + a{
+    font-size: 0.8rem;
+    color: #5dccf8 !important;
+}
+
+.btn-price{
+    color: #C9FFFF !important;
+    background-color: #16BAFF !important;
+    border-radius: 20px !important;
+}
+
+.rate-border{
+    border-bottom: #D2D2D2 1px solid;
+}
+
+.rate-icon{
+    background-color: #ffffff;
+    height: fit-content;
+    border-radius: 100%;
+}
+
+.rate-icon + h6{
+    font-size: 0.5rem;
+}
+
+.product{
+    background-color: #F5FCFF;
+    border: #16BAFF 1px solid;
+    font-family: IranYekanBold;
+    font-size: 0.8rem;
+}
+.product span{
+    font-family: IranYekanReg;
+}
+
+.product .card-body{
+    background-color: inherit;
+    border: none;
+}
+
+.product .add-to-cart{
+    background-color: #1FAB00;
+    color: #ffffff;
+    font-size: 0.7rem;
+    border-radius: 30px;
+}
+
+.p-more{
+    width: auto !important;
+    margin: 15px auto 0 auto !important;
+    border-radius: 15px 15px 0 0 !important;
+    background-color:#16BAFF !important;
+    color: #ffffff !important;
+    font-size: 0.8rem !important;
+}
+
+.p-more .card-body p{
+    font-size: 0.8rem;
+    font-family: IranYekanReg !important;
+}
+
+.p-more h1{
+    font-size: 0.9rem;
+    font-family: IranYekanBold;
+}
+
+.nav-tabs{
+    background-color: #EDF1F3;
+    font-size: 0.8rem;
+}
+.p-main .nav-item a{
+    color: #ACAEAE;
+}
+.p-main .nav-item a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+.tab-pane{
+    font-size: 0.8rem;
+}
+.p-main .nav-item .active{
+    border-top: 0.15rem solid #7CC849 !important;
+    border-radius: 0 !important;
+}
+
+.table td{
+    background-color: #EDF1F3 !important;
+    margin: 5px;
+    border: none;
+}
+
+.add-comment{
+    text-align: end;
+}
+
+.add-comment button{
+    background-color: #1FAB00 !important;
+    color: #ffffff !important;
+    font-size: 0.8rem !important;
+    border-radius: 20px !important;
+}
+
+.comment{
+    border-top: 1px solid #E5E5E5;
+}
+
+.comment-info{
+    color: #A1A1A1;
+    font-size: 0.7rem;
+}
+
+.comment-info .btn-outline-secondary{
+    font-size: 0.55rem;
 }

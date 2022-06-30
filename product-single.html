@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Single</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="assets/Style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <script src='https://code.jquery.com/jquery-3.5.1.min.js'></script>
+    <script src="https://kit.fontawesome.com/4ed60bd0ea.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
+</head>
+<body dir="rtl">
+<nav class="navbar">
+    <div class="nav-item row align-items-baseline">
+        <div class="logo col-4">
+            <img src="assets/images/logo.png" alt="logo" class="img-fluid"/>
+        </div>
+        <div class="menu col-8">
+            <a href="#" class="px-3">دسته بندی‌ها</a>
+            <a href="#" class="px-5">صفحه نمایندگان</a>
+        </div>
+    </div>
+    <div class="nav-item log">
+        <div class="cart">
+            <a href="#">
+                <i class="fa fa-shopping-cart"></i>
+            </a>
+            <span>0</span>
+        </div>
+        <a href="#" class="login">
+            ورود
+        </a>
+        <a href="#" class="btn">
+            ثبت نام
+        </a>
+    </div>
+</nav>
+<section class="services">
+    <form class="col-12">
+        <div class="service-group row align-items-center input-group">
+            <button class="btn" type="submit">جست‌وجو کنید</button>
+            <input type="text" class="form-control" placeholder="محصولات مورد نیاز خود را جست و جو نمایید">
+        </div>
+    </form>
+</section>
+<section class="p-wrapper">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">فروشگاه اینترنتی ماشین نو</a></li>
+            <li class="breadcrumb-item"><a href="#">لوازم یدکی</a></li>
+            <li class="breadcrumb-item active" aria-current="page">سپر جلو هیوندا جنسیس کوپه</li>
+        </ol>
+    </nav>
+    <section class="m-auto p-main p-4">
+        <section class="row">
+            <div class="col-lg-4 text-center position-relative">
+                <div class="col-1 position-absolute p-toolbar">
+                    <ul class="text-dark">
+                        <li>
+                            <i class="fa fa-heart"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-share"></i>
+                        </li>
+                        <li>
+                            <i class="fa fa-balance-scale"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="position-relative border-left col-11 p-gallery pl-1">
+                    <div class="mySlides">
+                        <img src="assets/images/1.jpeg" class="img-fluid">
+                    </div>
+
+                    <div class="mySlides">
+                        <img src="assets/images/2.jpeg" class="img-fluid">
+                    </div>
+
+                    <div class="mySlides">
+                        <img src="assets/images/5.jpeg" class="img-fluid">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)"> < </a>
+                    <a class="next" onclick="plusSlides(1)"> > </a>
+
+                    <div class="row thumbnails">
+                        <div class="col">
+                            <img class="cursor" src="assets/images/1.jpeg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                        </div>
+                        <div class="col">
+                            <img class="cursor" src="assets/images/2.jpeg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                        </div>
+                        <div class="col">
+                            <img class="cursor" src="assets/images/5.jpeg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <h1>سپر جلو هیوندا جنسیس کوپه</h1>
+                <div class="row p-info">
+                    <div class="col-6 my-2">
+                        برند :
+                        <a href="#">هیوندا</a>
+                    </div>
+                    <div class="col-6 my-2">
+                        دسته بندی :
+                        <a href="#">لوازم یدکی</a>
+                    </div>
+                    <div class="col-6 my-2">
+                        شماره فنی :
+                        <a>12345M7890</a>
+                    </div>
+                    <div class="col-6 my-2">
+                        شماره شاسی :
+                        <a>0987654321</a>
+                    </div>
+                </div>
+                <div class="col-11 p-description p-3 my-1">
+                    <h6>توضیحات :</h6>
+                    معرفی اجمالی سپر جلو هیوندا جنسیس کوپه
+                </div>
+                <div class="col-12 row my-2">
+                    <form>
+                        <p class="d-inline">انتخاب رنگ:</p>
+                        <div class="colors d-inline">
+                            <label for="orange" class="color p-2">
+                                <input type="checkbox" id="orange" class="checking"/>
+                                <span class="orange">
+                                <i class="fa fa-square-full"></i>
+                                نارنجی
+                            </span>
+                            </label>
+                            <label for="red" class="color p-2">
+                                <input type="checkbox" id="red" class="checking"/>
+                                <span class="red">
+                                <i class="fa fa-square-full"></i>
+                                قرمز
+                                </span>
+                            </label>
+                            <label for="green" class="color p-2">
+                                <input type="checkbox" id="green" class="checking"/>
+                                <span class="green">
+                                <i class="fa fa-square-full"></i>
+                                سبز
+                            </span>
+                            </label>
+                        </div>
+                        <a>نمایش همه رنگ‌ها</a>
+                    </form>
+                </div>
+                <button class="btn btn-price my-1">
+                    <i class="fa fa-chart-bar"></i>
+                    <a>استعلام قیمت</a>
+                </button>
+            </div>
+            <div class="col-lg-3 p-rate p-2">
+                <div class="text-center rate-border">
+                    <p>امتیاز محصول</p>
+                    <div class="row justify-content-center my-3">
+                        4/10
+                        <i class="col-1 fa fa-star star-selected"></i>
+                        <i class="col-1 fa fa-star star-selected"></i>
+                        <i class="col-1 fa fa-star star-selected"></i>
+                        <i class="col-1 fa fa-star star-selected"></i>
+                        <i class="col-1 fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3 text-center">
+                        <div class="rate-icon p-2 m-2">
+                            <img loading="lazy" class="img-fluid" src="assets/images/s1.png" alt="mercedes">
+                        </div>
+                        <h6>ضمانت بهترین قیمت کالا</h6>
+                    </div>
+                    <div class="col-3 text-center">
+                        <div class="rate-icon p-2 m-2">
+                            <img loading="lazy" class="img-fluid" src="assets/images/s2.png" alt="mercedes">
+                        </div>
+                        <h6>گارانتی ۷ روز بازگشت</h6>
+                    </div>
+                    <div class="col-3 text-center">
+                        <div class="rate-icon p-2 m-2">
+                            <img loading="lazy" class="img-fluid" src="assets/images/s3.png" alt="mercedes">
+                        </div>
+                        <h6>ارسال در همان روز</h6>
+                    </div>
+                    <div class="col-3 text-center">
+                        <div class="rate-icon p-2 m-2">
+                            <img loading="lazy" class="img-fluid" src="assets/images/s4.png" alt="mercedes">
+                        </div>
+                        <h6>ارسال به سراسر ایران</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="row justify-content-between mt-3 product pt-3 px-2">
+            <div class="col-lg-3">
+                <div>
+                    <i class="fa fa-torii-gate"></i>
+                    برند :
+                    <span>پارسیان</span>
+                </div>
+                <div>
+                    &nbsp;&nbsp;&nbsp;
+                    فروشنده :
+                    <span>0987654321</span>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                کشور سازنده :
+                <span>کره جنوبی</span>
+            </div>
+            <div class="col-lg-2">
+                گارانتی :
+                <span>۱۸ ماهه پارس ارتباط</span>
+            </div>
+            <div class="col-lg-2 text-center">
+                20000
+                <span>تومان</span>
+            </div>
+            <div class="col-lg-2">
+                <button class="btn add-to-cart">افزودن به سبد خرید</button>
+            </div>
+
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <h1>توضیحات برند</h1>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناختلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت
+                    </p>
+
+                    <h1>توضیحات محصول</h1>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناختلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت
+                    </p>
+                </div>
+            </div>
+            <button class="btn p-more" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                اطلاعات بیشتر
+            </button>
+        </div>
+        <div class="row justify-content-between mt-3 product pt-3 px-2">
+            <div class="col-lg-3">
+                <div>
+                    <i class="fa fa-torii-gate"></i>
+                    برند :
+                    <span>پارسیان</span>
+                </div>
+                <div>
+                    &nbsp;&nbsp;&nbsp;
+                    فروشنده :
+                    <span>0987654321</span>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                کشور سازنده :
+                <span>کره جنوبی</span>
+            </div>
+            <div class="col-lg-2">
+                گارانتی :
+                <span>۱۸ ماهه پارس ارتباط</span>
+            </div>
+            <div class="col-lg-2 text-center">
+                20000
+                <span>تومان</span>
+            </div>
+            <div class="col-lg-2">
+                <button class="btn add-to-cart">افزودن به سبد خرید</button>
+            </div>
+
+            <div class="collapse" id="collapse2">
+                <div class="card card-body">
+                    <h1>توضیحات برند</h1>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناختلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت
+                    </p>
+
+                    <h1>توضیحات محصول</h1>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناختلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت
+                    </p>
+                </div>
+            </div>
+            <button class="btn p-more" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                اطلاعات بیشتر
+            </button>
+        </div>
+    </section>
+    <section class="mx-auto my-4 p-main">
+        <div>
+            <ul class="nav nav-tabs">
+                <li class="nav-item active">
+                    <a class="nav-link active" data-toggle="tab" href="#intro">
+                        <i class="fa fa-file-text"></i>
+                        معرفی محصول
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#desc">
+                        <i class="fa fa-tools"></i>
+                        مشخصات فنی
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#comments">
+                        <i class="fa fa-comments"></i>
+                        نظرات کاربران
+                    </a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="intro" class="tab-pane fade in active show p-3">
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناختلورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت
+                    </p>
+                </div>
+                <div id="desc" class="tab-pane fade p-3">
+                    <table class="table">
+                        <tr>
+                            <td>شماره فنی</td>
+                            <td>1234567890</td>
+                        </tr>
+                        <tr>
+                            <td>کشور سازنده</td>
+                            <td>کره جنوبی</td>
+                        </tr>
+                        <tr>
+                            <td>تامین کننده</td>
+                            <td>71</td>
+                        </tr>
+                        <tr>
+                            <td>وضعیت در انبار</td>
+                            <td>موجود در انبار</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="comments" class="tab-pane fade p-3">
+                    <div class="add-comment my-2">
+                        <button class="btn btn-sm py-2 px-3">
+                            <i class="fa fa-comment"></i>
+                            افزودن نظر جدید
+                        </button>
+                    </div>
+                    <div class="comment my-2">
+                        <div class="row justify-content-between comment-info mt-2">
+                            <div class="col-4">
+                                <span>شیلا تقی‌ پور مطلق</span>
+                                .
+                                <span>تاریخ ۱۹ مرداد ۱۳۹۸</span>
+                            </div>
+                            <div class="col-4 row justify-content-end">
+                                <span class="col-5">آیا این نظر برایتان مفید بود؟</span>
+                                <button class="col-2 btn-outline-secondary btn mx-1">بله (۱۹)</button>
+                                <button class="col-2 btn-outline-secondary btn">خیر (۱۹)</button>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <p>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
+                            </p>
+                        </div>
+                    </div>
+                    <div class="comment my-2">
+                        <div class="row justify-content-between comment-info mt-2">
+                            <div class="col-4">
+                                <span>شیلا تقی‌ پور مطلق</span>
+                                .
+                                <span>تاریخ ۱۹ مرداد ۱۳۹۸</span>
+                            </div>
+                            <div class="col-4 row justify-content-end">
+                                <span class="col-5">آیا این نظر برایتان مفید بود؟</span>
+                                <button class="col-2 btn-outline-secondary btn mx-1">بله (۱۹)</button>
+                                <button class="col-2 btn-outline-secondary btn">خیر (۱۹)</button>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <p>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mx-auto my-2 p-main">
+        hi
+    </section>
+</section>
+<footer>
+    <div class="contact">
+        <div class="row">
+            <div class="col-6 row social">
+                <a class="col-2" href="#">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a class="col-2" href="#">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a class="col-2" href="#">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a class="col-2" href="#">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="col-6 row call pt-lg-3">
+                <div class="col-lg-4 col-md-6">
+                    <a href="tel:02133990835">۰۲۱ ۳۳۹۹۰۸۳۵</a>
+                </div>
+                <i class="fa fa-headphones col-1"></i>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="row f-info">
+            <div class="col-lg-4 col-md-4 col-sm-6 about">
+                <p class="text-justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت</p>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-6 text-center address">
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم  صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                <div class="my-2">
+                    <a href="tel:02154536600">021-54536600</a>
+                    <br>
+                    <a href="tel:02154536000">021-54536000</a>
+                </div>
+                <a href="mailto:info@mashinno.com">info@mashinno.com</a>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-6 minimenu">
+                <ul class="pr-2">
+                    <li>
+                        <a href="#">آموزش خرید از سایت</a>
+                    </li>
+                    <li>
+                        <a href="#">فرصت های شغلی</a>
+                    </li>
+                    <li>
+                        <a href="#">نقشه سایت</a>
+                    </li>
+                    <li>
+                        <a href="#">راهنمای استعلام قیمت</a>
+                    </li>
+                    <li>
+                        <a href="#">وبلاگ</a>
+                    </li>
+                    <li>
+                        <a href="#">شرایط بازگشت کالا</a>
+                    </li>
+                    <li>
+                        <a href="#">قوانین و مقررات</a>
+                    </li>
+                    <li>
+                        <a href="#">درباره ما</a>
+                    </li>
+                    <li>
+                        <a href="#">تماس با ما</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 discount">
+                <p>برای دریافت کد تخفیف شماره موبایل خود را وارد نمایید</p>
+                <form class="mt-5 mr-2">
+                    <div class="info-group row align-items-center input-group">
+                        <button class="btn" type="submit">دریافت کد تخفیف</button>
+                        <input type="text" class="form-control" placeholder="********09">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <hr />
+        <p class="text-center f-about py-3">
+            درباره فروشگاه لوازم یدکی و قطعات خودرو ماشین نو
+            <br /><br />
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+            <br/><br />
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+        </p>
+        <hr />
+        <div class="mt-5 row justify-content-between links">
+            <div class="col-lg-1 col-md-1 col-sm-1 p-0">
+                <ul>
+                    <li class="font-weight-bold">سرلینک</li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 p-0">
+                <ul>
+                    <li class="font-weight-bold">سرلینک</li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 p-0">
+                <ul>
+                    <li class="font-weight-bold">سرلینک</li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 p-0">
+                <ul>
+                    <li class="font-weight-bold">سرلینک</li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 p-0">
+                <ul>
+                    <li class="font-weight-bold">سرلینک</li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 p-0">
+                <ul>
+                    <li class="font-weight-bold">سرلینک</li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 p-0">
+                <ul>
+                    <li class="font-weight-bold">سرلینک</li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 p-0">
+                <ul>
+                    <li class="font-weight-bold">سرلینک</li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 p-0">
+                <ul>
+                    <li class="font-weight-bold">سرلینک</li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                    <li>
+                        <a>لینک</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row enamad justify-content-end pt-4">
+            <a href="#" class="col-lg-2 col-md-2 col-sm-2">
+                <img loading="lazy" src="assets/images/sabt.png" alt="sabt" class="img-fluid">
+            </a>
+            <a href="#" class="col-lg-2 col-md-2 col-sm-2">
+                <img loading="lazy" src="assets/images/enamad-one-star.png" alt="enamad" class="img-fluid">
+            </a>
+        </div>
+        <div class="accordion accordion-flush ">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        دسترسی سریع
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="col-12 text-center p-0">
+                            <ul>
+                                <li class="font-weight-bold">سرلینک</li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        بخش تامین
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="col-12 text-center p-0">
+                            <ul>
+                                <li class="font-weight-bold">سرلینک</li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        لینک های سریع
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <div class="col-12 text-center p-0">
+                            <ul>
+                                <li class="font-weight-bold">سرلینک</li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                                <li>
+                                    <a>لینک</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center pb-3 pt-1 copyright">
+            <p>تمامی حقوق مادی و معنوی این وب سایت برای ماشین نو محفوظ می باشد ، هرگونه کپی برداری از سایت پیگرد قانونی دارد</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("demo");
+        let captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+</script>
+
+<script src="assets/App.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>
