@@ -1342,27 +1342,23 @@ img {
     font-size: 0.55rem;
 }
 
-
-.swiper-container {
-    width: 100%;
-    height: 100%;
+.p-slider .p-b-border{
+    font-size: 1rem;
 }
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
 
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
+.p-slider .card{
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.p-slider .card-body h5{
+    font-size: 0.75rem !important;
+}
+
+.p-slider a{
+    font-family: IranYekanBold;
+    color: #000000;
+}
+.p-slider a:hover{
+    color: #000000;
 }
