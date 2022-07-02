@@ -1095,6 +1095,10 @@ footer hr{
     font-size: 0.8rem;
 }
 
+.p-buy .text-left{
+    font-size: 0.6rem;
+}
+
 .p-b-border{
     border-bottom: 1px solid #e4e4e4;
 }
