@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 <head>
     <meta charset="UTF-8">
     <title>Product Single</title>
@@ -11,6 +11,7 @@
     <script src="https://kit.fontawesome.com/4ed60bd0ea.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.6/swiper-bundle.css" integrity="sha512-LTz09eiSkjtMayQgsyCcxuA2POUuvwdJoejrNLLIj5tulySAEAFgRHXW5JO4/qW36nurH8iApZ4SMj9E2rRHtQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body dir="rtl">
 <nav class="navbar">
@@ -63,10 +64,10 @@
                             <i class="fa fa-heart"></i>
                         </li>
                         <li>
-                            <i class="fa fa-share"></i>
+                            <i class="fa fa-balance-scale"></i>
                         </li>
                         <li>
-                            <i class="fa fa-balance-scale"></i>
+                            <i class="fa fa-share"></i>
                         </li>
                     </ul>
                 </div>
@@ -157,44 +158,68 @@
                     <a>استعلام قیمت</a>
                 </button>
             </div>
-            <div class="col-lg-3 p-rate p-2">
-                <div class="text-center rate-border">
-                    <p>امتیاز محصول</p>
-                    <div class="row justify-content-center my-3">
-                        4/10
-                        <i class="col-1 fa fa-star star-selected"></i>
-                        <i class="col-1 fa fa-star star-selected"></i>
-                        <i class="col-1 fa fa-star star-selected"></i>
-                        <i class="col-1 fa fa-star star-selected"></i>
-                        <i class="col-1 fa fa-star"></i>
+            <div class="col-lg-3 p-buy p-2">
+                <div class="row mb-1">
+                    <h1 class="col-6">فروشنده</h1>
+                    <a class="col-6 text-left">۱ فروشنده دیگر</a>
+                </div>
+                <div class="row p-b-border py-2">
+                    <i class="fa fa-home col-1 mt-1"></i>
+                    <div class="col-10">
+                        <div>پارسیان</div>
+                        <div class="row">
+                            <div class="col-6">
+                                <span class="text-warning">20%</span>
+                                رضایت از کالا
+                            </div>
+                            |
+                            <div class="col-5">
+                                &nbsp;
+                                عملکرد
+                                <span class="text-success">عالی</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-3 text-center">
-                        <div class="rate-icon p-2 m-2">
-                            <img loading="lazy" class="img-fluid" src="assets/images/s1.png" alt="mercedes">
+                <div class="p-b-border my-1 py-1">
+                    <div class="row">
+                        <i class="fa fa-shield col-1 pt-2"></i>
+                        <div class="col-11 pt-2">
+                            <p>گارانتی اصالت و سلامت فیزیکی کالا</p>
                         </div>
-                        <h6>ضمانت بهترین قیمت کالا</h6>
-                    </div>
-                    <div class="col-3 text-center">
-                        <div class="rate-icon p-2 m-2">
-                            <img loading="lazy" class="img-fluid" src="assets/images/s2.png" alt="mercedes">
-                        </div>
-                        <h6>گارانتی ۷ روز بازگشت</h6>
-                    </div>
-                    <div class="col-3 text-center">
-                        <div class="rate-icon p-2 m-2">
-                            <img loading="lazy" class="img-fluid" src="assets/images/s3.png" alt="mercedes">
-                        </div>
-                        <h6>ارسال در همان روز</h6>
-                    </div>
-                    <div class="col-3 text-center">
-                        <div class="rate-icon p-2 m-2">
-                            <img loading="lazy" class="img-fluid" src="assets/images/s4.png" alt="mercedes">
-                        </div>
-                        <h6>ارسال به سراسر ایران</h6>
                     </div>
                 </div>
+                <div class="p-b-border py-3">
+                    <div class="row">
+                        <i class="fa fa-box col-1"></i>
+                        <div class="col-10">
+                            <p>موجود در انبار</p>
+                            <div>
+                                <i class="fa fa-truck text-danger"></i>
+                                <p class="d-inline">ارسال پارسیان</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-3">
+                    <div class="text-left">
+                        <del class="text-secondary">20000</del>
+                        <span class="p-badge p-1">50%</span>
+                    </div>
+                    <div class="text-secondary">
+                        قیمت فروشنده
+                    </div>
+                    <h6 class="text-left">
+                        10000 تومان
+                    </h6>
+                    <div class="pt-3 text-secondary">
+                        <i class="fa fa-eye"></i>
+                        +۲۰ نفر در حال مشاهده این کالا هستند
+                    </div>
+                </div>
+                <button class="btn btn-danger col-12">
+                    افزودن به سبد خرید
+                </button>
             </div>
         </section>
         <div class="row justify-content-between mt-3 product pt-3 px-2">
@@ -389,7 +414,28 @@
         </div>
     </section>
     <section class="mx-auto my-2 p-main">
-        hi
+<!--        <div class="container">-->
+<!--            &lt;!&ndash; Slider main container &ndash;&gt;-->
+<!--            <div class="swiper-container">-->
+<!--                &lt;!&ndash; Additional required wrapper &ndash;&gt;-->
+<!--                <div class="swiper-wrapper">-->
+<!--                    <div class="swiper-slide">Slide 1</div>-->
+<!--                    <div class="swiper-slide">Slide 2</div>-->
+<!--                    <div class="swiper-slide">Slide 3</div>-->
+<!--                    <div class="swiper-slide">Slide 4</div>-->
+<!--                    <div class="swiper-slide">Slide 5</div>-->
+<!--                    <div class="swiper-slide">Slide 6</div>-->
+<!--                    <div class="swiper-slide">Slide 7</div>-->
+<!--                    <div class="swiper-slide">Slide 8</div>-->
+<!--                    <div class="swiper-slide">Slide 9</div>-->
+<!--                    <div class="swiper-slide">Slide 10</div>-->
+<!--                </div>-->
+
+<!--                &lt;!&ndash; If we need navigation buttons &ndash;&gt;-->
+<!--                <div class="swiper-button-prev"></div>-->
+<!--                <div class="swiper-button-next"></div>-->
+<!--            </div>-->
+<!--        </div>-->
     </section>
 </section>
 <footer>
@@ -881,6 +927,7 @@
     </div>
 </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.2.6/swiper-bundle.min.js" integrity="sha512-CGsqPVUZUUVx5RS41AFdu5Ghj3cKcpHxg7ae66br18nqK5dTPJ2k6srKYVHMMIvaq96QIoOE8JrqXrlWuppfEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
     let slideIndex = 1;
     showSlides(slideIndex);
@@ -910,6 +957,33 @@
         dots[slideIndex-1].className += " active";
         captionText.innerHTML = dots[slideIndex-1].alt;
     }
+
+    $(document).ready(function() {
+// Swiper: Slider
+        new Swiper('.swiper-container', {
+            loop: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            slidesPerView: 3,
+            paginationClickable: true,
+            spaceBetween: 20,
+            breakpoints: {
+                1920: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                },
+                1028: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                480: {
+                    slidesPerView: 1,
+                    spaceBetween: 10
+                }
+            }
+        });
+    });
+
 </script>
 
 <script src="assets/App.js"></script>
