@@ -1095,6 +1095,11 @@ footer hr{
     font-size: 0.8rem;
 }
 
+.p-buy h4{
+    font-size: 1rem !important;
+    font-family: IranYekanBold;
+}
+
 .p-buy .text-left{
     font-size: 0.6rem;
 }
