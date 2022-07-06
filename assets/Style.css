@@ -1120,7 +1120,7 @@ img {
 
 .mySlides {
     object-fit: contain !important;
-    height: 185px;
+    height: 250px;
     display: none;
 }
 .cursor {
@@ -1223,9 +1223,9 @@ img {
     border: #000000 1px solid;
 }
 
-.color:active, :focus{
-    background-color: red;
-}
+/*.color:active, :focus{*/
+/*    background-color: red;*/
+/*}*/
 
 .colors + a{
     font-size: 0.8rem;
@@ -1322,9 +1322,14 @@ img {
     text-align: end;
 }
 
-.add-comment button{
+.add-comment button , .comment-form form button{
     background-color: #1FAB00 !important;
     color: #ffffff !important;
+    font-size: 0.8rem !important;
+    border-radius: 20px !important;
+}
+
+.show-comment button{
     font-size: 0.8rem !important;
     border-radius: 20px !important;
 }
@@ -1340,6 +1345,17 @@ img {
 
 .comment-info .btn-outline-secondary{
     font-size: 0.55rem;
+}
+
+.comment-form textarea{
+    border: 1px #EEEEEE solid;
+    border-radius: 5px;
+    height: 6rem;
+
+}
+
+.remove{
+    display: none;
 }
 
 .p-slider .p-b-border{
@@ -1361,4 +1377,47 @@ img {
 }
 .p-slider a:hover{
     color: #000000;
+}
+
+.lightbox-window {
+    position: fixed;
+    background-color: rgba(50, 50, 50, 0.95);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.lightbox-window:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
+.lightbox-window> div {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: white;
+}
+
+.lightbox-close {
+    color: #aaa;
+    line-height: 50px;
+    font-size: 80%;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 0;
+    width: 80px;
+    text-decoration: none;
+}
+.lightbox-close:hover {
+    color: black;
 }
