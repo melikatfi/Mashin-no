@@ -111,7 +111,7 @@ body .row:nth-child(1){
 }
 .navbar{
     justify-content: space-between !important;
-    padding: 0 10px;
+    padding: 0 10px !important;
     background-color: #ffffff;
 }
 .navbar .logo img{
@@ -863,7 +863,70 @@ footer .about{
     border: none !important;
     border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
-
+.tools .btn{
+    font-size: 0.7rem;
+    border-radius: 10px;
+}
+.shop nav {
+    font-size: 0.7rem;
+    margin: 0.5rem;
+}
+.border-bottom{
+    border-bottom: 1px solid #000000;
+}
+.shop-card{
+    margin: 1rem auto;
+    max-width: 90%;
+    border-radius: 0 !important;
+    background-color: #ffffff;
+    box-shadow: 0 0 12px 2px #e4e4e4;
+}
+.shop-card .card-img, .card-img-top{
+    border-radius: 0 !important;
+}
+.shop-card .card-title{
+    font-size: 0.9rem;
+}
+.shop-card .stars .col-2{
+    font-size: 0.7rem;
+    color: #7e7e7e;
+}
+.shop-card del{
+    font-size: 0.8rem;
+    color: #7e7e7e;
+}
+.shop-card .row.justify-content-between {
+    max-height: 153px;
+}
+section.special.mobile-special{
+    padding: 0!important;
+}
+.mobile-special .badge{
+    border-radius: 10px 10px 0 20px;
+    font-size: 0.8rem;
+    top: 0 !important;
+}
+.mobile-special .card-title{
+    font-size: 1rem;
+}
+.mobile-special .card-title ~ div h5,del{
+    font-size: 0.8rem;
+}
+.mobile-slider{
+    background-color: #ffffff;
+    box-shadow: 0 0 12px 2px #e4e4e4;
+    max-width: 90%;
+}
+.mobile-slider .card{
+    border: none;
+    font-size: 0.6rem;
+}
+.mobile-slider h5.text-secondary, .mobile-slider h5 {
+    font-size: 0.8rem;
+}
+.service-icons.shop-icons{
+    margin: 20px auto !important;
+}
 @media screen and (max-width: 580px){
     .icon {
         margin: 10px;
