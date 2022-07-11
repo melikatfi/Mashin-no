@@ -1128,7 +1128,7 @@ section.special.mobile-special{
         font-size: 22px;
     }
     .log .cart span {
-        left: 115px;
+        left: 120px;
     }
     .services {
         padding: 10px;
@@ -1202,6 +1202,9 @@ section.special.mobile-special{
     }
     .shop-icons .col-3 h6 {
         font-size: 0.6rem;
+    }
+    .brands-search .swiper-slide img {
+        max-width: 100px;
     }
 }
 @media screen and (max-width: 370px){
