@@ -1351,7 +1351,6 @@ img {
     border: 1px #EEEEEE solid;
     border-radius: 5px;
     height: 6rem;
-
 }
 
 .remove{
@@ -1455,7 +1454,7 @@ aside{
     width: 21.666667% !important;
     max-width: 21.666667% !important;
 }
-.p-main .btn-secondary{
+.shop-aside .p-main .btn-secondary{
     background-color: #DBDBDB;
     border-radius: 0 !important;
     color: #000000;
@@ -1571,4 +1570,19 @@ aside{
 .p-main + .img3{
     background-image: url("images/3.jpeg");
     height: 300px;
+}
+.car-brands a{
+    box-shadow: 0 6px 12px 2px #e4e4e4;
+    border-radius: 30px;
+}
+.car-brands a:hover{
+    background-color: #1FAB00;
+    color: #ffffff;
+    border: 0 !important;
+}
+.car-images img{
+    max-width: 150px;
+}
+*{
+    white-space: normal;
 }
