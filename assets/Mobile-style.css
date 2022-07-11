@@ -1212,8 +1212,7 @@ section.special.mobile-special{
         font-size: 21px;
     }
     .log .cart span {
-        left: 106px;
-        top: 11px;
+        left: 110px;
     }
     .log .btn {
         padding: 8px 12px;
@@ -1358,8 +1357,14 @@ section.special.mobile-special{
     .tools .col-3 {
         min-width: 35%;
     }
+    .brands-search h6{
+        font-size: 0.75rem;
+    }
     .car-brands a {
         font-size: 0.7rem;
+    }
+    .brands-search .swiper-slide img {
+        max-width: 80px;
     }
 }
 @media screen and (max-width: 334px){
