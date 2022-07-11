@@ -895,9 +895,6 @@ footer .about{
     font-size: 0.8rem;
     color: #7e7e7e;
 }
-.shop-card .row.justify-content-between {
-    max-height: 153px;
-}
 section.special.mobile-special{
     padding: 0!important;
 }
@@ -926,6 +923,12 @@ section.special.mobile-special{
 }
 .service-icons.shop-icons{
     margin: 20px auto !important;
+}
+.shop-icons .col-3 h6{
+    font-size: 0.7rem;
+}
+.shop-icons .icon .img-fluid{
+    max-width: 70px !important;
 }
 @media screen and (max-width: 580px){
     .icon {
@@ -974,6 +977,10 @@ section.special.mobile-special{
     }
     .about p{
         font-size: 14px;
+    }
+    .tools .btn {
+        font-size: 0.6rem;
+        border-radius: 10px;
     }
 }
 @media screen and (max-width: 478px){
@@ -1074,6 +1081,9 @@ section.special.mobile-special{
         flex: 0 0 auto;
         width: 20.666667%;
     }
+    .tools .col-3{
+        min-width: 30%;
+    }
 }
 @media screen and (max-width: 430px){
     .navbar {
@@ -1148,6 +1158,19 @@ section.special.mobile-special{
     .social a {
         width: 33px;
         padding: 3px;
+    }
+    .shop nav {
+        font-size: 0.6rem;
+        margin: 0.5rem;
+    }
+    .stars .col-2 {
+        width: 25.666667%;
+    }
+    .shop-icons .icon .img-fluid {
+        max-width: 50px !important;
+    }
+    .shop-icons .col-3 h6 {
+        font-size: 0.6rem;
     }
 }
 @media screen and (max-width: 370px){
@@ -1292,6 +1315,18 @@ section.special.mobile-special{
     .enamad .col-2 {
         width: 24.666667%;
     }
+    .shop-card .card-title {
+        font-size: 0.7rem;
+    }
+    .stars .col-1 {
+        width: 11.333333%;
+    }
+    .shop-icons .col-3 {
+        width: 23%;
+    }
+    .tools .col-3 {
+        min-width: 35%;
+    }
 }
 @media screen and (max-width: 334px){
     .navbar .logo img {
@@ -1300,6 +1335,11 @@ section.special.mobile-special{
     .freeShip p {
         font-size: 13px;
     }
+    .navbar {
+        justify-content: space-between !important;
+        padding: 0 5px !important;
+        background-color: #ffffff;
+    }
     .log .btn {
         padding: 5px 9px;
         font-size: 9px !important;
@@ -1307,6 +1347,7 @@ section.special.mobile-special{
     }
     .log .cart span {
         left: 100px;
+        top: 4px;
     }
     .icon {
         padding: 7px;
@@ -1314,6 +1355,22 @@ section.special.mobile-special{
     }
     .banner-overlay {
         font-size: 8px;
+    }
+    .tools .col-3 {
+        min-width: 40%;
+    }
+    .shop-card .col-6 {
+        flex: 0 0 auto;
+        width: 48%;
+    }
+    .stars .col-2 {
+        width: 36.666667%;
+    }
+    .mobile-special .col-10 {
+        width: 91.333333%;
+    }
+    .mobile-slider h5.text-secondary, .mobile-slider h5 {
+        font-size: 0.7rem;
     }
 }
 
