@@ -930,6 +930,25 @@ section.special.mobile-special{
 .shop-icons .icon .img-fluid{
     max-width: 70px !important;
 }
+.car-brands a{
+    box-shadow: 0 6px 12px 2px #e4e4e4;
+    border-radius: 30px;
+}
+.car-brands a:hover{
+    background-color: #1FAB00;
+    color: #ffffff;
+    border: 0 !important;
+}
+.car-images img{
+    max-width: 100px;
+}
+.p-main {
+    background-color: #ffffff;
+    box-shadow: 0 0 12px 2px #e4e4e4;
+}
+.brands-search .swiper-slide img{
+    max-width: 150px;
+}
 @media screen and (max-width: 580px){
     .icon {
         margin: 10px;
@@ -981,6 +1000,18 @@ section.special.mobile-special{
     .tools .btn {
         font-size: 0.6rem;
         border-radius: 10px;
+    }
+    .car-brands a{
+        font-size: 0.85rem;
+    }
+    .brands-search .swiper-slide img {
+        max-width: 120px;
+    }
+    article h4{
+        font-size: 1rem;
+    }
+    article p{
+        font-size: 0.8rem;
     }
 }
 @media screen and (max-width: 478px){
@@ -1326,6 +1357,9 @@ section.special.mobile-special{
     }
     .tools .col-3 {
         min-width: 35%;
+    }
+    .car-brands a {
+        font-size: 0.7rem;
     }
 }
 @media screen and (max-width: 334px){

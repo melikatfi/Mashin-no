@@ -140,7 +140,6 @@
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
             </p>
     </article>
-
 </section>
 <footer>
     <div class="contact">
@@ -632,77 +631,6 @@
 </footer>
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js'></script>
-<script>
-    let slideIndex = 1;
-    showSlides(slideIndex);
-
-    function plusSlides(n) {
-        showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-        showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("demo");
-        let captionText = document.getElementById("caption");
-        if (n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
-        captionText.innerHTML = dots[slideIndex-1].alt;
-    }
-</script>
-<script>
-    $(document).ready(function() {
-// Swiper: Slider
-        new Swiper('.swiper-container', {
-            loop: true,
-            nextButton: '.swiper-button-next',
-            prevButton: '.swiper-button-prev',
-            slidesPerView: 5,
-            paginationClickable: true,
-            spaceBetween: 20,
-            breakpoints: {
-                1920: {
-                    slidesPerView: 5,
-                    spaceBetween: 30
-                },
-                1028: {
-                    slidesPerView: 2,
-                    spaceBetween: 30
-                },
-                480: {
-                    slidesPerView: 1,
-                    spaceBetween: 10
-                }
-            }
-        });
-    });
-</script>
-<script>
-    function AddComment(){
-        let commentsList = document.getElementById("cm-list")
-        commentsList.classList.add("remove")
-        let addComment =document.getElementById("cm-add")
-        addComment.classList.replace('remove','show')
-    }
-    function ShowComments(){
-        let commentsList = document.getElementById("cm-list")
-        commentsList.classList.remove("remove")
-        let addComment =document.getElementById("cm-add")
-        addComment.classList.replace('show','remove')
-    }
-</script>
 <script src="assets/App.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </body>
