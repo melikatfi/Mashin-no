@@ -1197,6 +1197,9 @@ section.special.mobile-special{
     .tools .col-3 {
         min-width: 33%;
     }
+    .tools .btn {
+        font-size: 0.55rem;
+    }
     .stars .col-2 {
         width: 25.666667%;
     }
