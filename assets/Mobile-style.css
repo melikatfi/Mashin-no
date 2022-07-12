@@ -1194,8 +1194,8 @@ section.special.mobile-special{
         font-size: 0.6rem;
         margin: 0.5rem;
     }
-    .shop-icons .col-3 {
-        width: 25%;
+    .tools .col-3 {
+        min-width: 33%;
     }
     .stars .col-2 {
         width: 25.666667%;
@@ -1356,6 +1356,9 @@ section.special.mobile-special{
     }
     .stars .col-1 {
         width: 11.333333%;
+    }
+    .shop-icons .col-3 {
+        width: 23%;
     }
     .tools .col-3 {
         min-width: 35%;
