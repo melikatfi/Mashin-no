@@ -1667,6 +1667,9 @@ aside{
 .cart-item-checkbox div:nth-child(2) .row div{
     font-size: 0.45rem;
 }
+.cart-item-remove img{
+    max-width: 180px;
+}
 .cart-product {
     max-width: 98% !important;
     border: #E3E3E3 1px solid;
