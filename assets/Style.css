@@ -1044,18 +1044,23 @@ footer hr{
 .star-selected{
     color: #64DC17;
 }
+
 .p-wrapper{
     padding: 30px 100px;
 }
+
 .p-wrapper .row{
     --bs-gutter-x: 0;
 }
+
 .p-gallery{
     margin-right: 15px;
 }
+
 .p-toolbar{
     right: -6%;
 }
+
 .p-toolbar li{
     font-size: 20px;
     margin: 8px;
@@ -1125,9 +1130,11 @@ img {
     height: 250px;
     display: none;
 }
+
 .cursor {
     cursor: pointer;
 }
+
 .prev,
 .next {
     cursor: pointer;
@@ -1143,6 +1150,7 @@ img {
     user-select: none;
     -webkit-user-select: none;
 }
+
 .next {
     right: 87%;
 }
@@ -1172,10 +1180,12 @@ img {
 .border-left{
     border-left: 1px solid #dedede;
 }
+
 .p-info{
     font-size: 0.8rem;
     font-family: IranYekanBold;
 }
+
 .p-info a{
     font-family: IranYekanReg;
     font-size: 0.9rem;
@@ -1191,14 +1201,17 @@ img {
     border-radius: 5px;
     font-size: 0.8rem;
 }
+
 .p-description h6{
     font-size: 0.9rem;
     display: inline;
     font-family: IranYekanBold;
 }
+
 .colors label input{
     display: none!important;
 }
+
 .colors label{
     border: #DBDCDC 1px solid;
 }
@@ -1214,9 +1227,11 @@ img {
 .orange i{
     color: orange !important;
 }
+
 .red i{
     color: red;
 }
+
 .green i{
     color: limegreen;
 }
@@ -1391,11 +1406,13 @@ img {
     pointer-events: none;
     transition: all 0.3s;
 }
+
 .lightbox-window:target {
     visibility: visible;
     opacity: 1;
     pointer-events: auto;
 }
+
 .lightbox-window> div {
     width: 400px;
     position: absolute;
@@ -1417,12 +1434,16 @@ img {
     width: 80px;
     text-decoration: none;
 }
+
 .lightbox-close:hover {
     color: black;
 }
+/*Shop*/
+
 .shop-wrapper{
     padding: 30px 80px;
 }
+
 .shop .card{
     border-radius: 0 !important;
     border: #F1F4F5 0.001rem solid;
@@ -1441,6 +1462,9 @@ img {
 .shop .card-overlay-links .btn-overlay:hover{
     background-color: #ffffff;
     color: #000000;
+}
+.shop .card .card-text p{
+    font-size: 0.7rem;
 }
 .main-sub{
     font-size: 0.75rem;
@@ -1583,6 +1607,92 @@ aside{
 .car-images img{
     max-width: 150px;
 }
-*{
-    white-space: normal;
+/*Cart*/
+.cart-wrapper {
+    padding: 30px 70px;
+}
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.checkbox-container .btn{
+    border-radius: 50% !important;
+}
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkbox-container .checkmark {
+    position: absolute;
+    top: 0;
+    right: 17px;
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+.checkbox-container:hover input ~ .checkmark {
+    background-color: #ffffff;
+}
+.checkbox-container input:checked ~ .checkmark {
+    background-color: #ffffff;
+}
+.checkbox-container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+.checkbox-container .checkmark:after {
+    top: 0.1rem;
+    left: 0.1rem;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #1FAB00;
+}
+.cart-item-checkbox div:nth-child(2) .row div{
+    font-size: 0.45rem;
+}
+.cart-product {
+    max-width: 98% !important;
+    border: #E3E3E3 1px solid;
+    font-family: IranYekanBold;
+    font-size: 0.8rem;
+}
+.cart-discount .discount-btn{
+    left: 0;
+    border-radius: 20px 0 0 20px;
+    background-color: #64DD14;
+    color: #ffffff;
+    font-size: 0.7rem;
+    padding: 0.4rem 0.6rem;
+}
+.cart-discount input{
+    padding: 0.4rem;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    border: none;
+}
+.cart-discount input::placeholder{
+    font-size: 0.6rem;
+}
+.cart-discount .checkout-btn{
+    border-radius: 20px;
+    background-color: #40C309;
+    color: #ffffff;
+    font-size: 0.8rem;
 }
