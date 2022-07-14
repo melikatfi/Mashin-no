@@ -1611,6 +1611,9 @@ aside{
 .cart-wrapper {
     padding: 30px 70px;
 }
+.cart-wrapper h1:first-child{
+    font-size: 1.25rem !important;
+}
 .checkbox-container {
     display: block;
     position: relative;
@@ -1744,6 +1747,9 @@ aside{
 }
 .cart-wrapper aside{
     height: fit-content;
+}
+aside .p-main .row div:last-child p{
+    font-size: 0.7rem !important;
 }
 .cart-icons div h6{
     font-size: 0.4rem !important;
