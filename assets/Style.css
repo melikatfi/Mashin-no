@@ -1745,3 +1745,13 @@ aside{
 .cart-wrapper aside{
     height: fit-content;
 }
+.cart-icons div h6{
+    font-size: 0.4rem !important;
+}
+.cart-icons .icon{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    height: fit-content;
+    border-radius: 100%;
+}
