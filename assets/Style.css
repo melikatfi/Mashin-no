@@ -1761,3 +1761,49 @@ aside .p-main .row div:last-child p{
     height: fit-content;
     border-radius: 100%;
 }
+/*Checkout Address*/
+.mr-1.checkout-progress{
+    margin-right: 0.2rem!important;
+}
+.checkout-progress .mt-2 {
+    margin-top: 0.4rem!important;
+}
+.checkout-progress hr{
+    border: 2px solid #747474;
+}
+.checkout-progress{
+    color: #747474;
+}
+.checkout-progress div.active{
+    color: #64DD14;
+}
+.checkout-progress hr.active{
+    border: 2px solid #64DD14;
+}
+.address-add{
+    border-radius: 20px;
+    background-color: #40C309;
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+.address-add:hover{
+    color: #ffffff;
+}
+.address-item{
+    border: 1px solid #E1E1E1;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+.address-item button{
+    background-color: #F5F5F5 !important;
+    color: #1A2931;
+    border: 1px solid #CACACA;
+    border-radius: 0 0 20px 20px;
+    transition: 0.5s all ease;
+    font-size: 0.9rem;
+}
+.address-item button:hover{
+    background-color: #F5F5F5 !important;
+    color: #1A2931;
+    border: 1px solid #bfbfbf;
+}
