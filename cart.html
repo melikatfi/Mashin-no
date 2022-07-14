@@ -42,10 +42,11 @@
     </div>
 </nav>
 
-<section class="cart-wrapper shop-aside">
+<section class="cart-wrapper">
     <section class="m-auto py-4 row justify-content-between">
+        <h1 class="my-3">سبد خرید</h1>
         <section class="col-9 shop mx-3">
-            <div class="p-main row my-2 cart-item">
+            <div class="p-main row cart-item">
                 <div class="row justify-content-between cart-product my-2 mx-auto pt-3 px-2 cart-item-remove">
                     <div class="col-1 mt-1 checkbox-container">
                         <button class="btn btn-secondary">
@@ -58,13 +59,13 @@
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="text-capitalize text-center">Genuine</div>
+                        <div class="text-uppercase text-center mb-2">Genuine - سپر جلوی هیوندای کوپه</div>
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-5">
                                 برند :
                                 <span>هیوندای</span>
                             </div>
-                            <div class="col-6">
+                            <div class="col-7">
                                 دسته‌بندی :
                                 <span>لوازم یدکی</span>
                             </div>
@@ -258,38 +259,79 @@
                     </button>
                 </div>
             </div>
-            <div class="p-main row my-2">
-                h
+            <div class="p-main row my-2 cart-item">
+                <div class="row justify-content-between cart-product my-2 mx-auto pt-3 px-2 cart-item-remove">
+                    <div class="col-1 mt-1 checkbox-container">
+                        <button class="btn btn-secondary">
+                            <i class="fa fa-close"></i>
+                        </button>
+                    </div>
+                    <div class="col-lg-3">
+                        <div>
+                            <img src="assets/images/3.jpeg"/>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="text-uppercase text-center mb-2">Genuine - سپر جلوی هیوندای کوپه</div>
+                        <div class="row">
+                            <div class="col-5">
+                                برند :
+                                <span>هیوندای</span>
+                            </div>
+                            <div class="col-7">
+                                دسته‌بندی :
+                                <span>لوازم یدکی</span>
+                            </div>
+                            <div class="col-6 mt-2">
+                                فروشنده :
+                                <span>پارس</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <div class="col-4 mx-auto my-1 row">
+                            <span class="input-number-decrement col-1">–</span>
+                            <input class="input-number col-4" type="text" value="1" min="0" max="10">
+                            <span class="input-number-increment col-1">+</span>
+                        </div>
+                        <h6>۱۲۰۰۰۰ تومان</h6>
+                    </div>
+                </div>
             </div>
         </section>
-        <aside class="col-2 p-main">
-            <div class="row border-bottom p-3">
-                <div class="col-6 text-right">
-                    <h6>مبلغ کل:</h6>
+        <aside class="col-2">
+            <div class="p-main">
+                <div class="row border-bottom p-3">
+                    <div class="col-6 text-right">
+                        <h6>مبلغ کل:</h6>
+                    </div>
+                    <div class="col-6 text-left">
+                        <p>۲۳۰۰۰۰ تومان</p>
+                    </div>
+                    <div class="col-5 text-right">
+                        <h6 class="text-sm">
+                            هزینه ارسال:
+                        </h6>
+                    </div>
+                    <div class="col-7 text-left">
+                        <p>وابسته به آدرس</p>
+                    </div>
                 </div>
-                <div class="col-6 text-left">
-                    <p>۲۳۰۰۰۰ تومان</p>
-                </div>
-                <div class="col-5 text-right">
-                    <h6 class="text-sm">
-                        هزینه ارسال:
-                    </h6>
-                </div>
-                <div class="col-7 text-left">
-                    <p>وابسته به آدرس</p>
+                <div class="cart-discount text-center mt-3">
+                    <p>کوپن تخفیف ماشین‌نو دارم</p>
+                    <form class="col-10 m-auto">
+                        <div class="position-relative m-2 row">
+                            <input type="text" class="col-12" placeholder="کد تخفیف را وارد کنید">
+                            <button class="btn discount-btn position-absolute col-3" type="submit">اعمال</button>
+                        </div>
+                    </form>
+                    <p class="mt-2">مبلغ قابل پرداخت :</p>
+                    <h6 class="text-danger">20000 تومان</h6>
+                    <button class="btn col-10 checkout-btn my-3">تایید و ادامه فرآیند خرید</button>
                 </div>
             </div>
-            <div class="cart-discount text-center mt-3">
-                <p>کوپن تخفیف ماشین‌نو دارم</p>
-                <form class="col-10 m-auto">
-                    <div class="position-relative m-2 row">
-                        <input type="text" class="col-12" placeholder="کد تخفیف را وارد کنید">
-                        <button class="btn discount-btn position-absolute col-3" type="submit">اعمال</button>
-                    </div>
-                </form>
-                <p class="mt-2">مبلغ قابل پرداخت :</p>
-                <h6 class="text-danger">20000 تومان</h6>
-                <button class="btn col-10 checkout-btn my-3">تایید و ادامه فرآیند خرید</button>
+            <div class="p-main my-2">
+h
             </div>
         </aside>
     </section>
@@ -786,31 +828,47 @@
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js'></script>
 <script>
-    $(document).ready(function() {
-// Swiper: Slider
-        new Swiper('.swiper-container', {
-            loop: true,
-            nextButton: '.swiper-button-next',
-            prevButton: '.swiper-button-prev',
-            slidesPerView: 5,
-            paginationClickable: true,
-            spaceBetween: 20,
-            breakpoints: {
-                1920: {
-                    slidesPerView: 5,
-                    spaceBetween: 30
-                },
-                1028: {
-                    slidesPerView: 2,
-                    spaceBetween: 30
-                },
-                480: {
-                    slidesPerView: 1,
-                    spaceBetween: 10
+    (function() {
+
+        window.inputNumber = function(el) {
+
+            var min = el.attr('min') || false;
+            var max = el.attr('max') || false;
+
+            var els = {};
+
+            els.dec = el.prev();
+            els.inc = el.next();
+
+            el.each(function() {
+                init($(this));
+            });
+
+            function init(el) {
+
+                els.dec.on('click', decrement);
+                els.inc.on('click', increment);
+
+                function decrement() {
+                    var value = el[0].value;
+                    value--;
+                    if(!min || value >= min) {
+                        el[0].value = value;
+                    }
+                }
+
+                function increment() {
+                    var value = el[0].value;
+                    value++;
+                    if(!max || value <= max) {
+                        el[0].value = value++;
+                    }
                 }
             }
-        });
-    });
+        }
+    })();
+
+    inputNumber($('.input-number'));
 </script>
 <script src="assets/App.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>

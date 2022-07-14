@@ -1478,7 +1478,7 @@ aside{
     width: 21.666667% !important;
     max-width: 21.666667% !important;
 }
-.shop-aside .p-main .btn-secondary{
+.shop-aside .p-main .btn-more{
     background-color: #DBDBDB;
     border-radius: 0 !important;
     color: #000000;
@@ -1624,6 +1624,8 @@ aside{
 }
 .checkbox-container .btn{
     border-radius: 50% !important;
+    font-size: 0.7rem;
+    height: 32px;
 }
 .checkbox-container input {
     position: absolute;
@@ -1664,8 +1666,13 @@ aside{
     border-radius: 50%;
     background: #1FAB00;
 }
-.cart-item-checkbox div:nth-child(2) .row div{
-    font-size: 0.45rem;
+.cart-item-remove span{
+    font-family: IranYekanReg;
+    font-size: 0.8rem;
+    color: #27A7D7;
+}
+.cart-item-remove .text-primary{
+    color: #27A7D7 !important;
 }
 .cart-item-remove img{
     max-width: 180px;
@@ -1675,6 +1682,42 @@ aside{
     border: #E3E3E3 1px solid;
     font-family: IranYekanBold;
     font-size: 0.8rem;
+}
+.input-number{
+    vertical-align: top;
+    text-align: center;
+    outline: none;
+    border-left: none !important;
+    border-right: none !important;
+    padding: 0 !important;
+}
+.input-number,
+.input-number-decrement,
+.input-number-increment{
+    border: 1px solid #ccc;
+    user-select: none;
+}
+.input-number-decrement,
+.input-number-increment{
+    display: inline-block;
+    line-height: 38px;
+    background: rgba(0,0,0,0) !important;
+    color: #70D42E !important;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.input-number-decrement,
+.input-number-increment:active{
+    background: #ddd
+}
+.input-number-decrement{
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+}
+.input-number-increment{
+    border-right: none;
+    border-radius: 4px 0 0 4px;
 }
 .cart-discount .discount-btn{
     left: 0;
@@ -1698,4 +1741,7 @@ aside{
     background-color: #40C309;
     color: #ffffff;
     font-size: 0.8rem;
+}
+.cart-wrapper aside{
+    height: fit-content;
 }
