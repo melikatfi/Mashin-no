@@ -1951,3 +1951,72 @@ aside .p-main .row div:last-child p{
     border-radius: 50%;
     background: #1FAB00;
 }
+/*payment options*/
+.payment-options{
+    font-size: 0.8rem;
+}
+.bank-checkbox .bank-icon{
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 5px auto;
+}
+.bank-checkbox .bank-icon img{
+    max-height: 70px;
+    max-width: 70px;
+}
+.bank-checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.bank-checkbox-container .btn{
+    border-radius: 50% !important;
+    font-size: 0.7rem;
+    height: 32px;
+}
+.bank-checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.bank-checkbox-container .checkmark {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    height: 15px;
+    width: 15px;
+    background-color: #ffffff;
+    border: 1px solid #7C7C7C;
+    border-radius: 50%;
+}
+.bank-checkbox-container:hover input ~ .checkmark {
+    background-color: #ffffff;
+}
+.bank-checkbox-container input:checked ~ .checkmark {
+    background-color: #ffffff;
+}
+.bank-checkbox-container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.bank-checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+.bank-checkbox-container .checkmark:after {
+    top: 0.06rem;
+    left: 0.07rem;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #1FAB00;
+}

@@ -2,7 +2,7 @@
 <html lang="fa">
 <head>
     <meta charset="UTF-8">
-    <title>Checkout Time and Delivery</title>
+    <title>Checkout Payment Options</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="stylesheet" href="assets/Style.css">
     <link rel="stylesheet" href="assets/responsive.css">
@@ -49,11 +49,11 @@
                 <i class="fa fa-circle"></i>
                 اطلاعات ارسال
             </div>
-            <div class="col-3 row mt-2">
+            <div class="col-3 row mt-2 active">
                 <hr class="col-11 p-0 mt-2 active" />
                 <i class="col-1 fa fa-circle p-0"></i>
             </div>
-            <div class="col-1">
+            <div class="col-1 active">
                 پرداخت
             </div>
             <div class="col-4 row mt-2">
@@ -66,122 +66,68 @@
         </div>
         <section class="col-9 shop mx-3">
             <div class="p-main row p-4">
-                <div class="row mx-1 my-1 py-3 p-b-border address-info justify-content-between">
+                <div class="row mx-1 my-1 py-3 payment-options justify-content-between">
                     <div class="col-9 p-0">
-                        <h6>گیرنده : ندا میرآقایی</h6>
+                        <h6>انتخاب شیوه پرداخت</h6>
                         <div class="my-1">
-                            <span>شماره تماس : ۰۹۸۷۶۵۴۳۲۱۱</span>
-                            &nbsp;&nbsp;
-                            <span>کد پستی : ۱۲۳۴۵۶۷۸۹۰</span>
-                        </div>
-                        <div class="my-1">تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران</div>
-                    </div>
-                    <a class="col-2 py-2 btn-sm add-change text-center">
-                        تغییر آدرس
-                    </a>
-                </div>
-                <div class="p-b-border py-3 mx-1 my-1 delivery-options">
-                    <h6>
-                        <i class="fa fa-truck"></i>
-                        لطفا روش ارسال را انتخاب بفرمایید:
-                    </h6>
-                    <div class="row justify-content-between my-2 mx-auto pt-3 address-checkbox">
-                        <div class="col-1 address-checkbox-container p-0">
-                            <label>
-                                <input type="checkbox">
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                        <div class="col-11 p-0">
-                            ارسال با پیک (مخصوص تهران):::  ۱۳۰۰۰ تومان
-                        </div>
-                    </div>
-                    <div class="row justify-content-between my-2 mx-auto pt-3 address-checkbox">
-                        <div class="col-1 address-checkbox-container p-0">
-                            <label>
-                                <input type="checkbox">
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                        <div class="col-11 p-0">
-                            ارسال با پیک (مخصوص تهران):::  ۱۳۰۰۰ تومان
-                        </div>
-                    </div>
-                    <div class="row justify-content-between my-2 mx-auto pt-3 address-checkbox">
-                        <div class="col-1 address-checkbox-container p-0">
-                            <label>
-                                <input type="checkbox" checked="checked">
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                        <div class="col-11 p-0">
-                            ارسال با پیک (مخصوص تهران):::  ۱۳۰۰۰ تومان
-                        </div>
-                    </div>
-                    <div class="row justify-content-between my-2 mx-auto pt-3 address-checkbox">
-                        <div class="col-1 address-checkbox-container p-0">
-                            <label>
-                                <input type="checkbox">
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                        <div class="col-11 p-0">
-                            ارسال با پیک (مخصوص تهران):::  ۱۳۰۰۰ تومان
+                            <div class="row justify-content-between my-2 mx-auto pt-3 address-checkbox">
+                                <div class="col-1 address-checkbox-container p-0">
+                                    <label>
+                                        <input type="checkbox" checked>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div class="col-11 p-0">
+                                    پرداخت اینترنتی هوشمند
+                                    <div class="text-secondary">پرداخت در هنگام تحویل سفارش با تمامی کارت های بانکی عضو شبکه شتاب</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="p-b-border py-3 mx-1 my-1 delivery-options">
-                    <h6>
-                        <i class="fa fa-clock"></i>
-                        لطفا زمان ارسال را انتخاب بفرمایید:
-                    </h6>
-                    <div class="row justify-content-between my-2 mx-auto pt-3 address-checkbox">
-                        <div class="col-1 address-checkbox-container p-0">
-                            <label>
-                                <input type="checkbox">
-                                <span class="checkmark"></span>
-                            </label>
+                <div class="py-3 mx-1 my-1 payment-options">
+                    <div class="row">
+                        <h6 class="col-3">
+                            انتخاب درگاه بانکی
+                        </h6>
+                        <div class="col-2 justify-content-between bank-checkbox">
+                            <div class="p-0 bank-icon">
+                                <img src="assets/images/mellat-b.jpeg">
+                            </div>
+                            <div class="bank-checkbox-container p-0">
+                                <label>
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
                         </div>
-                        <div class="col-11 p-0">
-                            شنبه ۳۰ شهریور - بین ساعت ۹ الی ۱۳
+                        <div class="col-2 justify-content-between bank-checkbox">
+                            <div class="p-0 bank-icon">
+                                <img src="assets/images/pasargad-b.jpeg">
+                            </div>
+                            <div class="bank-checkbox-container p-0">
+                                <label>
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row justify-content-between my-2 mx-auto pt-3 address-checkbox">
-                        <div class="col-1 address-checkbox-container p-0">
-                            <label>
-                                <input type="checkbox">
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                        <div class="col-11 p-0">
-                            شنبه ۳۰ شهریور - بین ساعت ۹ الی ۱۳
-                        </div>
-                    </div>
-                    <div class="row justify-content-between my-2 mx-auto pt-3 address-checkbox">
-                        <div class="col-1 address-checkbox-container p-0">
-                            <label>
-                                <input type="checkbox">
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                        <div class="col-11 p-0">
-                            شنبه ۳۰ شهریور - بین ساعت ۹ الی ۱۳
-                        </div>
-                    </div>
-                    <div class="row justify-content-between my-2 mx-auto pt-3 address-checkbox">
-                        <div class="col-1 address-checkbox-container p-0">
-                            <label>
-                                <input type="checkbox">
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                        <div class="col-11 p-0">
-                            شنبه ۳۰ شهریور - بین ساعت ۹ الی ۱۳
+                        <div class="col-2 justify-content-between bank-checkbox">
+                            <div class="p-0 bank-icon">
+                                <img src="assets/images/saman-b.jpeg">
+                            </div>
+                            <div class="bank-checkbox-container p-0">
+                                <label>
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="mx-1 my-2 p-1 delivery-options">
-                    <textarea class="col-12 p-3" placeholder="توضیحات اضافی"></textarea>
+                    <div class="mt-2">
+                        <h6>پرداخت در محل با کارت بانکی</h6>
+                        <div class="text-secondary">آنلاین با تمامی کارت‌های بانکی</div>
+                    </div>
                 </div>
             </div>
         </section>
