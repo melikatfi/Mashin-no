@@ -1874,7 +1874,80 @@ aside .p-main .row div:last-child p{
     width: 80px;
     text-decoration: none;
 }
-
 .address-close:hover {
     color: black;
+}
+/*checkout time*/
+.address-info{
+    font-size: 0.8rem;
+    color: #565A5C;
+}
+.add-change{
+    height: fit-content;
+    border-radius: 20px;
+    background-color: #40C309;
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+.add-change:hover{
+    color: #ffffff;
+}
+.delivery-options{
+    font-size: 0.8rem;
+    color: #565A5C;
+}
+.address-checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.address-checkbox-container .btn{
+    border-radius: 50% !important;
+    font-size: 0.7rem;
+    height: 32px;
+}
+.address-checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.address-checkbox-container .checkmark {
+    position: absolute;
+    top: 0;
+    right: 17px;
+    height: 15px;
+    width: 15px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+.address-checkbox-container:hover input ~ .checkmark {
+    background-color: #ffffff;
+}
+.address-checkbox-container input:checked ~ .checkmark {
+    background-color: #ffffff;
+}
+.address-checkbox-container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.address-checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+.address-checkbox-container .checkmark:after {
+    top: 0.05rem;
+    left: 0.05rem;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #1FAB00;
 }
