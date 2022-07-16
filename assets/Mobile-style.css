@@ -1023,6 +1023,21 @@ section.special.mobile-special{
     color: #ffffff !important;
     font-size: 0.8rem !important;
 }
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+}
+.checkout-btn{
+    border-radius: 20px !important;
+    background-color: #40C309 !important;
+    color: #ffffff !important;
+    font-size: 0.8rem !important;
+}
+.checkout-btn:hover{
+    background-color: #40C309 !important;
+    color: #ffffff !important;
+}
 @media screen and (max-width: 580px){
     .icon {
         margin: 10px;
