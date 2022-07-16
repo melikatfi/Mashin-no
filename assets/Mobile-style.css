@@ -1046,6 +1046,15 @@ section.special.mobile-special{
 }
 .checkout-progress{
     font-size: 0.7rem;
+    overflow: hidden !important;
+}
+.checkout-progress div:first-child{
+    z-index: 2;
+}
+.checkout-progress .bar{
+    left: 23px;
+    top: 6px;
+    z-index: -1;
 }
 .checkout-progress hr{
     height: fit-content;
@@ -1066,6 +1075,9 @@ section.special.mobile-special{
 .checkout-progress hr.active{
     background-color: #64DD14;
     border: 2px solid #64DD14;
+}
+.checkout-progress i.active{
+    color: #64DD14;
 }
 .address-checkbox-container {
     display: block;
@@ -1178,9 +1190,70 @@ section.special.mobile-special{
     color: #ffffff;
     font-size: 0.8rem;
 }
+.bank-checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.bank-checkbox-container .btn{
+    border-radius: 50% !important;
+    font-size: 0.7rem;
+    height: 32px;
+}
+.bank-checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.bank-checkbox-container .checkmark {
+    position: absolute;
+    top: 0;
+    right: 45%;
+    height: 15px;
+    width: 15px;
+    background-color: #ffffff;
+    border: 1px solid #7C7C7C;
+    border-radius: 50%;
+}
+.bank-checkbox-container:hover input ~ .checkmark {
+    background-color: #ffffff;
+}
+.bank-checkbox-container input:checked ~ .checkmark {
+    background-color: #ffffff;
+}
+.bank-checkbox-container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.bank-checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+.bank-checkbox-container .checkmark:after {
+    top: 0.06rem;
+    left: 0.04rem;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #1FAB00;
+}
 @media screen and (max-width: 768px){
     .address-checkbox-container .checkmark {
         right: 25px;
+    }
+    .payment .h6, h6 {
+        font-size: 0.8rem !important;
+    }
+    .payment{
+        font-size: 0.8rem;
     }
 }
 @media screen and (max-width: 580px){
@@ -1194,6 +1267,37 @@ section.special.mobile-special{
     }
     .address-checkbox-container .checkmark {
         right: 10px;
+    }
+    .checkbox-container .checkmark {
+        top: -5px;
+        right: 9px;
+        height: 12px;
+        width: 12px;
+    }
+    .checkbox-container .checkmark:after {
+        top: 0.04rem;
+        left: 0.07rem;
+        width: 8px;
+        height: 8px;
+    }
+    .bank-checkbox-container .checkmark {
+        position: absolute;
+        top: 0;
+        right: 40%;
+        height: 12px;
+        width: 12px;
+    }
+    .bank-checkbox-container .checkmark:after {
+        top: 0.04rem;
+        left: 0.07rem;
+        width: 8px;
+        height: 8px;
+    }
+    .payment .h6, h6 {
+        font-size: 0.6rem !important;
+    }
+    .payment {
+        font-size: 0.6rem;
     }
 }
 @media screen and (max-width: 500px){
