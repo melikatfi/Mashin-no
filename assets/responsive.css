@@ -156,6 +156,31 @@
     .cart-wrapper h1:first-child {
         font-size: 2rem !important;
     }
+    .checkout-progress {
+        font-size: 1.5rem !important;
+    }
+    .checkout-progress hr {
+        top: 17px;
+    }
+    .address-add{
+        font-size: 1.6rem;
+    }
+    .address-item{
+        font-size: 1.4rem;
+    }
+    .address-item button {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+    .lightbox-address button {
+        font-size: 1.4rem;
+    }
+    .lightbox-address input::placeholder,textarea::placeholder{
+        font-size: 1.4rem;
+    }
+    .lightbox-address select.col-6{
+        font-size: 1.4rem;
+    }
 }
 @media screen and (min-width: 1200px) {
     .h3, h3 {
@@ -249,6 +274,31 @@
     .cart-wrapper h1:first-child {
         font-size: 0.9rem !important;
     }
+    .checkout-progress{
+        font-size: 0.8rem !important;
+    }
+    .mr-1.checkout-progress {
+        margin-right: 0 !important;
+    }
+    .checkout-progress hr {
+        top: 12px;
+    }
+    .cart-item div:first-child {
+        font-size: 0.8rem !important;
+    }
+    .address-item h6{
+        font-size: 0.8rem !important;
+    }
+    .address-item{
+        font-size: 0.7rem !important;
+    }
+    .address-add{
+        font-size: 0.7rem;
+    }
+    .address-item button {
+        font-size: 0.7rem;
+    }
+
 }
 @media screen and (max-width: 991px){
     .navbar {

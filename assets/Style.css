@@ -23,6 +23,9 @@ ul{
 .freeShip p{
     margin: 0!important;
 }
+.pl-0{
+    padding-left: 0!important;
+}
 /*nav*/
 .mobile-ul-opener{
     display: none;
@@ -1763,11 +1766,16 @@ aside .p-main .row div:last-child p{
 .mr-1.checkout-progress{
     margin-right: 0.2rem!important;
 }
-.checkout-progress .mt-2 {
-    margin-top: 0.4rem!important;
-}
 .checkout-progress hr{
+    height: fit-content;
     border: 2px solid #747474;
+    background-color: #747474;
+    top: 14px;
+}
+.checkout-progress i{
+    left: 0;
+    top: 7px;
+    z-index: 2;
 }
 .checkout-progress{
     color: #747474;
@@ -1776,6 +1784,7 @@ aside .p-main .row div:last-child p{
     color: #64DD14;
 }
 .checkout-progress hr.active{
+    background-color: #64DD14;
     border: 2px solid #64DD14;
 }
 .address-add{

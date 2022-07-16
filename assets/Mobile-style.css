@@ -13,6 +13,9 @@ ul{
 .font-weight-bold{
     font-weight: bold;!important;
 }
+.text-left{
+    text-align: left;
+}
 /*.freeShip{*/
 /*    background-color: #E03435 ;*/
 /*    font-size: 15px;*/
@@ -1038,6 +1041,148 @@ section.special.mobile-special{
     background-color: #40C309 !important;
     color: #ffffff !important;
 }
+.mr-1.checkout-progress{
+    margin-right: 0.2rem!important;
+}
+.checkout-progress{
+    font-size: 0.7rem;
+}
+.checkout-progress hr{
+    height: fit-content;
+    border: 2px solid #747474;
+    background-color: #747474;
+}
+.checkout-progress i{
+    left: 0;
+    top: 7px;
+    z-index: 2;
+}
+.checkout-progress{
+    color: #747474;
+}
+.checkout-progress div.active{
+    color: #64DD14;
+}
+.checkout-progress hr.active{
+    background-color: #64DD14;
+    border: 2px solid #64DD14;
+}
+.address-checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.address-checkbox-container .btn{
+    border-radius: 50% !important;
+    font-size: 0.7rem;
+    height: 32px;
+}
+.address-checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.address-checkbox-container .checkmark {
+    position: absolute;
+    top: 0;
+    right: 40px;
+    height: 15px;
+    width: 15px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+.address-checkbox-container:hover input ~ .checkmark {
+    background-color: #ffffff;
+}
+.address-checkbox-container input:checked ~ .checkmark {
+    background-color: #ffffff;
+}
+.address-checkbox-container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.address-checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+.address-checkbox-container .checkmark:after {
+    top: 0.06rem;
+    left: 0.05rem;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #1FAB00;
+}
+.cart-item{
+    background-color: #ffffff;
+    box-shadow: 0 0 12px 2px #e4e4e4;
+}
+.address-item , .delivery-options{
+    font-size: 0.7rem;
+    color: #707579;
+}
+.address-item h6, .delivery-options h6{
+    font-size: 0.9rem;
+    font-family: IranYekanBold;
+}
+.address-change{
+    font-size: 0.7rem;
+    color: #77D83B;
+}
+.delivery-options textarea{
+    border-radius: 10px;
+    border: 1px solid #AFAFAF !important;
+}
+.address div div:first-child{
+    font-size: 0.9rem;
+    font-family: IranYekanBold;
+}
+.address .back{
+    font-size: 0.8rem;
+    color: #77D83B;
+    font-family: IranYekanBold;
+}
+.address-item{
+    font-size: 0.8rem !important;
+}
+.address-add-form input::placeholder,textarea::placeholder{
+    color: #CECECE;
+    font-size: 0.8rem;
+}
+.address-add-form select{
+    color: #969696;
+    font-size: 0.8rem;
+}
+.address-add-form input,textarea,select{
+    border: 1px solid #CECECE;
+    border-radius: 5px;
+}
+.address-add-form button, .address-add-form a{
+    border-radius: 20px;
+    background-color: #40C309;
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+.address-add-form button:hover,  .address-add-form a:hover{
+    border-radius: 20px;
+    background-color: #40C309;
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+@media screen and (max-width: 768px){
+    .address-checkbox-container .checkmark {
+        right: 25px;
+    }
+}
 @media screen and (max-width: 580px){
     .icon {
         margin: 10px;
@@ -1046,6 +1191,9 @@ section.special.mobile-special{
         font-size: 14px;
         right: 66%;
         bottom: 8%;
+    }
+    .address-checkbox-container .checkmark {
+        right: 10px;
     }
 }
 @media screen and (max-width: 500px){
@@ -1464,6 +1612,9 @@ section.special.mobile-special{
     }
     .brands-search .swiper-slide img {
         max-width: 80px;
+    }
+    .address-checkbox-container .checkmark {
+        right: 0;
     }
 }
 @media screen and (max-width: 334px){
