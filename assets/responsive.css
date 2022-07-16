@@ -28,7 +28,7 @@
         width: auto;
         font-size: 1.2rem;
         padding: 0 10px;
-        left: 372px;
+        left: 25px;
     }
     .mainMenu li {
         font-size: 1.7rem;
@@ -123,6 +123,39 @@
     .social a{
         padding: 6px 10px;
     }
+    .cart-item-remove img {
+        max-width: 250px;
+    }
+    .cart-product {
+        font-size: 1.3rem !important;
+    }
+    .cart-icons div h6 {
+        font-size: 1rem !important;
+    }
+    .cart-icons .icon img{
+        padding: 1rem !important;
+    }
+    .p-main, .p-main div p{
+        font-size: 1.5rem !important;
+    }
+    .cart-discount .discount-btn {
+        font-size: 1.3rem !important;
+    }
+    .p-buy div:nth-child(2) .row .col-6, .row .col-5 {
+        font-size: 1.3rem !important;
+    }
+    .cart-discount .checkout-btn {
+        font-size: 1.3rem;
+    }
+    .cart-item-remove span {
+        font-size: 1.3rem;
+    }
+    aside .p-main .row div:last-child p {
+        font-size: 1.3rem !important;
+    }
+    .cart-wrapper h1:first-child {
+        font-size: 2rem !important;
+    }
 }
 @media screen and (min-width: 1200px) {
     .h3, h3 {
@@ -170,17 +203,63 @@
     .f-info{
         padding-top: 15px;
     }
+    .cart-wrapper {
+        padding: 30px;
+    }
+    aside {
+        width: 24.666667% !important;
+        max-width: 24.666667% !important;
+    }
+    .shop.mx-3{
+        margin: 0 !important;
+    }
+}
+@media screen and (max-width: 1120px){
+    .navbar {
+        align-items: baseline;
+        padding: 10px 100px !important;
+    }
+    .menu a , .log .btn,.log .login{
+        font-size: 0.9rem;
+    }
+    .cart-item-remove img {
+        max-width: 140px;
+    }
+    .cart-product {
+        font-size: 0.6rem !important;
+    }
+    .p-main, .p-main div p{
+        font-size: 0.6rem !important;
+    }
+    .cart-discount .discount-btn {
+        font-size: 0.5rem !important;
+    }
+    .p-buy div:nth-child(2) .row .col-6, .row .col-5 {
+        font-size: 0.7rem !important;
+    }
+    .cart-discount .checkout-btn {
+        font-size: 0.7rem !important;
+    }
+    .cart-item-remove span {
+        font-size: 0.7rem !important;
+    }
+    aside .p-main .row div:last-child p {
+        font-size: 0.5rem !important;
+    }
+    .cart-wrapper h1:first-child {
+        font-size: 0.9rem !important;
+    }
 }
 @media screen and (max-width: 991px){
     .navbar {
         align-items: baseline !important;
-        padding: 0 70px;
-    }
-    .log .cart span{
-        left: 228px;
+        padding: 10px 50px !important;
     }
     .menu a {
         font-size: 0.8rem;
+    }
+    .cart-wrapper {
+        padding: 15px;
     }
     .MainSlider{
         --bs-gutter-x: none !important;
@@ -192,10 +271,6 @@
     }
     .log .cart a {
         font-size: 1.3rem;
-    }
-    .log .cart span {
-        left: 210px;
-        font-size: 0.6rem;
     }
     .mainMenu li {
         font-size: 0.7rem;
@@ -272,4 +347,11 @@
     footer .btn{
         left: -25px;
     }
+    .p-more {
+        font-size: 0.5rem !important;
+    }
+    .cart-wrapper aside .p-4 {
+        padding: 1rem!important;
+    }
 }
+

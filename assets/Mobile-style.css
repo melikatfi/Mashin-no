@@ -952,6 +952,77 @@ section.special.mobile-special{
 .brands-search .swiper-slide img{
     max-width: 150px;
 }
+/*Cart*/
+.text-blue{
+    color: #16BAFF !important;
+}
+.cart-item-checkbox{
+    border: 1px solid #EAEAEA;
+    font-size: 0.9rem;
+}
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.checkbox-container .btn{
+    border-radius: 50% !important;
+    font-size: 0.7rem;
+    height: 32px;
+}
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkbox-container .checkmark {
+    position: absolute;
+    top: 0;
+    right: 17px;
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+.checkbox-container:hover input ~ .checkmark {
+    background-color: #ffffff;
+}
+.checkbox-container input:checked ~ .checkmark {
+    background-color: #ffffff;
+}
+.checkbox-container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+.checkbox-container .checkmark:after {
+    top: 0.1rem;
+    left: 0.1rem;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #1FAB00;
+}
+.p-more {
+    width: auto !important;
+    margin: 5px auto 0 auto !important;
+    border-radius: 15px 15px 0 0 !important;
+    background-color: #16BAFF !important;
+    color: #ffffff !important;
+    font-size: 0.8rem !important;
+}
 @media screen and (max-width: 580px){
     .icon {
         margin: 10px;
