@@ -1245,6 +1245,12 @@ section.special.mobile-special{
     border-radius: 50%;
     background: #1FAB00;
 }
+.profile #accordion .card{
+    border-radius: 0 !important;
+}
+.profile #accordion .card{
+    border-radius: 0 !important;
+}
 @media screen and (max-width: 768px){
     .address-checkbox-container .checkmark {
         right: 25px;

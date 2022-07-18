@@ -2027,3 +2027,116 @@ aside .p-main .row div:last-child p{
     border-radius: 50%;
     background: #1FAB00;
 }
+/*profile orders*/
+.pr-5{
+    padding-right: 4rem;
+}
+.profile-pic{
+    border-radius: 50%;
+}
+.profile-menu ul li{
+    font-size: 0.9rem;
+}
+.profile-menu ul li a{
+    color: #000000;
+}
+.profile-menu .menu-active{
+    background-color: #E8F8FE;
+}
+.profile-menu .menu-active a{
+    color: #50C2F4 !important;
+}
+.thead-dark{
+    background-color: #1D2836;
+    color: #ffffff;
+}
+.orders{
+    height: fit-content;
+}
+.orders .table-orders{
+    background-color: #ffffff !important;
+    margin: 0;
+    width: 100%;
+}
+.orders tbody tr{
+    background-color: #ffffff !important;
+}
+.orders tbody td,.orders thead th{
+    padding: 1.5rem;
+}
+.orders tbody td{
+    border: 1px solid #e4e4e5;
+}
+/*profile order single*/
+.order .p-b-border{
+    color: #9d9e9f;
+    font-size: 0.9rem;
+}
+.order-info{
+    font-size: 0.8rem;
+    font-family: IranYekanBold;
+}
+.order-info span{
+    color: #5dccf8;
+    font-family: IranYekanReg;
+}
+.order-info2{
+    font-size: 0.8rem;
+    color: #54595C;
+}
+.order-info2 h6{
+    font-family: IranYekanBold;
+    font-size: 0.9rem;
+}
+.payment-info{
+    font-size: 0.9rem;
+}
+.payment-info .btn{
+    background-color: #1FAB00;
+    color: #ffffff;
+    border-radius: 20px;
+}
+/*profile wallet*/
+.wallet{
+    height: fit-content;
+}
+.wallet-head {
+    font-size: 0.95rem;
+}
+.wallet-detail{
+    font-size: 0.85rem;
+}
+.wallet-add{
+    background-color: #1FAB00 !important;
+    color: #ffffff !important;
+    border-radius: 20px !important;
+    font-size: 0.8rem !important;
+}
+.wallet-detail a{
+    color: #5dccf8 !important;
+}
+/*Profile*/
+.profile-head {
+    font-size: 0.95rem;
+}
+.profile-detail{
+    font-size: 0.75rem;
+    font-family: IranYekanBold;
+    padding-right: 3rem;
+}
+.profile-detail span{
+    font-size: 0.95rem;
+    font-family: IranYekanReg;
+}
+/*profile edit*/
+.profile-edit{
+    background-color: #1FAB00 !important;
+    color: #ffffff !important;
+    border-radius: 20px !important;
+    font-size: 0.8rem !important;
+}
+.profile input,.profile select{
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #9d9e9f;
+}
