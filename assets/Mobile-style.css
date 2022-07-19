@@ -1641,6 +1641,48 @@ section.special.mobile-special{
     .brands-search .swiper-slide img {
         max-width: 100px;
     }
+    #addressCollapse .address h6{
+        font-size: 0.7rem !important;
+    }
+    #addressCollapse .address{
+        font-size: 0.6rem;
+    }
+    #ordersCollapse .orders{
+        font-size: 0.6rem;
+    }
+    #ordersCollapse .order-detail .btn{
+        font-size: 0.6rem;
+    }
+    .collapse-detail div h6{
+        font-size: 0.7rem !important;
+    }
+    .collapse-detail div{
+        font-size: 0.6rem;
+    }
+    .collapse-detail .order-detail2 h6{
+        font-size: 0.7rem !important;
+    }
+    .collapse-detail .price div:first-child {
+        font-size: 0.8rem;
+    }
+    .collapse-detail .price div {
+        font-size: 0.6rem;
+    }
+    #profileCollapse {
+        font-size: 0.7rem;
+    }
+    .profile-wrapper .card-link a{
+        font-size: 0.7rem;
+    }
+    #walletCollapse{
+        font-size: 0.7rem;
+    }
+    #walletCollapse .wallet-add a {
+        font-size: 0.7rem;
+    }
+    .card-header h5 button{
+        font-size: 0.85rem;
+    }
 }
 @media screen and (max-width: 370px){
     .freeShip p {
@@ -1806,48 +1848,6 @@ section.special.mobile-special{
     }
     .address-checkbox-container .checkmark {
         right: 0;
-    }
-    #addressCollapse .address h6{
-        font-size: 0.7rem !important;
-    }
-    #addressCollapse .address{
-        font-size: 0.6rem;
-    }
-    #ordersCollapse .orders{
-        font-size: 0.6rem;
-    }
-    #ordersCollapse .order-detail .btn{
-        font-size: 0.6rem;
-    }
-    .collapse-detail div h6{
-        font-size: 0.7rem !important;
-    }
-    .collapse-detail div{
-        font-size: 0.6rem;
-    }
-    .collapse-detail .order-detail2 h6{
-        font-size: 0.7rem !important;
-    }
-    .collapse-detail .price div:first-child {
-        font-size: 0.8rem;
-    }
-    .collapse-detail .price div {
-        font-size: 0.6rem;
-    }
-    #profileCollapse {
-        font-size: 0.7rem;
-    }
-    .profile-wrapper .card-link a{
-        font-size: 0.7rem;
-    }
-    #walletCollapse{
-        font-size: 0.7rem;
-    }
-    #walletCollapse .wallet-add a {
-        font-size: 0.7rem;
-    }
-    .card-header h5 button{
-        font-size: 0.85rem;
     }
 }
 @media screen and (max-width: 334px){
