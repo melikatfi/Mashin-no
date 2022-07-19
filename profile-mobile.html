@@ -94,12 +94,12 @@
     </div>
 </nav>
 
-<section class="cart-wrapper">
+<section class="profile-wrapper">
     <section class="col-11 profile mx-auto my-5">
         <div id="accordion">
             <div class="card p-main my-3">
-                <div class="card-header" id="profileHeading">
-                    <h5 class="mb-0">
+                <div class="card-header bg-dark" id="profileHeading">
+                    <h5 class="mb-0 text-center">
                         <button class="btn btn-link" data-toggle="collapse" data-target="#profileCollapse" aria-expanded="true" aria-controls="profileCollapse">
                             <i class="fa fa-folder"></i>
                             حساب کاربری
@@ -107,8 +107,8 @@
                     </h5>
                 </div>
 
-                <div id="profileCollapse" class="collapse" aria-labelledby="profileHeading" data-parent="#accordion">
-                    <div class="card-body p-0">
+                <div id="profileCollapse" class="collapse show" aria-labelledby="profileHeading" data-parent="#accordion">
+                    <div class="card-body">
                         <div class="profile-detail row">
                             <div class="col-6">
                                 <div class="text-secondary my-1">نام و نام خانوادگی</div>
@@ -131,16 +131,16 @@
                     </span>
                             </div>
                         </div>
-                        <div class="bg-success">
-                            <a>ویرایش پروفایل</a>
-                        </div>
+                    </div>
+                    <div class="card-link text-center px-1 py-3 mt-2">
+                        <a href="#">ویرایش پروفایل</a>
                     </div>
                 </div>
             </div>
 
             <div class="card p-main my-3">
-                <div class="card-header" id="ordersHeading">
-                    <h5 class="mb-0">
+                <div class="card-header bg-dark" id="ordersHeading">
+                    <h5 class="mb-0 text-center">
                         <button class="btn btn-link" data-toggle="collapse" data-target="#ordersCollapse" aria-expanded="true" aria-controls="ordersCollapse">
                             <i class="fa fa-list"></i>
                             سفارشات
@@ -149,24 +149,183 @@
                 </div>
 
                 <div id="ordersCollapse" class="collapse" aria-labelledby="ordersHeading" data-parent="#accordion">
-                    <div class="card-body p-0">
-                        <div class="row">
-                            <div class="col-4">hi</div>
-                            <div class="col-4">bye</div>
-                            <div class="col-4">hi</div>
-                            <div class="col-4">bye</div>
-                            <div class="col-4">hi</div>
+                    <div class="card-body py-2">
+                        <div class="orders">
+                            <div class="order-detail row p-2">
+                                <div class="col-4">
+                                    شماره سفارش
+                                    <br />
+                                    <span class="my-1">۱۲۳۴۵۶۷۸۹</span>
+                                </div>
+                                <div class="col-4">
+                                    تاریخ ثبت
+                                    <br />
+                                    <span class="my-1">شهریور ۹۸</span>
+                                </div>
+                                <div class="col-4">
+                                    مبلغ پرداختی
+                                    <br />
+                                    <span class="my-1">۰</span>
+                                </div>
+                                <div class="col-4">
+                                    مبلغ کل
+                                    <br />
+                                    <span class="my-1">۵۰۰۰۰۰ تومان</span>
+                                </div>
+                                <div class="col-4">
+                                    عملیات پرداخت
+                                    <br />
+                                    <span class="my-1">پرداخت موفق</span>
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <a class="btn w-100" data-toggle="collapse" href="#collapseDetail" role="button" aria-expanded="false" aria-controls="collapseDetail">
+                                        مشاهده جزییات
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="collapse p-3 collapse-detail " id="collapseDetail">
+                                <div class="border-bottom">
+                                    <div class="text-uppercase mb-2">Genuine - سپر جلوی هیوندای کوپه</div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            برند :
+                                            <span>هیوندای</span>
+                                        </div>
+                                        <div class="col-6">
+                                            دسته‌بندی :
+                                            <span>لوازم یدکی</span>
+                                        </div>
+                                        <div class="col-12">
+                                            فروشنده :
+                                            <span>پارس</span>
+                                        </div>
+                                    </div>
+                                    <div class="text-center my-2">
+                                        <img src="assets/images/1.jpeg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="row py-2 px-4 price">
+                                        <div class="col-6 text-right text-danger">123000 تومان</div>
+                                        <div class="col-6 text-left">تعداد 1</div>
+                                    </div>
+                                </div>
+                                <div class="p-2">
+                                    <div class="mt-4">
+                                        <h6>گیرنده : ندا میرآقایی</h6>
+                                        <div class="my-2">
+                                            <p class="d-inline">شماره تماس : ۰۹۸۷۶۵۴۳۲۱۱</p>
+                                            &nbsp; &nbsp;
+                                            <p class="d-inline">کد پستی : ۱۲۳۴۵۶۷۸۹۰</p>
+                                        </div>
+                                        <div class="mt-1">تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران</div>
+                                    </div>
+                                    <div class="mt-4">
+                                        <h6 class="my-1">زمان ارسال</h6>
+                                        <p class="m-0">
+                                            ارسال با پیک :::: ۱۳۰۰۰ تومان
+                                            <br />
+                                            شنبه ۳۰ شهریور - بین ۹ الی ۱۲
+                                            <br />
+                                            کد مرسوله : 123000
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="bg-success">
-                            <a>ویرایش پروفایل</a>
+                    </div>
+
+                    <div class="card-body py-2">
+                        <div class="orders">
+                            <div class="order-detail row p-2">
+                                <div class="col-4">
+                                    شماره سفارش
+                                    <br />
+                                    <span class="my-1">۱۲۳۴۵۶۷۸۹</span>
+                                </div>
+                                <div class="col-4">
+                                    تاریخ ثبت
+                                    <br />
+                                    <span class="my-1">شهریور ۹۸</span>
+                                </div>
+                                <div class="col-4">
+                                    مبلغ پرداختی
+                                    <br />
+                                    <span class="my-1">۰</span>
+                                </div>
+                                <div class="col-4">
+                                    مبلغ کل
+                                    <br />
+                                    <span class="my-1">۵۰۰۰۰۰ تومان</span>
+                                </div>
+                                <div class="col-4">
+                                    عملیات پرداخت
+                                    <br />
+                                    <span class="my-1">پرداخت موفق</span>
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <a class="btn w-100" data-toggle="collapse" href="#collapseDetail2" role="button" aria-expanded="false" aria-controls="collapseDetail2">
+                                        مشاهده جزییات
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="collapse p-3 collapse-detail" id="collapseDetail2">
+                                <div class="border-bottom">
+                                    <h6 class="text-uppercase mb-2">Genuine - سپر جلوی هیوندای کوپه</h6>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            برند :
+                                            <span>هیوندای</span>
+                                        </div>
+                                        <div class="col-6">
+                                            دسته‌بندی :
+                                            <span>لوازم یدکی</span>
+                                        </div>
+                                        <div class="col-12">
+                                            فروشنده :
+                                            <span>پارس</span>
+                                        </div>
+                                    </div>
+                                    <div class="text-center my-2">
+                                        <img src="assets/images/1.jpeg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="row py-2 px-4 price">
+                                        <div class="col-6 text-right text-danger">123000 تومان</div>
+                                        <div class="col-6 text-left">تعداد 1</div>
+                                    </div>
+                                </div>
+                                <div class="p-2 order-detail2">
+                                    <div class="mt-4">
+                                        <h6>گیرنده : ندا میرآقایی</h6>
+                                        <div class="my-2">
+                                            <p class="d-inline">شماره تماس : ۰۹۸۷۶۵۴۳۲۱۱</p>
+                                            &nbsp; &nbsp;
+                                            <p class="d-inline">کد پستی : ۱۲۳۴۵۶۷۸۹۰</p>
+                                        </div>
+                                        <div class="mt-1">تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران</div>
+                                    </div>
+                                    <div class="mt-4">
+                                        <h6 class="my-1">زمان ارسال</h6>
+                                        <p class="m-0">
+                                            ارسال با پیک :::: ۱۳۰۰۰ تومان
+                                            <br />
+                                            شنبه ۳۰ شهریور - بین ۹ الی ۱۲
+                                            <br />
+                                            کد مرسوله : 123000
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+
+                    <div class="card-link text-center px-1 py-3 mt-2">
+                        <a href="#">نمایش همه</a>
                     </div>
                 </div>
             </div>
 
             <div class="card p-main my-3">
-                <div class="card-header" id="addressHeading">
-                    <h5 class="mb-0">
+                <div class="card-header bg-dark" id="addressHeading">
+                    <h5 class="mb-0 text-center">
                         <button class="btn btn-link" data-toggle="collapse" data-target="#addressCollapse" aria-expanded="true" aria-controls="addressCollapse">
                             <i class="fa fa-map-pin"></i>
                             آدرس‌ها
@@ -175,24 +334,43 @@
                 </div>
 
                 <div id="addressCollapse" class="collapse" aria-labelledby="addressHeading" data-parent="#accordion">
-                    <div class="card-body p-0">
-                        <div class="row">
-                            <div class="col-4">hi</div>
-                            <div class="col-4">bye</div>
-                            <div class="col-4">hi</div>
-                            <div class="col-4">bye</div>
-                            <div class="col-4">hi</div>
+                    <div class="card-body py-2">
+                        <div class="address p-3">
+                            <div class="d-flex justify-content-between">
+                                <h6>گیرنده : ندا میرآقایی</h6>
+                                <a class="#">ویرایش</a>
+                            </div>
+                            <div class="my-2">
+                                <p class="d-inline">شماره تماس : ۰۹۸۷۶۵۴۳۲۱۱</p>
+                                &nbsp; &nbsp;
+                                <p class="d-inline">کد پستی : ۱۲۳۴۵۶۷۸۹۰</p>
+                            </div>
+                            <div class="mt-1">تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران</div>
                         </div>
-                        <div class="bg-success">
-                            <a>ویرایش پروفایل</a>
+                    </div>
+                    <div class="card-body py-2">
+                        <div class="address p-3">
+                            <div class="d-flex justify-content-between">
+                                <h6>گیرنده : ندا میرآقایی</h6>
+                                <a class="#">ویرایش</a>
+                            </div>
+                            <div class="my-2">
+                                <p class="d-inline">شماره تماس : ۰۹۸۷۶۵۴۳۲۱۱</p>
+                                &nbsp; &nbsp;
+                                <p class="d-inline">کد پستی : ۱۲۳۴۵۶۷۸۹۰</p>
+                            </div>
+                            <div class="mt-1">تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران، تهران</div>
                         </div>
+                    </div>
+                    <div class="card-link text-center px-1 py-3 mt-2">
+                        <a href="#">ویرایش پروفایل</a>
                     </div>
                 </div>
             </div>
 
             <div class="card p-main my-3">
-                <div class="card-header" id="walletHeading">
-                    <h5 class="mb-0">
+                <div class="card-header bg-dark" id="walletHeading">
+                    <h5 class="mb-0 text-center">
                         <button class="btn btn-link" data-toggle="collapse" data-target="#walletCollapse" aria-expanded="true" aria-controls="walletCollapse">
                             <i class="fa fa-wallet"></i>
                             کیف پول
@@ -201,16 +379,27 @@
                 </div>
 
                 <div id="walletCollapse" class="collapse" aria-labelledby="walletHeading" data-parent="#accordion">
-                    <div class="card-body p-0">
-                        <div class="row">
-                            <div class="col-4">hi</div>
-                            <div class="col-4">bye</div>
-                            <div class="col-4">hi</div>
-                            <div class="col-4">bye</div>
-                            <div class="col-4">hi</div>
+                    <div class="card-body">
+                        <div class="my-1">
+                            <div class="row mb-1">
+                                <div class="text-secondary col-6 text-right">اعتبار فعلی</div>
+                                <div class="col-6 text-left wallet-add">
+                                    <a class="py-2 px-3" href="#">افزایش اعتبار</a>
+                                </div>
+                            </div>
+                            <div>۲۳۴۵ تومان</div>
                         </div>
-                        <div class="bg-success">
-                            <a>ویرایش پروفایل</a>
+                        <div class="my-1">
+                            <div class="text-secondary mb-1">شماره کارت</div>
+                            <div class="d-flex">
+                                <div>**** &nbsp; **** &nbsp; **** &nbsp; 0251</div>
+                                &nbsp;
+                                <div class="text-right">
+                                    <a href="#" class="wallet-change">
+                                        تغییر کارت
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

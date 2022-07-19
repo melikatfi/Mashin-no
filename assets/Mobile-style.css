@@ -1248,8 +1248,89 @@ section.special.mobile-special{
 .profile #accordion .card{
     border-radius: 0 !important;
 }
-.profile #accordion .card{
+.profile #accordion .card,.profile #accordion .card-header{
     border-radius: 0 !important;
+}
+.card-header h5 button{
+    color: #FBFFFF !important;
+    text-decoration: none;
+}
+#profileCollapse .card-link{
+    border-top: 1px solid #5dccf8;
+    font-size: 0.9rem;
+}
+#profileCollapse .card-link a{
+    color: #5dccf8 !important;
+}
+#ordersCollapse .orders{
+    border: 1px solid #CACACA;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+#ordersCollapse .orders .order-detail{
+    color: #BABABA;
+}
+#ordersCollapse .orders .order-detail span{
+    color: #000000;
+}
+#ordersCollapse .orders .btn{
+    background-color: #16BAFF;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 0.8rem;
+}
+#ordersCollapse .card-link{
+    border-top: 1px solid #5dccf8;
+    font-size: 0.9rem;
+}
+#ordersCollapse .card-link a{
+    color: #5dccf8 !important;
+}
+.collapse-detail{
+    font-family: IranYekanBold;
+}
+.collapse-detail span{
+    font-family: IranYekanReg;
+    color: #16BAFF;
+}
+.collapse-detail .price div:first-child{
+    font-size: 1.25rem;
+}
+.collapse-detail .price div{
+    font-size: 0.9rem;
+}
+.collapse-detail .order-detail2{
+    color: #8A8D8F !important;
+    font-size: 0.8rem;
+}
+.collapse-detail .order-detail2 h6{
+    color: #394045 !important;
+    font-size: 0.8rem !important;
+}
+#addressCollapse .card-link{
+    border-top: 1px solid #5dccf8;
+    font-size: 0.9rem;
+}
+#addressCollapse .card-link a{
+    color: #5dccf8 !important;
+}
+#addressCollapse .address{
+    border: 1px solid #CACACA;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+#addressCollapse .address a{
+    color: #1FAB00;
+}
+#walletCollapse .wallet-add a{
+    background-color: #16BAFF;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 0.8rem;
+}
+#walletCollapse .wallet-change{
+    color: #16BAFF;
+    font-size: 0.8rem;
 }
 @media screen and (max-width: 768px){
     .address-checkbox-container .checkmark {
@@ -1299,7 +1380,7 @@ section.special.mobile-special{
         width: 8px;
         height: 8px;
     }
-    .payment .h6, h6 {
+    .payment .h6 {
         font-size: 0.6rem !important;
     }
     .payment {
@@ -1725,6 +1806,48 @@ section.special.mobile-special{
     }
     .address-checkbox-container .checkmark {
         right: 0;
+    }
+    #addressCollapse .address h6{
+        font-size: 0.7rem !important;
+    }
+    #addressCollapse .address{
+        font-size: 0.6rem;
+    }
+    #ordersCollapse .orders{
+        font-size: 0.6rem;
+    }
+    #ordersCollapse .order-detail .btn{
+        font-size: 0.6rem;
+    }
+    .collapse-detail div h6{
+        font-size: 0.7rem !important;
+    }
+    .collapse-detail div{
+        font-size: 0.6rem;
+    }
+    .collapse-detail .order-detail2 h6{
+        font-size: 0.7rem !important;
+    }
+    .collapse-detail .price div:first-child {
+        font-size: 0.8rem;
+    }
+    .collapse-detail .price div {
+        font-size: 0.6rem;
+    }
+    #profileCollapse {
+        font-size: 0.7rem;
+    }
+    .profile-wrapper .card-link a{
+        font-size: 0.7rem;
+    }
+    #walletCollapse{
+        font-size: 0.7rem;
+    }
+    #walletCollapse .wallet-add a {
+        font-size: 0.7rem;
+    }
+    .card-header h5 button{
+        font-size: 0.85rem;
     }
 }
 @media screen and (max-width: 334px){
