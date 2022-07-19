@@ -1672,7 +1672,10 @@ section.special.mobile-special{
         font-size: 0.7rem;
     }
     .profile-wrapper .card-link a{
-        font-size: 0.7rem;
+        font-size: 0.65rem;
+    }
+    .profile-wrapper .card-link{
+        padding: 0.5rem !important;
     }
     #walletCollapse{
         font-size: 0.7rem;
