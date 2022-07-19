@@ -2140,3 +2140,38 @@ aside .p-main .row div:last-child p{
     border-radius: 20px;
     border: 1px solid #9d9e9f;
 }
+/*contact us*/
+.contact-wrapper h1{
+    font-size: 2rem;
+}
+.contact-wrapper .social a {
+    text-align: center;
+    border: solid 1px #97989A;
+    border-radius: 100%;
+    width: 35px;
+    height: fit-content;
+    padding: 5px;
+    margin: 8px;
+}
+.contact-wrapper .social i{
+    color: #262B2F;
+    font-size: 0.9rem;
+}
+.contact-info{
+    color: #262B2F;
+    font-size: 0.9rem;
+}
+.contact-form input{
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #D9DADA;
+}
+.contact-form input::placeholder{
+    font-size: 0.8rem;
+    color: #D9DADA;
+}
+.contact-form button {
+    background-color: #64DD14;
+    color: #ffffff;
+    border-radius: 20px;
+}
