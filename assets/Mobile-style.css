@@ -1369,6 +1369,14 @@ section.special.mobile-special{
 .contact-wrapper h6{
     font-size: 0.75rem;
 }
+.about-wrapper h1{
+    font-size: 1.5rem;
+}
+.about-wrapper article{
+    color: #989B9B;
+    box-shadow: #b3b3b3 1px 6px 21px;
+    font-size: 0.8rem;
+}
 @media screen and (max-width: 768px){
     .address-checkbox-container .checkmark {
         right: 25px;

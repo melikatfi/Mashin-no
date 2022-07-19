@@ -2175,3 +2175,8 @@ aside .p-main .row div:last-child p{
     color: #ffffff;
     border-radius: 20px;
 }
+/*about us*/
+.about-wrapper article{
+    color: #989B9B;
+    box-shadow: #b3b3b3 1px 6px 21px;
+}
