@@ -953,7 +953,7 @@ section.special.mobile-special{
     box-shadow: 0 0 12px 2px #e4e4e4;
 }
 .brands-search .swiper-slide img{
-    max-width: 150px;
+    max-width: 100%;
 }
 /*Cart*/
 .text-blue{
@@ -1030,6 +1030,9 @@ section.special.mobile-special{
     position: -webkit-sticky;
     position: sticky;
     bottom: 0;
+}
+.cart-detail h1{
+    font-size: 1rem !important;
 }
 .checkout-btn{
     border-radius: 20px !important;
@@ -1495,9 +1498,6 @@ section.special.mobile-special{
     .cart i{
         font-size: 24px;
     }
-    .log .cart span{
-        left: 146px;
-    }
     .navbar .logo img {
         padding-right: 15px;
     }
@@ -1522,9 +1522,6 @@ section.special.mobile-special{
     }
     .log .login {
         font-size: 13px;
-    }
-    .log .cart span {
-        left: 135px;
     }
     .services input::placeholder, .services input {
         font-size: 11px;
@@ -1599,9 +1596,6 @@ section.special.mobile-special{
     }
     .cart i {
         font-size: 22px;
-    }
-    .log .cart span {
-        left: 120px;
     }
     .services {
         padding: 10px;
@@ -1738,9 +1732,6 @@ section.special.mobile-special{
     }
     .cart i {
         font-size: 21px;
-    }
-    .log .cart span {
-        left: 110px;
     }
     .log .btn {
         padding: 8px 12px;
@@ -1897,6 +1888,12 @@ section.special.mobile-special{
     .address-checkbox-container .checkmark {
         right: 0;
     }
+    .cart-item{
+        font-size: 0.7rem;
+    }
+    .cart-item-checkbox{
+        font-size: 0.7rem;
+    }
 }
 @media screen and (max-width: 334px){
     .navbar .logo img {
@@ -1914,10 +1911,6 @@ section.special.mobile-special{
         padding: 5px 9px;
         font-size: 9px !important;
         height: max-content;
-    }
-    .log .cart span {
-        left: 100px;
-        top: 4px;
     }
     .icon {
         padding: 7px;
