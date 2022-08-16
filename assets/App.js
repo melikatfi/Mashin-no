@@ -1,26 +1,69 @@
-(function() {
-
-    var button = document.querySelectorAll('.button');
-    const index = 0;
-
-    function controls() {
-        $(this).addClass('selected').siblings('button').removeClass('selected');
-        $('.slideDiv').animate({
-            top: -$('.container').height() * $(this).index()
-        }, 450);
-    }
-    function timer(){
-        var x = document.getElementsByClassName(".slide")
-        x[index].classList.add('selected');
-    }
-    setInterval(timer,2000)
-    /***Event Listeners***/
-    for ( var i = 0; i < button.length; i++ ) {
-        button[i].addEventListener('click', controls, false);
-    }
-
-})();
-
+//main slider
+let swiperSlider = new Swiper(".mySwiper", {
+    direction: "vertical",
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    loop: true,
+    mousewheelControl: true,
+    watchSlidesProgress: true,
+    mousewheel: {
+        releaseOnEdges: true,
+    },
+    preloadImages: true,
+    hashNavigation: {
+        watchState: true,
+    },
+    autoplay: 2500,
+});
+//amazing products
+let swiperAmazing = new Swiper(".swiper-amazing", {
+    loop: true,
+    slidesPerView: 4,
+    paginationClickable: true,
+    spaceBetween: 3,
+    // breakpoints: {
+    //     1920: {
+    //         slidesPerView: 5,
+    //         spaceBetween: 30,
+    //     },
+    //     1028: {
+    //         slidesPerView: 2,
+    //         spaceBetween: 30,
+    //     },
+    //     480: {
+    //         slidesPerView: 1,
+    //         spaceBetween: 10,
+    //     },
+    //     },
+});
+//special products
+let swiperSpecial = new Swiper(".swiper-special", {
+    loop: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        type: 'bullets',
+    },
+    mousewheelControl: true,
+    // watchSlidesProgress: true,
+});
+//blog
+let swiperBlog = new Swiper(".swiper-blog", {
+    loop: true,
+    slidesPerView: 3,
+    slidesPerGroup: 3,
+    paginationClickable: true,
+    spaceBetween: 20,
+    loopFillGroupWithBlank: true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    mousewheelControl: true,
+    // watchSlidesProgress: true,
+});
 
 let slideIndex = 1;
 showSlides(slideIndex);

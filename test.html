@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <style>
+        body,
+        html,
+        .swiper-container {
+            height: 100vh;
+        }
+
+        .swiper-slide {
+            display: flex;
+            align-content: center;
+            align-items: center;
+            font-size: 2em;
+            text-align: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+<!-- Slider main container -->
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide" style="background: blue;">Slide 1</div>
+        <div class="swiper-slide" style="background: white;">Slide 2</div>
+        <div class="swiper-slide" style="background: red;">Slide 3</div>
+        ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <!-- <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div> -->
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+</div>
+
+<script>
+    var mySwiper = new Swiper(".swiper-container", {
+        // Optional parameters
+        direction: "vertical",
+        loop: false,
+
+        autoplay:{
+            delay: 2500,
+        },
+        // If we need pagination
+        pagination: {
+            el: ".swiper-pagination"
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: ".swiper-scrollbar"
+        },
+
+        mousewheel: {
+            invert: false,
+            eventsTarget: ".swiper-container"
+        },
+
+        autoHeight: true
+    });
+</script>
+</body>
+</html>

@@ -1,129 +1,78 @@
 /*1920-800px*/
 @media screen and (min-width: 1600px){
     .h3, h3 {
-        font-size: 2.75rem !important;
-    }
-    .h4, h4 {
-        font-size: 2.5rem !important;
-    }
-    .h5, h5 {
         font-size: 2.25rem !important;
     }
-    .h6, h6 {
+    .h4, h4 {
         font-size: 2rem !important;
     }
-    .navbar .logo {
-        max-width: 350px;
+    .h5, h5 {
+        font-size: 1.75rem !important;
     }
+    .h6, h6 {
+        font-size: 1.5rem !important;
+    }
+    /*index*/
     .menu a {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
+        padding: 0 3rem 0 0 !important;
     }
-    .log a{
-        font-size: 1.7rem;
+    .log{
+        font-size: 1.5rem;
     }
-    .log .cart a {
-        color: #08cd00;
+    .log .btn {
+        font-size: 1.5rem;
+    }
+    .cart i{
         font-size: 2.5rem;
     }
     .log .cart span {
-        width: auto;
+        width: 20px;
+        font-size: 0.8rem;
+        padding: 1px 6px;
+        left: 30px;
+    }
+    .main a {
+         font-size: 1.2rem;
+    }
+    .hover ::placeholder {
         font-size: 1.2rem;
-        padding: 0 10px;
-        left: 25px;
     }
-    .mainMenu li {
-        font-size: 1.7rem;
+    .MainSlider , .mySwiper .swiper-slide{
+        height: 500px;
     }
-    .cont {
-        height: 800px;
-    }
-    .button {
-        width: 2rem;
-        height: 2rem;
-    }
-    .services {
-        padding: 45px 400px;
-    }
-    .services input::placeholder {
-        font-size: 1.5rem;
-    }
-    .gallery-1 .row div {
-        height: 290px !important;
-    }
-    .card .text-center{
-        padding: 1%;
-    }
-    .card-overlay-links .btn {
-        font-size: 1.8rem;
-    }
-    .card-overlay-links {
-        position: relative;
-        top: -143px;
-    }
-    .card-btn {
-        bottom: -28px;
-        font-size: 1.5rem;
-        padding: 5px 16px;
-    }
-    .special {
-        padding: 110px;
-        margin: 20px 0;
-    }
-    .box p {
-        font-size: 1.8rem;
-    }
-    .box del{
-        font-size: 1.5rem;
-    }
-    .special .badge {
-        font-size: 1.5rem;
-    }
-    .special-button {
-        width: 1.5rem !important;
-        height: 1.5rem !important;
-    }
-    .banner {
-        padding: 20px 230px;
-    }
-    .banner .col-lg-2 {
-        flex: 0 0 auto;
-        width: 22.666667%;
-    }
-    .banner-overlay {
-        right: 66%;
-        font-size: 2.5rem;
-        bottom: 250px;
-    }
-    .banner .btn {
-        font-size: 1.75rem;
-    }
-    .accessory, .masrafi ,.car-accessory {
-        padding: 0 150px 0 210px;
-    }
-    .ul {
+    .mainMenu{
         height: auto;
     }
-    .li a{
-        font-size: 1.5rem;
+    .service-group ::placeholder{
+        font-size: 1.2rem !important;
     }
-    .blog .card .card-body{
-        font-size: 1.5rem;
+    .services button{
+        font-size: 1rem !important;
     }
-    footer .wrapper{
-        font-size: 1.5rem;
+    .icon {
+        margin: 2rem 3rem 1rem 3rem;
     }
-    .f-info{
-        padding-top: 30px;
+    .icon + p {
+        font-size: 1.25rem;
     }
-    .discount .btn{
+    .amazing .all-btn{
+        font-size: 1.2rem;
+    }
+    h6.card-title {
+        font-size: 1.25rem !important;
+    }
+    .card-overlay-links .btn {
+        width: 75%;
         font-size: 1rem;
     }
-    .contact{
-        font-size: 1.5rem;
+    .swiper-amazing .swiper-slide .card-text h6{
+        font-size: 1rem !important;
     }
-    .social a{
-        padding: 6px 10px;
+    .swiper-special .swiper-slide h5{
+        font-size: 1.25rem !important;
     }
+    /*products*/
     .cart-item-remove img {
         max-width: 250px;
     }
@@ -194,51 +143,19 @@
     }
 }
 @media screen and (min-width: 1200px) {
-    .h3, h3 {
-        font-size: 2.2rem;
-    }
-    .navbar .logo {
-        width: 32.666667% !important;
-    }
     .banner-overlay {
-        right: 66%;
-        font-size: 1.5rem;
-        width: 24% !important;
-        bottom: 30%;
+        top: 3rem;
     }
-    .banner .btn{
-        font-size: 1.5rem;
-    }
-    .navbar .logo{
-        flex: 0 0 auto;
-        width: 40.666667%;
+    .icon {
+        margin: 1.5rem !important;
     }
 }
 @media screen and (max-width: 1200px){
-    .banner .btn {
-        font-size: 14px;
-    }
-    .icon {
-        margin: 5px;
-    }
-    .img-2 .overlay-box,.img-3 .overlay-box{
-        right: 45% !important;
-    }
-    .img-4 .overlay-box{
-        left: 40% !important;
-    }
+    /*index*/
     .banner-overlay {
-        right: 65%;
-        font-size: 1rem;
-        width: 25% !important;
-        bottom: 32%;
+        top: 2rem;
     }
-    .discount form{
-        margin: 0 !important;
-    }
-    .f-info{
-        padding-top: 15px;
-    }
+    /*products*/
     .cart-wrapper {
         padding: 30px;
     }
@@ -251,13 +168,7 @@
     }
 }
 @media screen and (max-width: 1120px){
-    .navbar {
-        align-items: baseline;
-        padding: 10px 100px !important;
-    }
-    .menu a , .log .btn,.log .login{
-        font-size: 0.9rem;
-    }
+    /*product*/
     .cart-item-remove img {
         max-width: 140px;
     }
@@ -309,112 +220,87 @@
     .address-item button {
         font-size: 0.7rem;
     }
-
 }
-@media screen and (max-width: 991px){
-    .navbar {
-        align-items: baseline !important;
-        padding: 10px 50px !important;
+@media screen and (max-width: 1024px){
+    /*index*/
+    .h6 , h6{
+        font-size: 0.8rem !important;
     }
-    .menu a {
-        font-size: 0.8rem;
+    .navbar.col-md-12 {
+        padding: 10px !important;
     }
-    .cart-wrapper {
-        padding: 15px;
+    .mainMenu {
+        width: 24.666667% !important;
     }
-    .MainSlider{
-        --bs-gutter-x: none !important;
+    .cont{
+        padding: 0 !important;
         margin: 0 !important;
-        justify-content: space-between;
     }
-    .log a{
-        font-size: 0.8rem;
+    .cont.mx-2{
+        margin-right: 0 !important;
+        margin-left: 0 !important;
     }
-    .log .cart a {
-        font-size: 1.3rem;
+    .MainSlider {
+        justify-content: space-evenly;
     }
-    .mainMenu li {
+    .icon {
+        margin: 1.2rem;
+        padding: 1.2rem
+    }
+    .line-shadow div {
+        box-shadow: 0 14px 35px -5px #848484;
+        -webkit-box-shadow: 0 14px 35px -5px #848484;
+        width: 90%;
+        right: 6%;
+    }
+    .line-shadow {
+        border-bottom: 1px solid #e2e2e2;
+    }
+    .swiper-amazing .card-text i{
+        font-size: 1rem;
+        padding: 0.25rem;
+    }
+    .swiper-amazing .card .card-overlay-links a{
         font-size: 0.7rem;
-    }
-    .services {
-        padding: 30px 150px;
-    }
-    .gallery-1 .row div{
-        margin: 5px;
-    }
-    .special .box{
-        margin: 1rem;
-    }
-    .brands {
-        padding: 0 120px;
-    }
-    .circle img{
-        max-width: 100px;
-    }
-    .banner {
-        padding: 20px 100px;
     }
     .banner-overlay {
-        font-size: 0.7rem;
-        bottom: 35%;
+        top: 1rem;
     }
-    .banner-overlay h3{
-        font-size: 1rem;
+    .banner2{
+        margin-bottom: 20px;
     }
-    .banner .btn {
-        font-size: 10px;
+    .gallery-1 .row , .amazing.row , .special .row{
+        --bs-gutter-x: 0 !important;
     }
-    .ul{
-        margin: 0 !important;
+    .amazing .all-btn {
+        right: -35px;
     }
-    .accessory .col-lg-11, .masrafi .col-lg-11,.car-accessory .col-lg-11{
-        max-width: 90%;
-    }
-    .accessory, .masrafi{
-        padding: 0 50px;
-    }
-    .accessory .ul,.masrafi .ul{
-        height: 350px;
-        margin: 130px 0 !important;
-        padding: 5px 0 5px 0;
-    }
-    .img-2 .overlay-box,.img-3 .overlay-box{
-        right: 40% !important;
-    }
-    .img-4 .overlay-box{
-        left: 60% !important;
-    }
-    .banner3 .row{
-        justify-content: center !important;
-    }
-    .banner3 img{
-        margin: 5px;
-    }
-    .car-accessory {
-        padding: 45px 50px;
-    }
-    .car-accessory .ul {
-        margin: 60px 0 !important;
-    }
-    .blog .col-lg-11 {
-         left: 0;
-    }
-    footer .wrapper {
-        padding: 0 45px;
-    }
-    .contact {
-        padding: 20px 50px;
-    }
-    footer .btn{
-        left: -25px;
-    }
+    /*products*/
     .p-more {
-        font-size: 0.5rem !important;
+    font-size: 0.5rem !important;
+}
+.cart-wrapper aside .p-4 {
+    padding: 1rem!important;
+}
+.bank-checkbox-container .checkmark {
+    right: 42%;
+}
+}
+@media screen and (max-width: 990px){
+    /*index*/
+    .main a {
+        font-size: 0.7rem;
     }
-    .cart-wrapper aside .p-4 {
-        padding: 1rem!important;
+    .banner-overlay {
+        top: 9%;
     }
-    .bank-checkbox-container .checkmark {
-        right: 42%;
+    .ul {
+        display: none;
+    }
+    .hover {
+        right: 98%;
+    }
+    .mobile-ul-opener{
+        display: block;
     }
 }
