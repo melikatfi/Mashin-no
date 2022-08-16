@@ -52,7 +52,7 @@ ul{
     padding: 13px;
 }
 .mobile-ul{
-    display: none;
+    opacity: 0;
     height: 350px;
     width: 50px;
     background-color: #002a37;
@@ -66,16 +66,38 @@ ul{
     z-index: 20;
     right: 15px;
     top: -8%;
+    transition: max-height 0.25s ease-in;
+    -webkit-transition: max-height 0.25s ease-in;
+}
+.mobile-ul.show{
+    opacity: 1;
+    transition: max-height 0.25s ease-in;
+    -webkit-transition: max-height 0.25s ease-in;
 }
 .mobile-li{
     margin: 20px 0;
     padding: 0!important;
 }
-.mobile-li:hover{
-    background-color: #89FF3F;
+.mobile-li:nth-child(1):hover{
+    background: #08b000;
+}
+.mobile-li:nth-child(2):hover{
+    background: #08cd00;
+}
+.mobile-li:nth-child(3):hover{
+    background: #bbff00;
+}
+.mobile-li:nth-child(4):hover{
+    background: #ffc800;
+}
+.mobile-li:nth-child(5):hover{
+    background: #ff8c00;
 }
 .mobile-li i{
     padding: 15px 0;
+}
+.mobile-li i:hover{
+    color: #fafafa;
 }
 .navbar{
     align-items: baseline;

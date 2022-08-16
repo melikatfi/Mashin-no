@@ -64,6 +64,13 @@ let swiperBlog = new Swiper(".swiper-blog", {
     mousewheelControl: true,
     // watchSlidesProgress: true,
 });
+//mobile menu opener
+function openMobile(){
+    let mobileMenu = document.getElementById("mobile-ul")
+    mobileMenu.classList.toggle("show")
+}
+
+
 
 let slideIndex = 1;
 showSlides(slideIndex);
