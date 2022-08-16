@@ -212,7 +212,7 @@ ul{
 .main .item:hover a{
     color: #F8FAFC;
 }
-.main .item a:hover{
+.main .item > a:hover{
     color: #F8FAFC !important;
 }
 .main .item:hover > .hover{
@@ -220,6 +220,9 @@ ul{
 }
 .hover:hover{
     display: block;
+}
+.hover li a:hover{
+    color: #212529 !important;
 }
 .slider{
     margin-right: 5px;

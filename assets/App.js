@@ -70,8 +70,6 @@ function openMobile(){
     mobileMenu.classList.toggle("show")
 }
 
-
-
 let slideIndex = 1;
 showSlides(slideIndex);
 
