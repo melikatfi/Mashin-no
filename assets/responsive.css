@@ -289,7 +289,7 @@
 @media screen and (max-width: 990px){
     /*index*/
     .main a {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
     .banner-overlay {
         top: 9%;
@@ -302,5 +302,21 @@
     }
     .mobile-ul-opener{
         display: block;
+    }
+    .log .Cbtn{
+        font-size: 0.7rem;
+        padding: 6px 11px !important;
+    }
+    .log .login{
+        font-size: 0.7rem;
+    }
+    .nav-item.services button{
+        font-size: 0.7rem;
+    }
+    .nav-item.services input{
+        padding: 9px;
+    }
+    .nav-item.services ::placeholder{
+        font-size: 0.7rem;
     }
 }
