@@ -362,8 +362,8 @@ ul{
 }
 .line-shadow div{
     background: #fafafa;
-    box-shadow: 0 25px 30px -4px #747474;
-    -webkit-box-shadow: 0 25px 30px -4px #747474;
+    /*box-shadow: 0 25px 30px -4px #747474;*/
+    /*-webkit-box-shadow: 0 25px 30px -4px #747474;*/
     margin: auto;
     width: 75%;
     z-index: -1;
@@ -374,24 +374,24 @@ ul{
     border-radius: 30px;
     background: url("images/3.jpeg") no-repeat center;
     background-size: contain;    height: 150px;
-    box-shadow: 0 65px 75px -40px #747474;
-    -webkit-box-shadow: 0 65px 75px -40px #747474;
+    /*box-shadow: 0 65px 75px -40px #747474;*/
+    /*-webkit-box-shadow: 0 65px 75px -40px #747474;*/
 }
 .gallery-1 .row div:nth-child(2){
     border-radius: 30px;
     background: url("images/5.jpeg") no-repeat center;
     background-size: contain;
     height: 150px;
-    box-shadow:0 65px 75px -40px #747474;
-    -webkit-box-shadow:0 65px 75px -40px #747474;
+    /*box-shadow:0 65px 75px -40px #747474;*/
+    /*-webkit-box-shadow:0 65px 75px -40px #747474;*/
 }
 .gallery-1 .row div:nth-child(3){
     border-radius: 30px;
     background: url("images/3.jpeg") no-repeat center;
     background-size: contain;
     height: 150px;
-    box-shadow: 0 65px 75px -40px #747474;
-    -webkit-box-shadow:0 65px 75px -40px #747474;
+    /*box-shadow: 0 65px 75px -40px #747474;*/
+    /*-webkit-box-shadow:0 65px 75px -40px #747474;*/
 }
 /*Amazing Products*/
 .amazing{
@@ -422,7 +422,7 @@ ul{
     border-radius: 20px;
 }
 .amazing .card{
-    box-shadow: #b3b3b3 1px 2px 20px;
+    /*box-shadow: #b3b3b3 1px 2px 20px;*/
     border-radius: 10px;
     z-index: 0;
 }
@@ -508,7 +508,7 @@ h6.card-title{
     flex-direction: row;
     background-color: white;
     border-radius: 30px;
-    box-shadow: #b7b7b7 2px 3px 21px;
+    /*box-shadow: #b7b7b7 2px 3px 21px;*/
     margin: 5px;
     padding: 0 !important;
 }
@@ -808,7 +808,7 @@ h6.card-title{
 /*banner no3*/
 .banner3 img{
     border-radius: 40px;
-    box-shadow: 0 85px 55px -80px #0d0d0d;
+    /*box-shadow: 0 85px 55px -80px #0d0d0d;*/
 }
 /*Car Accessory*/
 .car-accessory .li:nth-child(4){
@@ -850,7 +850,7 @@ h6.card-title{
 }
 .blog .card{
     border-radius: 25px;
-    box-shadow: #7f7f7f 0 0 15px -2px;
+    /*box-shadow: #7f7f7f 0 0 15px -2px;*/
 }
 .blog .card-text{
     font-size: 0.8rem;
@@ -1006,7 +1006,7 @@ footer hr{
 
 .p-main{
     background-color: #ffffff;
-    box-shadow: 0 0 12px 2px #e4e4e4;
+    /*box-shadow: 0 0 12px 2px #e4e4e4;*/
 }
 
 .p-main h1{
@@ -1534,7 +1534,7 @@ aside{
     height: 300px;
 }
 .car-brands a{
-    box-shadow: 0 6px 12px 2px #e4e4e4;
+    /*box-shadow: 0 6px 12px 2px #e4e4e4;*/
     border-radius: 30px;
 }
 .car-brands a:hover{
@@ -2115,5 +2115,5 @@ aside .p-main .row div:last-child p{
 /*about us*/
 .about-wrapper article{
     color: #989B9B;
-    box-shadow: #b3b3b3 1px 6px 21px;
+    /*box-shadow: #b3b3b3 1px 6px 21px;*/
 }
