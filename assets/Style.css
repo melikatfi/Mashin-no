@@ -195,7 +195,8 @@ ul{
 }
 .main .item:hover{
     color: #0B0B0B !important;
-    border-bottom: 2px solid #62DC17;
+    border-bottom: 1px solid #62DC17;
+    padding-bottom: 0 !important;
 }
 .main .item:hover a{
     color: #0B0B0B !important;
